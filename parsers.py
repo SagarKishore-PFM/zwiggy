@@ -4,7 +4,6 @@ from pprint import PrettyPrinter
 
 pp = PrettyPrinter(indent=4)
 pp = pp.pprint
-# ! NEW AND OLD ZOMATO FORMAT
 
 
 def parse_new_zomato(file_path, message_id):
@@ -264,100 +263,3 @@ def parse_swiggy(file_path, message_id):
     except Exception as e:
         print(e, f"for message {message_id}")
         raise Exception
-
-
-# message_id = ''
-# file_path = 'test_swiggy.html'
-# with open(file_path, 'r') as fp:
-#     file_string = fp.read()
-
-# html_string = file_string
-# soup = bs4.BeautifulSoup(html_string, "html.parser")
-
-# # Order ID and Restaurant Name
-# order_id_and_res_name_div = soup.find('div', {'class': "order-id"})
-# order_id_and_res_name_tds = order_id_and_res_name_div.table.tr.findAll('td')
-
-# # Order ID
-# order_id_td = order_id_and_res_name_tds[0]
-# order_id = order_id_td.h5.text.strip()
-
-# # Restaurant Name
-# res_name_td = order_id_and_res_name_tds[1]
-# res_name = res_name_td.h5.text.strip()
-
-# # Items, Qty, Costs etc.
-# rest_div = soup.find('div', {'class': "order-content"})
-
-# # Item trs
-# # ? DS for items:
-# # ? ordered_items = [item, item, ...]
-# # ? item = {
-# # ?   'name','qty','price_per_qty', 'total_price'
-# # ? }
-# # ? order_total_price = 0
-# item_trs = rest_div.table.tbody.findAll('tr', {'style': "margin: 0;padding: 0;"})
-# subtotal = 0
-# items = []
-# for item_tr in item_trs:
-#     item_tds = item_tr.findAll('td')
-
-#     item = {}
-#     item['name'] = item_tds[0].text.strip()
-#     item['quantity'] = int(item_tds[1].text.strip())
-#     item['total_price'] = float(item_tds[2].text.strip())
-#     item['price_per_unit'] = item['total_price'] / item['quantity']
-#     subtotal += item['total_price']
-#     items.append(item)
-# # Taxes and Discounts
-# # ? Other Costs Data Structure
-# # ? other_costs = {
-# # ?     'total', 'split' = list of tuples
-# # ? tuples = (cost_name, cost)
-# # ?}
-
-# # ? Promo discounts and Tip Data Structure
-# # ? promos_and_tips = {
-# # ? 'total_discount = 0,
-# # ? 'split' = list of tuples, each tuple = (promo_name, promo_ammount)
-# # ? 'tip' = 0,
-# # ? }
-
-# other_costs = {}
-# other_costs['total_cost'] = 0
-# other_costs['split'] = []
-
-# promos_and_tips = {}
-# promos_and_tips['total_discount'] = 0
-# promos_and_tips['split'] = []
-# promos_and_tips['tip'] = 0
-
-# taxes_and_discounts_table = rest_div.table.tfoot
-# t_and_d_trs = taxes_and_discounts_table.findAll('tr')
-# for t_and_d_tr in t_and_d_trs:
-#     th_text = t_and_d_tr.th.text.strip()
-#     if th_text == 'Cart Subtotal':
-#         cart_subtotal = float(t_and_d_tr.td.text.strip().split('Rs. ')[1])
-#         assert \
-#             subtotal == cart_subtotal, \
-#             f"Total doesn't match for {message_id}"
-#     elif th_text == 'Grand Total:':
-#         total_bill = float(t_and_d_tr.td.text.strip())
-#     else:
-#         cost_type = t_and_d_tr.th.text.strip()
-#         cost_for_given_type = float(t_and_d_tr.td.text.strip().split('Rs. ')[1])
-#         other_costs['split'].append((cost_type, cost_for_given_type))
-#         other_costs['total_cost'] += cost_for_given_type
-
-# discount_total = total_bill - (subtotal + other_costs['total_cost'])
-# promos_and_tips['total_discount'] = discount_total
-
-# order = {}
-# order['order_id'] = order_id
-# order['restaurant_name'] = res_name
-# order['items'] = items
-# order['other_costs'] = other_costs
-# order['promos_and_tips'] = promos_and_tips
-# order['total_cost'] = round(total_bill, 2)
-# order['number_of_items'] = len(items)
-# order['datetime'] = None
