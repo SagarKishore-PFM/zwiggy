@@ -6,3 +6,8 @@ __pycache__/
 ideas.md
 notes.md
 temp/
+
+.ipynb_checkpoints
+Pokemon-PCA.ipynb
+swiggy_test_data.csv
+zomato_test_data.csv
