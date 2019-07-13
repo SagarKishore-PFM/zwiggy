@@ -23,13 +23,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -100.0,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 180.0,
                 "number_of_items": 1,
-                "datetime": "Thu, 11 Jul 2019 07:56:37"
+                "datetime": "Thu, 11 Jul 2019 13:26:37"
             }
         },
         {
@@ -79,13 +79,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -80.0,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 150.0,
                 "number_of_items": 5,
-                "datetime": "Wed, 10 Jul 2019 14:17:45"
+                "datetime": "Wed, 10 Jul 2019 19:47:45"
             }
         },
         {
@@ -121,13 +121,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -99.50999999999999,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 181.0,
                 "number_of_items": 2,
-                "datetime": "Tue, 9 Jul 2019 14:35:50"
+                "datetime": "Tue, 09 Jul 2019 20:05:50"
             }
         },
         {
@@ -169,7 +169,7 @@
                 },
                 "total_cost": 325.0,
                 "number_of_items": 2,
-                "datetime": "Sun, 7 Jul 2019 06:40:02"
+                "datetime": "Sun, 07 Jul 2019 12:10:02"
             }
         },
         {
@@ -205,13 +205,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -99.5,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 196.0,
                 "number_of_items": 2,
-                "datetime": "Mon, 1 Jul 2019 15:34:15"
+                "datetime": "Mon, 01 Jul 2019 21:04:15"
             }
         },
         {
@@ -247,13 +247,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -100.49000000000001,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 355.0,
                 "number_of_items": 2,
-                "datetime": "Fri, 28 Jun 2019 06:59:33"
+                "datetime": "Fri, 28 Jun 2019 12:29:33"
             }
         },
         {
@@ -295,13 +295,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -100.49000000000001,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 360.0,
                 "number_of_items": 3,
-                "datetime": "Wed, 26 Jun 2019 07:17:07"
+                "datetime": "Wed, 26 Jun 2019 12:47:07"
             }
         },
         {
@@ -343,13 +343,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -80.49000000000001,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 450.0,
                 "number_of_items": 3,
-                "datetime": "Sat, 22 Jun 2019 07:09:48"
+                "datetime": "Sat, 22 Jun 2019 12:39:48"
             }
         },
         {
@@ -391,7 +391,7 @@
                 },
                 "total_cost": 111.0,
                 "number_of_items": 2,
-                "datetime": "Fri, 14 Jun 2019 03:27:49"
+                "datetime": "Fri, 14 Jun 2019 08:57:49"
             }
         },
         {
@@ -427,13 +427,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -80.49000000000001,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 235.0,
                 "number_of_items": 2,
-                "datetime": "Thu, 13 Jun 2019 14:27:21"
+                "datetime": "Thu, 13 Jun 2019 19:57:21"
             }
         },
         {
@@ -465,13 +465,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -39.75,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 60.0,
                 "number_of_items": 2,
-                "datetime": "Sun, 9 Jun 2019 15:45:59"
+                "datetime": "Sun, 09 Jun 2019 21:15:59"
             }
         },
         {
@@ -507,13 +507,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -99.89999999999998,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 295.0,
                 "number_of_items": 2,
-                "datetime": "Sun, 2 Jun 2019 07:03:42"
+                "datetime": "Sun, 02 Jun 2019 12:33:42"
             }
         },
         {
@@ -545,7 +545,7 @@
                 },
                 "total_cost": 104.0,
                 "number_of_items": 1,
-                "datetime": "Thu, 30 May 2019 07:35:31"
+                "datetime": "Thu, 30 May 2019 13:05:31"
             }
         },
         {
@@ -587,13 +587,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -0.5,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 540.0,
                 "number_of_items": 3,
-                "datetime": "Tue, 21 May 2019 15:21:53"
+                "datetime": "Tue, 21 May 2019 20:51:53"
             }
         },
         {
@@ -631,13 +631,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -34.77000000000001,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 205.0,
                 "number_of_items": 3,
-                "datetime": "Tue, 14 May 2019 15:27:27"
+                "datetime": "Tue, 14 May 2019 20:57:27"
             }
         },
         {
@@ -673,13 +673,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -99.5,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 359.0,
                 "number_of_items": 2,
-                "datetime": "Sun, 12 May 2019 15:20:42"
+                "datetime": "Sun, 12 May 2019 20:50:42"
             }
         },
         {
@@ -711,13 +711,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -32.900000000000006,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 197.0,
                 "number_of_items": 2,
-                "datetime": "Fri, 10 May 2019 15:11:38"
+                "datetime": "Fri, 10 May 2019 20:41:38"
             }
         },
         {
@@ -753,13 +753,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -45.95999999999998,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 289.0,
                 "number_of_items": 2,
-                "datetime": "Tue, 7 May 2019 08:03:20"
+                "datetime": "Tue, 07 May 2019 13:33:20"
             }
         },
         {
@@ -791,13 +791,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -34.77000000000001,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 205.0,
                 "number_of_items": 2,
-                "datetime": "Sun, 5 May 2019 15:11:00"
+                "datetime": "Sun, 05 May 2019 20:41:00"
             }
         },
         {
@@ -829,13 +829,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -15.459999999999994,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 94.0,
                 "number_of_items": 2,
-                "datetime": "Fri, 3 May 2019 14:56:35"
+                "datetime": "Fri, 03 May 2019 20:26:35"
             }
         },
         {
@@ -869,13 +869,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -0.09999999999999432,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 107.0,
                 "number_of_items": 1,
-                "datetime": "Fri, 3 May 2019 14:54:37"
+                "datetime": "Fri, 03 May 2019 20:24:37"
             }
         },
         {
@@ -911,7 +911,7 @@
                 },
                 "total_cost": 422.0,
                 "number_of_items": 1,
-                "datetime": "Wed, 1 May 2019 07:22:06"
+                "datetime": "Wed, 01 May 2019 12:52:06"
             }
         },
         {
@@ -947,13 +947,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -43.05000000000001,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 291.0,
                 "number_of_items": 2,
-                "datetime": "Sun, 28 Apr 2019 15:11:23"
+                "datetime": "Sun, 28 Apr 2019 20:41:23"
             }
         },
         {
@@ -985,13 +985,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -20.74000000000001,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 120.0,
                 "number_of_items": 2,
-                "datetime": "Sun, 28 Apr 2019 15:04:48"
+                "datetime": "Sun, 28 Apr 2019 20:34:48"
             }
         },
         {
@@ -1029,13 +1029,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -41.89999999999998,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 250.0,
                 "number_of_items": 3,
-                "datetime": "Fri, 26 Apr 2019 15:10:11"
+                "datetime": "Fri, 26 Apr 2019 20:40:11"
             }
         },
         {
@@ -1065,13 +1065,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -20.330000000000013,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 129.0,
                 "number_of_items": 1,
-                "datetime": "Thu, 25 Apr 2019 15:06:22"
+                "datetime": "Thu, 25 Apr 2019 20:36:22"
             }
         },
         {
@@ -1103,13 +1103,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -34.77000000000001,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 205.0,
                 "number_of_items": 2,
-                "datetime": "Fri, 19 Apr 2019 15:09:29"
+                "datetime": "Fri, 19 Apr 2019 20:39:29"
             }
         },
         {
@@ -1153,13 +1153,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -55.0,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 130.0,
                 "number_of_items": 4,
-                "datetime": "Fri, 19 Apr 2019 14:56:53"
+                "datetime": "Fri, 19 Apr 2019 20:26:53"
             }
         },
         {
@@ -1205,13 +1205,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -23.350000000000023,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 257.0,
                 "number_of_items": 3,
-                "datetime": "Tue, 16 Apr 2019 15:28:13"
+                "datetime": "Tue, 16 Apr 2019 20:58:13"
             }
         },
         {
@@ -1247,13 +1247,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -52.81,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 236.0,
                 "number_of_items": 2,
-                "datetime": "Sun, 14 Apr 2019 07:10:53"
+                "datetime": "Sun, 14 Apr 2019 12:40:53"
             }
         },
         {
@@ -1285,13 +1285,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -62.379999999999995,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 94.0,
                 "number_of_items": 2,
-                "datetime": "Tue, 9 Apr 2019 08:35:40"
+                "datetime": "Tue, 09 Apr 2019 14:05:40"
             }
         },
         {
@@ -1329,13 +1329,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -112.88,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 252.0,
                 "number_of_items": 3,
-                "datetime": "Sat, 30 Mar 2019 14:55:59"
+                "datetime": "Sat, 30 Mar 2019 20:25:59"
             }
         },
         {
@@ -1371,13 +1371,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -45.97999999999999,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 210.0,
                 "number_of_items": 2,
-                "datetime": "Thu, 28 Mar 2019 07:42:13"
+                "datetime": "Thu, 28 Mar 2019 13:12:13"
             }
         },
         {
@@ -1403,13 +1403,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -20.069999999999993,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 121.0,
                 "number_of_items": 1,
-                "datetime": "Wed, 27 Mar 2019 14:52:30"
+                "datetime": "Wed, 27 Mar 2019 20:22:30"
             }
         },
         {
@@ -1447,7 +1447,7 @@
                 },
                 "total_cost": 247.0,
                 "number_of_items": 2,
-                "datetime": "Fri, 22 Mar 2019 13:50:31"
+                "datetime": "Fri, 22 Mar 2019 19:20:31"
             }
         },
         {
@@ -1479,13 +1479,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -50.0,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 210.0,
                 "number_of_items": 2,
-                "datetime": "Tue, 19 Mar 2019 15:24:15"
+                "datetime": "Tue, 19 Mar 2019 20:54:15"
             }
         },
         {
@@ -1527,13 +1527,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -10.590000000000003,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 111.0,
                 "number_of_items": 3,
-                "datetime": "Sun, 17 Mar 2019 04:02:40"
+                "datetime": "Sun, 17 Mar 2019 09:32:40"
             }
         },
         {
@@ -1571,13 +1571,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -77.39999999999998,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 323.0,
                 "number_of_items": 3,
-                "datetime": "Sat, 16 Mar 2019 14:43:10"
+                "datetime": "Sat, 16 Mar 2019 20:13:10"
             }
         },
         {
@@ -1610,7 +1610,7 @@
                 },
                 "total_cost": 280.0,
                 "number_of_items": 2,
-                "datetime": "Fri, 15 Mar 2019 14:15:41"
+                "datetime": "Fri, 15 Mar 2019 19:45:41"
             }
         },
         {
@@ -1642,13 +1642,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -42.44,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 177.0,
                 "number_of_items": 2,
-                "datetime": "Thu, 14 Mar 2019 15:23:06"
+                "datetime": "Thu, 14 Mar 2019 20:53:06"
             }
         },
         {
@@ -1674,13 +1674,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -38.0,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 92.0,
                 "number_of_items": 1,
-                "datetime": "Sun, 10 Mar 2019 07:55:58"
+                "datetime": "Sun, 10 Mar 2019 13:25:58"
             }
         },
         {
@@ -1710,13 +1710,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -13.330000000000013,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 136.0,
                 "number_of_items": 1,
-                "datetime": "Sun, 10 Mar 2019 07:54:22"
+                "datetime": "Sun, 10 Mar 2019 13:24:22"
             }
         },
         {
@@ -1750,13 +1750,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -0.09999999999999432,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 82.0,
                 "number_of_items": 1,
-                "datetime": "Sun, 10 Mar 2019 07:50:54"
+                "datetime": "Sun, 10 Mar 2019 13:20:54"
             }
         },
         {
@@ -1798,13 +1798,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -60.15999999999997,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 381.0,
                 "number_of_items": 3,
-                "datetime": "Fri, 8 Mar 2019 06:35:21"
+                "datetime": "Fri, 08 Mar 2019 12:05:21"
             }
         },
         {
@@ -1846,13 +1846,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -55.94,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 356.0,
                 "number_of_items": 3,
-                "datetime": "Tue, 5 Mar 2019 15:02:53"
+                "datetime": "Tue, 05 Mar 2019 20:32:53"
             }
         },
         {
@@ -1884,13 +1884,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -20.0,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 188.0,
                 "number_of_items": 2,
-                "datetime": "Mon, 4 Mar 2019 14:01:17"
+                "datetime": "Mon, 04 Mar 2019 19:31:17"
             }
         },
         {
@@ -1932,13 +1932,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -58.99000000000001,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 378.0,
                 "number_of_items": 3,
-                "datetime": "Sun, 17 Feb 2019 06:49:18"
+                "datetime": "Sun, 17 Feb 2019 12:19:18"
             }
         },
         {
@@ -1977,7 +1977,7 @@
                 },
                 "total_cost": 630.0,
                 "number_of_items": 3,
-                "datetime": "Sat, 16 Feb 2019 13:34:12"
+                "datetime": "Sat, 16 Feb 2019 19:04:12"
             }
         },
         {
@@ -2019,13 +2019,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -58.99000000000001,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 378.0,
                 "number_of_items": 3,
-                "datetime": "Wed, 13 Feb 2019 14:04:16"
+                "datetime": "Wed, 13 Feb 2019 19:34:16"
             }
         },
         {
@@ -2063,7 +2063,7 @@
                 },
                 "total_cost": 243.0,
                 "number_of_items": 2,
-                "datetime": "Mon, 4 Feb 2019 07:01:31"
+                "datetime": "Mon, 04 Feb 2019 12:31:31"
             }
         },
         {
@@ -2107,7 +2107,7 @@
                 },
                 "total_cost": 640.0,
                 "number_of_items": 3,
-                "datetime": "Sun, 3 Feb 2019 06:56:33"
+                "datetime": "Sun, 03 Feb 2019 12:26:33"
             }
         },
         {
@@ -2145,7 +2145,7 @@
                 },
                 "total_cost": 279.0,
                 "number_of_items": 2,
-                "datetime": "Sat, 2 Feb 2019 14:42:55"
+                "datetime": "Sat, 02 Feb 2019 20:12:55"
             }
         },
         {
@@ -2187,7 +2187,7 @@
                 },
                 "total_cost": 260.0,
                 "number_of_items": 2,
-                "datetime": "Wed, 30 Jan 2019 07:01:57"
+                "datetime": "Wed, 30 Jan 2019 12:31:57"
             }
         },
         {
@@ -2237,7 +2237,7 @@
                 },
                 "total_cost": 204.0,
                 "number_of_items": 4,
-                "datetime": "Thu, 17 Jan 2019 12:33:55"
+                "datetime": "Thu, 17 Jan 2019 18:03:55"
             }
         },
         {
@@ -2281,7 +2281,7 @@
                 },
                 "total_cost": 150.0,
                 "number_of_items": 3,
-                "datetime": "Mon, 14 Jan 2019 15:14:04"
+                "datetime": "Mon, 14 Jan 2019 20:44:04"
             }
         },
         {
@@ -2323,7 +2323,7 @@
                 },
                 "total_cost": 308.0,
                 "number_of_items": 2,
-                "datetime": "Sat, 12 Jan 2019 13:48:15"
+                "datetime": "Sat, 12 Jan 2019 19:18:15"
             }
         },
         {
@@ -2365,7 +2365,7 @@
                 },
                 "total_cost": 505.0,
                 "number_of_items": 2,
-                "datetime": "Thu, 10 Jan 2019 13:40:25"
+                "datetime": "Thu, 10 Jan 2019 19:10:25"
             }
         },
         {
@@ -2407,7 +2407,7 @@
                 },
                 "total_cost": 582.0,
                 "number_of_items": 2,
-                "datetime": "Sun, 6 Jan 2019 07:44:52"
+                "datetime": "Sun, 06 Jan 2019 13:14:52"
             }
         },
         {
@@ -2455,7 +2455,7 @@
                 },
                 "total_cost": 170.0,
                 "number_of_items": 3,
-                "datetime": "Wed, 2 Jan 2019 14:21:03"
+                "datetime": "Wed, 02 Jan 2019 19:51:03"
             }
         },
         {
@@ -2505,7 +2505,7 @@
                 },
                 "total_cost": 190.0,
                 "number_of_items": 4,
-                "datetime": "Sun, 30 Dec 2018 07:52:49"
+                "datetime": "Sun, 30 Dec 2018 13:22:49"
             }
         },
         {
@@ -2547,7 +2547,7 @@
                 },
                 "total_cost": 210.0,
                 "number_of_items": 2,
-                "datetime": "Sat, 29 Dec 2018 08:23:47"
+                "datetime": "Sat, 29 Dec 2018 13:53:47"
             }
         },
         {
@@ -2593,7 +2593,7 @@
                 },
                 "total_cost": 166.0,
                 "number_of_items": 2,
-                "datetime": "Wed, 26 Dec 2018 15:14:07"
+                "datetime": "Wed, 26 Dec 2018 20:44:07"
             }
         },
         {
@@ -2637,7 +2637,7 @@
                 },
                 "total_cost": 150.0,
                 "number_of_items": 3,
-                "datetime": "Mon, 24 Dec 2018 14:26:49"
+                "datetime": "Mon, 24 Dec 2018 19:56:49"
             }
         },
         {
@@ -2679,7 +2679,7 @@
                 },
                 "total_cost": 195.0,
                 "number_of_items": 2,
-                "datetime": "Sun, 23 Dec 2018 13:45:20"
+                "datetime": "Sun, 23 Dec 2018 19:15:20"
             }
         },
         {
@@ -2725,7 +2725,7 @@
                 },
                 "total_cost": 309.0,
                 "number_of_items": 2,
-                "datetime": "Sun, 23 Dec 2018 07:35:41"
+                "datetime": "Sun, 23 Dec 2018 13:05:41"
             }
         },
         {
@@ -2767,7 +2767,7 @@
                 },
                 "total_cost": 505.0,
                 "number_of_items": 2,
-                "datetime": "Sun, 16 Dec 2018 08:00:58"
+                "datetime": "Sun, 16 Dec 2018 13:30:58"
             }
         },
         {
@@ -2817,7 +2817,7 @@
                 },
                 "total_cost": 165.0,
                 "number_of_items": 4,
-                "datetime": "Sun, 16 Dec 2018 07:53:26"
+                "datetime": "Sun, 16 Dec 2018 13:23:26"
             }
         },
         {
@@ -2851,13 +2851,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -134.06,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 208.0,
                 "number_of_items": 1,
-                "datetime": "Thu, 13 Dec 2018 14:47:05"
+                "datetime": "Thu, 13 Dec 2018 20:17:05"
             }
         },
         {
@@ -2884,7 +2884,7 @@
                 },
                 "total_cost": 130.0,
                 "number_of_items": 1,
-                "datetime": "Sun, 9 Dec 2018 08:40:22"
+                "datetime": "Sun, 09 Dec 2018 14:10:22"
             }
         },
         {
@@ -2926,13 +2926,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -63.01999999999998,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 396.0,
                 "number_of_items": 3,
-                "datetime": "Sat, 8 Dec 2018 13:38:49"
+                "datetime": "Sat, 08 Dec 2018 19:08:49"
             }
         },
         {
@@ -2970,7 +2970,7 @@
                 },
                 "total_cost": 245.0,
                 "number_of_items": 2,
-                "datetime": "Wed, 5 Dec 2018 14:04:39"
+                "datetime": "Wed, 05 Dec 2018 19:34:39"
             }
         },
         {
@@ -3028,7 +3028,7 @@
                 },
                 "total_cost": 303.0,
                 "number_of_items": 4,
-                "datetime": "Mon, 3 Dec 2018 12:25:33"
+                "datetime": "Mon, 03 Dec 2018 17:55:33"
             }
         },
         {
@@ -3074,7 +3074,7 @@
                 },
                 "total_cost": 601.0,
                 "number_of_items": 2,
-                "datetime": "Sun, 2 Dec 2018 07:04:48"
+                "datetime": "Sun, 02 Dec 2018 12:34:48"
             }
         },
         {
@@ -3120,7 +3120,7 @@
                 },
                 "total_cost": 226.0,
                 "number_of_items": 2,
-                "datetime": "Thu, 29 Nov 2018 14:38:46"
+                "datetime": "Thu, 29 Nov 2018 20:08:46"
             }
         },
         {
@@ -3156,13 +3156,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -26.659999999999968,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 282.0,
                 "number_of_items": 2,
-                "datetime": "Thu, 29 Nov 2018 07:48:05"
+                "datetime": "Thu, 29 Nov 2018 13:18:05"
             }
         },
         {
@@ -3202,13 +3202,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -223.8,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 201.0,
                 "number_of_items": 2,
-                "datetime": "Wed, 28 Nov 2018 14:42:15"
+                "datetime": "Wed, 28 Nov 2018 20:12:15"
             }
         },
         {
@@ -3246,13 +3246,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -12.0,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 128.0,
                 "number_of_items": 3,
-                "datetime": "Tue, 27 Nov 2018 07:11:42"
+                "datetime": "Tue, 27 Nov 2018 12:41:42"
             }
         },
         {
@@ -3290,7 +3290,7 @@
                 },
                 "total_cost": 150.0,
                 "number_of_items": 2,
-                "datetime": "Mon, 26 Nov 2018 09:50:39"
+                "datetime": "Mon, 26 Nov 2018 15:20:39"
             }
         },
         {
@@ -3346,13 +3346,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -93.0,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 317.0,
                 "number_of_items": 6,
-                "datetime": "Mon, 26 Nov 2018 09:26:43"
+                "datetime": "Mon, 26 Nov 2018 14:56:43"
             }
         },
         {
@@ -3400,13 +3400,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -68.56000000000006,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 708.0,
                 "number_of_items": 4,
-                "datetime": "Sun, 25 Nov 2018 13:43:24"
+                "datetime": "Sun, 25 Nov 2018 19:13:24"
             }
         },
         {
@@ -3448,13 +3448,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -42.0,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 163.0,
                 "number_of_items": 3,
-                "datetime": "Fri, 23 Nov 2018 14:29:39"
+                "datetime": "Fri, 23 Nov 2018 19:59:39"
             }
         },
         {
@@ -3490,13 +3490,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -86.0,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 148.0,
                 "number_of_items": 2,
-                "datetime": "Fri, 9 Nov 2018 14:50:41"
+                "datetime": "Fri, 09 Nov 2018 20:20:41"
             }
         },
         {
@@ -3530,13 +3530,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -74.94999999999999,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 195.0,
                 "number_of_items": 1,
-                "datetime": "Sun, 4 Nov 2018 08:29:38"
+                "datetime": "Sun, 04 Nov 2018 13:59:38"
             }
         },
         {
@@ -3576,13 +3576,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -99.89999999999998,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 315.0,
                 "number_of_items": 2,
-                "datetime": "Sun, 4 Nov 2018 07:43:06"
+                "datetime": "Sun, 04 Nov 2018 13:13:06"
             }
         },
         {
@@ -3622,13 +3622,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -0.25,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 333.0,
                 "number_of_items": 2,
-                "datetime": "Fri, 2 Nov 2018 15:00:42"
+                "datetime": "Fri, 02 Nov 2018 20:30:42"
             }
         },
         {
@@ -3662,13 +3662,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -0.44999999999998863,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 238.0,
                 "number_of_items": 1,
-                "datetime": "Sat, 27 Oct 2018 13:59:42"
+                "datetime": "Sat, 27 Oct 2018 19:29:42"
             }
         },
         {
@@ -3710,7 +3710,7 @@
                 },
                 "total_cost": 551.0,
                 "number_of_items": 2,
-                "datetime": "Fri, 26 Oct 2018 07:03:42"
+                "datetime": "Fri, 26 Oct 2018 12:33:42"
             }
         },
         {
@@ -3750,7 +3750,7 @@
                 },
                 "total_cost": 332.0,
                 "number_of_items": 1,
-                "datetime": "Sun, 21 Oct 2018 07:23:23"
+                "datetime": "Sun, 21 Oct 2018 12:53:23"
             }
         },
         {
@@ -3786,13 +3786,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -0.3299999999999841,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 312.0,
                 "number_of_items": 2,
-                "datetime": "Mon, 8 Oct 2018 14:03:24"
+                "datetime": "Mon, 08 Oct 2018 19:33:24"
             }
         },
         {
@@ -3838,13 +3838,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -0.14999999999997726,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 482.0,
                 "number_of_items": 3,
-                "datetime": "Sun, 7 Oct 2018 06:52:02"
+                "datetime": "Sun, 07 Oct 2018 12:22:02"
             }
         },
         {
@@ -3884,13 +3884,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -0.2599999999999909,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 295.0,
                 "number_of_items": 2,
-                "datetime": "Fri, 21 Sep 2018 13:34:31"
+                "datetime": "Fri, 21 Sep 2018 19:04:31"
             }
         },
         {
@@ -3942,7 +3942,7 @@
                 },
                 "total_cost": 462.0,
                 "number_of_items": 3,
-                "datetime": "Mon, 17 Sep 2018 13:27:05"
+                "datetime": "Mon, 17 Sep 2018 18:57:05"
             }
         },
         {
@@ -3982,7 +3982,7 @@
                 },
                 "total_cost": 285.0,
                 "number_of_items": 1,
-                "datetime": "Sat, 1 Sep 2018 13:50:17"
+                "datetime": "Sat, 01 Sep 2018 19:20:17"
             }
         },
         {
@@ -4028,13 +4028,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -0.14999999999997726,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 482.0,
                 "number_of_items": 3,
-                "datetime": "Wed, 29 Aug 2018 07:49:10"
+                "datetime": "Wed, 29 Aug 2018 13:19:10"
             }
         },
         {
@@ -4080,7 +4080,7 @@
                 },
                 "total_cost": 415.0,
                 "number_of_items": 2,
-                "datetime": "Wed, 22 Aug 2018 08:21:17"
+                "datetime": "Wed, 22 Aug 2018 13:51:17"
             }
         },
         {
@@ -4126,7 +4126,7 @@
                 },
                 "total_cost": 415.0,
                 "number_of_items": 2,
-                "datetime": "Thu, 16 Aug 2018 13:57:18"
+                "datetime": "Thu, 16 Aug 2018 19:27:18"
             }
         },
         {
@@ -4168,13 +4168,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -0.25,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 440.0,
                 "number_of_items": 3,
-                "datetime": "Tue, 14 Aug 2018 14:06:49"
+                "datetime": "Tue, 14 Aug 2018 19:36:49"
             }
         },
         {
@@ -4220,7 +4220,7 @@
                 },
                 "total_cost": 415.0,
                 "number_of_items": 2,
-                "datetime": "Mon, 13 Aug 2018 14:15:29"
+                "datetime": "Mon, 13 Aug 2018 19:45:29"
             }
         },
         {
@@ -4260,13 +4260,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -0.39999999999997726,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 341.0,
                 "number_of_items": 2,
-                "datetime": "Sat, 11 Aug 2018 14:55:06"
+                "datetime": "Sat, 11 Aug 2018 20:25:06"
             }
         },
         {
@@ -4302,13 +4302,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -47.60999999999996,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 315.0,
                 "number_of_items": 2,
-                "datetime": "Wed, 8 Aug 2018 14:20:48"
+                "datetime": "Wed, 08 Aug 2018 19:50:48"
             }
         },
         {
@@ -4360,7 +4360,7 @@
                 },
                 "total_cost": 409.0,
                 "number_of_items": 3,
-                "datetime": "Mon, 6 Aug 2018 14:25:21"
+                "datetime": "Mon, 06 Aug 2018 19:55:21"
             }
         },
         {
@@ -4414,7 +4414,7 @@
                 },
                 "total_cost": 671.0,
                 "number_of_items": 4,
-                "datetime": "Fri, 20 Jul 2018 14:34:16"
+                "datetime": "Fri, 20 Jul 2018 20:04:16"
             }
         },
         {
@@ -4456,7 +4456,7 @@
                 },
                 "total_cost": 294.0,
                 "number_of_items": 2,
-                "datetime": "Mon, 16 Jul 2018 08:24:04"
+                "datetime": "Mon, 16 Jul 2018 13:54:04"
             }
         },
         {
@@ -4498,7 +4498,7 @@
                 },
                 "total_cost": 544.0,
                 "number_of_items": 2,
-                "datetime": "Sun, 15 Jul 2018 14:41:35"
+                "datetime": "Sun, 15 Jul 2018 20:11:35"
             }
         },
         {
@@ -4542,7 +4542,7 @@
                 },
                 "total_cost": 412.0,
                 "number_of_items": 3,
-                "datetime": "Sun, 8 Jul 2018 14:10:42"
+                "datetime": "Sun, 08 Jul 2018 19:40:42"
             }
         },
         {
@@ -4584,7 +4584,7 @@
                 },
                 "total_cost": 561.0,
                 "number_of_items": 2,
-                "datetime": "Sun, 1 Jul 2018 14:09:41"
+                "datetime": "Sun, 01 Jul 2018 19:39:41"
             }
         },
         {
@@ -4616,7 +4616,7 @@
                 },
                 "total_cost": 124.0,
                 "number_of_items": 1,
-                "datetime": "Mon, 25 Jun 2018 16:14:14"
+                "datetime": "Mon, 25 Jun 2018 21:44:14"
             }
         },
         {
@@ -4656,7 +4656,7 @@
                 },
                 "total_cost": 210.0,
                 "number_of_items": 1,
-                "datetime": "Sun, 24 Jun 2018 07:43:12"
+                "datetime": "Sun, 24 Jun 2018 13:13:12"
             }
         },
         {
@@ -4704,7 +4704,7 @@
                 },
                 "total_cost": 420.0,
                 "number_of_items": 3,
-                "datetime": "Thu, 21 Jun 2018 14:28:46"
+                "datetime": "Thu, 21 Jun 2018 19:58:46"
             }
         },
         {
@@ -4740,7 +4740,7 @@
                 },
                 "total_cost": 266.0,
                 "number_of_items": 1,
-                "datetime": "Wed, 13 Jun 2018 14:20:00"
+                "datetime": "Wed, 13 Jun 2018 19:50:00"
             }
         },
         {
@@ -4782,7 +4782,7 @@
                 },
                 "total_cost": 325.0,
                 "number_of_items": 2,
-                "datetime": "Tue, 12 Jun 2018 14:32:59"
+                "datetime": "Tue, 12 Jun 2018 20:02:59"
             }
         },
         {
@@ -4830,7 +4830,7 @@
                 },
                 "total_cost": 420.0,
                 "number_of_items": 3,
-                "datetime": "Fri, 8 Jun 2018 14:26:14"
+                "datetime": "Fri, 08 Jun 2018 19:56:14"
             }
         },
         {
@@ -4872,7 +4872,7 @@
                 },
                 "total_cost": 299.0,
                 "number_of_items": 2,
-                "datetime": "Thu, 7 Jun 2018 13:38:42"
+                "datetime": "Thu, 07 Jun 2018 19:08:42"
             }
         },
         {
@@ -4914,7 +4914,7 @@
                 },
                 "total_cost": 283.0,
                 "number_of_items": 2,
-                "datetime": "Fri, 1 Jun 2018 08:42:20"
+                "datetime": "Fri, 01 Jun 2018 14:12:20"
             }
         },
         {
@@ -4954,13 +4954,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -0.25,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 574.0,
                 "number_of_items": 2,
-                "datetime": "Sat, 26 May 2018 14:36:52"
+                "datetime": "Sat, 26 May 2018 20:06:52"
             }
         },
         {
@@ -5006,7 +5006,7 @@
                 },
                 "total_cost": 319.0,
                 "number_of_items": 2,
-                "datetime": "Fri, 25 May 2018 14:05:30"
+                "datetime": "Fri, 25 May 2018 19:35:30"
             }
         },
         {
@@ -5046,13 +5046,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -0.25,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 329.0,
                 "number_of_items": 2,
-                "datetime": "Tue, 22 May 2018 13:57:18"
+                "datetime": "Tue, 22 May 2018 19:27:18"
             }
         },
         {
@@ -5094,7 +5094,7 @@
                 },
                 "total_cost": 420.0,
                 "number_of_items": 2,
-                "datetime": "Wed, 16 May 2018 14:53:27"
+                "datetime": "Wed, 16 May 2018 20:23:27"
             }
         },
         {
@@ -5136,7 +5136,7 @@
                 },
                 "total_cost": 315.0,
                 "number_of_items": 2,
-                "datetime": "Wed, 9 May 2018 14:30:13"
+                "datetime": "Wed, 09 May 2018 20:00:13"
             }
         },
         {
@@ -5184,7 +5184,7 @@
                 },
                 "total_cost": 420.0,
                 "number_of_items": 3,
-                "datetime": "Fri, 4 May 2018 13:53:21"
+                "datetime": "Fri, 04 May 2018 19:23:21"
             }
         },
         {
@@ -5224,13 +5224,13 @@
                     ]
                 },
                 "promos_and_tips": {
-                    "total_discount": -0.25,
+                    "total_discount": 0,
                     "split": [],
                     "tip": 0
                 },
                 "total_cost": 329.0,
                 "number_of_items": 2,
-                "datetime": "Sat, 28 Apr 2018 14:33:47"
+                "datetime": "Sat, 28 Apr 2018 20:03:47"
             }
         },
         {
@@ -5270,7 +5270,7 @@
                 },
                 "total_cost": 210.0,
                 "number_of_items": 1,
-                "datetime": "Sat, 28 Apr 2018 11:01:54"
+                "datetime": "Sat, 28 Apr 2018 16:31:54"
             }
         },
         {
@@ -5312,7 +5312,7 @@
                 },
                 "total_cost": 514.0,
                 "number_of_items": 2,
-                "datetime": "Wed, 25 Apr 2018 15:04:31"
+                "datetime": "Wed, 25 Apr 2018 20:34:31"
             }
         },
         {
@@ -5358,7 +5358,7 @@
                 },
                 "total_cost": 314.0,
                 "number_of_items": 2,
-                "datetime": "Sun, 22 Apr 2018 07:07:23"
+                "datetime": "Sun, 22 Apr 2018 12:37:23"
             }
         },
         {
@@ -5410,7 +5410,7 @@
                 },
                 "total_cost": 639.0,
                 "number_of_items": 3,
-                "datetime": "Fri, 20 Apr 2018 07:28:29"
+                "datetime": "Fri, 20 Apr 2018 12:58:29"
             }
         }
     ],
