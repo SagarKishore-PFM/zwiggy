@@ -1,6 +1,7 @@
 import base64
 import email
 import os
+from datetime import datetime, timedelta
 
 from parsers import parse_new_zomato, parse_swiggy
 
@@ -103,10 +104,13 @@ def generate_label_json_data(service, user_id, label, start=0, end=-1):
 
         # Datetime from email
         # Format is 'Wed, 19 Jun 2019 07:00:17'
-        # msg_datetime = datetime.strptime(datetime_sting, '%a, %d %b %Y %H:%M:%S')
+        # msg_datetime = datetime.strptime(datetime_string, '%a, %d %b %Y %H:%M:%S')
         for header in api_message['payload']['headers']:
             if header['name'] == 'Date':
-                datetime_sting = header['value'].split('+')[0].strip()
+                datetime_string = header['value'].split('+')[0].strip()
+                msg_datetime = datetime.strptime(datetime_string, '%a, %d %b %Y %H:%M:%S')
+                msg_datetime += timedelta(hours=5, minutes=30)
+                datetime_string = datetime.strftime(msg_datetime, '%a, %d %b %Y %H:%M:%S')
                 break
 
         path = os.path.join('temp', 'test.html')
@@ -118,7 +122,7 @@ def generate_label_json_data(service, user_id, label, start=0, end=-1):
             print(f"Iteration {iter_} -- Parsing message_id = {message_id}")
 
             order = parse_swiggy(path, message_id)
-            order['datetime'] = datetime_sting
+            order['datetime'] = datetime_string
             order_data = {
                 'message_id': message_id,
                 'order': order
@@ -131,7 +135,7 @@ def generate_label_json_data(service, user_id, label, start=0, end=-1):
                     print(f"Iteration {iter_} -- Parsing message_id = {message_id}")
                     iter_ += 1
                     order = parse_new_zomato(path, message_id)
-                    order['datetime'] = datetime_sting
+                    order['datetime'] = datetime_string
                     order_data = {
                         'message_id': message_id,
                         'order': order
@@ -142,7 +146,7 @@ def generate_label_json_data(service, user_id, label, start=0, end=-1):
                     print(f"Iteration {iter_} -- Parsing (OLD) message_id = {message_id}")
                     iter_ += 1
                     order = parse_new_zomato(path, message_id)
-                    order['datetime'] = datetime_sting
+                    order['datetime'] = datetime_string
                     order_data = {
                         'message_id': message_id,
                         'order': order
