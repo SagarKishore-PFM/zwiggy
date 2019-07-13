@@ -246,6 +246,8 @@ def parse_swiggy(file_path, message_id):
                 other_costs['total_cost'] += cost_for_given_type
 
         discount_total = total_bill - (subtotal + other_costs['total_cost'])
+        if discount_total < 0:
+            discount_total = 0
         promos_and_tips['total_discount'] = discount_total
 
         order = {}
