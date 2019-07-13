@@ -1,0 +1,5417 @@
+{
+    "Swiggy": [
+        [
+            "16be008c13b0f40e",
+            {
+                "order_id": "45906995188",
+                "restaurant_name": "The Good Bowl",
+                "items": [
+                    {
+                        "name": "Mughlai Grilled Paneer Rice Bowl",
+                        "quantity": 1,
+                        "total_price": 266.67,
+                        "price_per_unit": 266.67
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 13.33,
+                    "split": [
+                        [
+                            "GST",
+                            13.33
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -100.0,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 180.0,
+                "number_of_items": 1,
+                "datetime": "Thu, 11 Jul 2019 07:56:37"
+            }
+        ],
+        [
+            "16bdc3f52595740c",
+            {
+                "order_id": "45843463422",
+                "restaurant_name": "Hari Super Sandwich",
+                "items": [
+                    {
+                        "name": "Cheese Chilli Sandwich",
+                        "quantity": 1,
+                        "total_price": 30.0,
+                        "price_per_unit": 30.0
+                    },
+                    {
+                        "name": "Chocolate Sandwich",
+                        "quantity": 1,
+                        "total_price": 45.0,
+                        "price_per_unit": 45.0
+                    },
+                    {
+                        "name": "Cheese Burger",
+                        "quantity": 1,
+                        "total_price": 60.0,
+                        "price_per_unit": 60.0
+                    },
+                    {
+                        "name": "Aloo Cheese Chilli Sandwich",
+                        "quantity": 1,
+                        "total_price": 40.0,
+                        "price_per_unit": 40.0
+                    },
+                    {
+                        "name": "Jam Toast Sandwich",
+                        "quantity": 1,
+                        "total_price": 30.0,
+                        "price_per_unit": 30.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 25.0,
+                    "split": [
+                        [
+                            "Packing Charges",
+                            25.0
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -80.0,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 150.0,
+                "number_of_items": 5,
+                "datetime": "Wed, 10 Jul 2019 14:17:45"
+            }
+        ],
+        [
+            "16bd72986b159bae",
+            {
+                "order_id": "45758148883",
+                "restaurant_name": "Truffles",
+                "items": [
+                    {
+                        "name": "Mushroom & Cheese Wrap",
+                        "quantity": 1,
+                        "total_price": 128.58,
+                        "price_per_unit": 128.58
+                    },
+                    {
+                        "name": "Egg Wrap",
+                        "quantity": 1,
+                        "total_price": 109.53,
+                        "price_per_unit": 109.53
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 42.4,
+                    "split": [
+                        [
+                            "Packing Charges",
+                            29.04
+                        ],
+                        [
+                            "GST",
+                            13.36
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -99.50999999999999,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 181.0,
+                "number_of_items": 2,
+                "datetime": "Tue, 9 Jul 2019 14:35:50"
+            }
+        ],
+        [
+            "16bcb2931df85721",
+            {
+                "order_id": "45556801932",
+                "restaurant_name": "Truffles",
+                "items": [
+                    {
+                        "name": "Tandoori Paneer Wrap",
+                        "quantity": 1,
+                        "total_price": 142.86,
+                        "price_per_unit": 142.86
+                    },
+                    {
+                        "name": "Egg Wrap",
+                        "quantity": 1,
+                        "total_price": 109.53,
+                        "price_per_unit": 109.53
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 43.11,
+                    "split": [
+                        [
+                            "Packing Charges",
+                            29.04
+                        ],
+                        [
+                            "GST",
+                            14.07
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 29.5,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 325.0,
+                "number_of_items": 2,
+                "datetime": "Sun, 7 Jul 2019 06:40:02"
+            }
+        ],
+        [
+            "16bae2c237079bd9",
+            {
+                "order_id": "45070454064",
+                "restaurant_name": "Truffles",
+                "items": [
+                    {
+                        "name": "Tandoori Paneer Wrap",
+                        "quantity": 1,
+                        "total_price": 142.86,
+                        "price_per_unit": 142.86
+                    },
+                    {
+                        "name": "Egg Wrap",
+                        "quantity": 1,
+                        "total_price": 109.53,
+                        "price_per_unit": 109.53
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 43.11,
+                    "split": [
+                        [
+                            "Packing Charges",
+                            29.04
+                        ],
+                        [
+                            "GST",
+                            14.07
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -99.5,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 196.0,
+                "number_of_items": 2,
+                "datetime": "Mon, 1 Jul 2019 15:34:15"
+            }
+        ],
+        [
+            "16b9ce1d2ebacfbc",
+            {
+                "order_id": "44780349856",
+                "restaurant_name": "Truffles",
+                "items": [
+                    {
+                        "name": "Egg Wrap",
+                        "quantity": 1,
+                        "total_price": 109.52,
+                        "price_per_unit": 109.52
+                    },
+                    {
+                        "name": "Tandoori Paneer Wrap",
+                        "quantity": 2,
+                        "total_price": 285.72,
+                        "price_per_unit": 142.86
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 60.25,
+                    "split": [
+                        [
+                            "Packing Charges",
+                            38.56
+                        ],
+                        [
+                            "GST",
+                            21.69
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -100.49000000000001,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 355.0,
+                "number_of_items": 2,
+                "datetime": "Fri, 28 Jun 2019 06:59:33"
+            }
+        ],
+        [
+            "16b92a5311e297b1",
+            {
+                "order_id": "44608625989",
+                "restaurant_name": "Truffles",
+                "items": [
+                    {
+                        "name": "Red Velvet Muffin",
+                        "quantity": 1,
+                        "total_price": 76.19,
+                        "price_per_unit": 76.19
+                    },
+                    {
+                        "name": "Tandoori Paneer Wrap",
+                        "quantity": 1,
+                        "total_price": 142.86,
+                        "price_per_unit": 142.86
+                    },
+                    {
+                        "name": "Mexican Nachos Grande(Veg)",
+                        "quantity": 1,
+                        "total_price": 180.95,
+                        "price_per_unit": 180.95
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 60.49,
+                    "split": [
+                        [
+                            "Packing Charges",
+                            38.56
+                        ],
+                        [
+                            "GST",
+                            21.93
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -100.49000000000001,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 360.0,
+                "number_of_items": 3,
+                "datetime": "Wed, 26 Jun 2019 07:17:07"
+            }
+        ],
+        [
+            "16b7e050ff7bac3d",
+            {
+                "order_id": "44262553769",
+                "restaurant_name": "Truffles",
+                "items": [
+                    {
+                        "name": "Egg Wrap",
+                        "quantity": 1,
+                        "total_price": 109.52,
+                        "price_per_unit": 109.52
+                    },
+                    {
+                        "name": "Peanut Butter & Nutella Shake (400ML)",
+                        "quantity": 1,
+                        "total_price": 152.38,
+                        "price_per_unit": 152.38
+                    },
+                    {
+                        "name": "Crunchy Chicken Salad",
+                        "quantity": 1,
+                        "total_price": 195.24,
+                        "price_per_unit": 195.24
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 73.35000000000001,
+                    "split": [
+                        [
+                            "Packing Charges",
+                            48.09
+                        ],
+                        [
+                            "GST",
+                            25.26
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -80.49000000000001,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 450.0,
+                "number_of_items": 3,
+                "datetime": "Sat, 22 Jun 2019 07:09:48"
+            }
+        ],
+        [
+            "16b5406f0c1ab925",
+            {
+                "order_id": "43558067797",
+                "restaurant_name": "Puliyogare Point",
+                "items": [
+                    {
+                        "name": "Sakkar Pongal",
+                        "quantity": 1,
+                        "total_price": 48.0,
+                        "price_per_unit": 48.0
+                    },
+                    {
+                        "name": "Pongal",
+                        "quantity": 1,
+                        "total_price": 48.0,
+                        "price_per_unit": 48.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 14.8,
+                    "split": [
+                        [
+                            "Packing Charges",
+                            10.0
+                        ],
+                        [
+                            "GST",
+                            4.8
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.20000000000000284,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 111.0,
+                "number_of_items": 2,
+                "datetime": "Fri, 14 Jun 2019 03:27:49"
+            }
+        ],
+        [
+            "16b513c685656650",
+            {
+                "order_id": "43511239482",
+                "restaurant_name": "Truffles",
+                "items": [
+                    {
+                        "name": "Tandoori Paneer Wrap",
+                        "quantity": 1,
+                        "total_price": 142.86,
+                        "price_per_unit": 142.86
+                    },
+                    {
+                        "name": "Mushroom & Cheese Wrap",
+                        "quantity": 1,
+                        "total_price": 128.57,
+                        "price_per_unit": 128.57
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 44.06,
+                    "split": [
+                        [
+                            "Packing Charges",
+                            29.04
+                        ],
+                        [
+                            "GST",
+                            15.02
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -80.49000000000001,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 235.0,
+                "number_of_items": 2,
+                "datetime": "Thu, 13 Jun 2019 14:27:21"
+            }
+        ],
+        [
+            "16b3ceaf51b6d8eb",
+            {
+                "order_id": "43170357224",
+                "restaurant_name": "South Grand",
+                "items": [
+                    {
+                        "name": "Dahi Poori",
+                        "quantity": 1,
+                        "total_price": 45.0,
+                        "price_per_unit": 45.0
+                    },
+                    {
+                        "name": "Cream of Tomato Soup",
+                        "quantity": 1,
+                        "total_price": 50.0,
+                        "price_per_unit": 50.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 4.75,
+                    "split": [
+                        [
+                            "GST",
+                            4.75
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -39.75,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 60.0,
+                "number_of_items": 2,
+                "datetime": "Sun, 9 Jun 2019 15:45:59"
+            }
+        ],
+        [
+            "16b170047e8c96b8",
+            {
+                "order_id": "42534180431",
+                "restaurant_name": "California Burrito",
+                "items": [
+                    {
+                        "name": "Peri Peri Potato Rice Bowl (Mini)",
+                        "quantity": 1,
+                        "total_price": 129.0,
+                        "price_per_unit": 129.0
+                    },
+                    {
+                        "name": "Mexican Spicy Paneer Burrito (Regular)",
+                        "quantity": 1,
+                        "total_price": 229.0,
+                        "price_per_unit": 229.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 36.9,
+                    "split": [
+                        [
+                            "Packing Charges",
+                            19.0
+                        ],
+                        [
+                            "GST",
+                            17.9
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -99.89999999999998,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 295.0,
+                "number_of_items": 2,
+                "datetime": "Sun, 2 Jun 2019 07:03:42"
+            }
+        ],
+        [
+            "16b07aa57138ea18",
+            {
+                "order_id": "42276930641",
+                "restaurant_name": "homely",
+                "items": [
+                    {
+                        "name": "Matar Paneer, Langarwali Dal & Rotis or Rice",
+                        "quantity": 1,
+                        "total_price": 99.0,
+                        "price_per_unit": 99.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 4.95,
+                    "split": [
+                        [
+                            "GST",
+                            4.95
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.04999999999999716,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 104.0,
+                "number_of_items": 1,
+                "datetime": "Thu, 30 May 2019 07:35:31"
+            }
+        ],
+        [
+            "16adafc12a994b12",
+            {
+                "order_id": "41527196856",
+                "restaurant_name": "Truffles",
+                "items": [
+                    {
+                        "name": "Mushroom & Cheese Wrap",
+                        "quantity": 1,
+                        "total_price": 128.57,
+                        "price_per_unit": 128.57
+                    },
+                    {
+                        "name": "Tandoori Paneer Wrap",
+                        "quantity": 1,
+                        "total_price": 142.86,
+                        "price_per_unit": 142.86
+                    },
+                    {
+                        "name": "Red Velvet Sundae",
+                        "quantity": 1,
+                        "total_price": 195.24,
+                        "price_per_unit": 195.24
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 73.83,
+                    "split": [
+                        [
+                            "Packing Charges",
+                            48.09
+                        ],
+                        [
+                            "GST",
+                            25.74
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -0.5,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 540.0,
+                "number_of_items": 3,
+                "datetime": "Tue, 21 May 2019 15:21:53"
+            }
+        ],
+        [
+            "16ab6f4a89e5e826",
+            {
+                "order_id": "40922806082",
+                "restaurant_name": "South Grand",
+                "items": [
+                    {
+                        "name": "Cream of Tomato Soup",
+                        "quantity": 1,
+                        "total_price": 50.0,
+                        "price_per_unit": 50.0
+                    },
+                    {
+                        "name": "Dum Aloo Hyderabadi",
+                        "quantity": 1,
+                        "total_price": 120.0,
+                        "price_per_unit": 120.0
+                    },
+                    {
+                        "name": "Roomali Roti",
+                        "quantity": 2,
+                        "total_price": 60.0,
+                        "price_per_unit": 30.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 9.77,
+                    "split": [
+                        [
+                            "GST",
+                            9.77
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -34.77000000000001,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 205.0,
+                "number_of_items": 3,
+                "datetime": "Tue, 14 May 2019 15:27:27"
+            }
+        ],
+        [
+            "16aaca1c2eda8373",
+            {
+                "order_id": "40749573180",
+                "restaurant_name": "Truffles",
+                "items": [
+                    {
+                        "name": "Tandoori Paneer Wrap",
+                        "quantity": 1,
+                        "total_price": 142.86,
+                        "price_per_unit": 142.86
+                    },
+                    {
+                        "name": "Thai Red Curry With Rice (Veg)",
+                        "quantity": 1,
+                        "total_price": 257.14,
+                        "price_per_unit": 257.14
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 58.5,
+                    "split": [
+                        [
+                            "Packing Charges",
+                            38.57
+                        ],
+                        [
+                            "GST",
+                            19.93
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -99.5,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 359.0,
+                "number_of_items": 2,
+                "datetime": "Sun, 12 May 2019 15:20:42"
+            }
+        ],
+        [
+            "16aa24cbd1e6b007",
+            {
+                "order_id": "40576297790",
+                "restaurant_name": "South Grand",
+                "items": [
+                    {
+                        "name": "Paneer Tikka Masala",
+                        "quantity": 1,
+                        "total_price": 140.0,
+                        "price_per_unit": 140.0
+                    },
+                    {
+                        "name": "Butter Naan",
+                        "quantity": 2,
+                        "total_price": 80.0,
+                        "price_per_unit": 40.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 9.9,
+                    "split": [
+                        [
+                            "GST",
+                            9.9
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -32.900000000000006,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 197.0,
+                "number_of_items": 2,
+                "datetime": "Fri, 10 May 2019 15:11:38"
+            }
+        ],
+        [
+            "16a915189a470f5a",
+            {
+                "order_id": "40291342390",
+                "restaurant_name": "Szechuan Dragon",
+                "items": [
+                    {
+                        "name": "Lee Fu Egg Fried Rice",
+                        "quantity": 1,
+                        "total_price": 150.0,
+                        "price_per_unit": 150.0
+                    },
+                    {
+                        "name": "Paneer Pepper",
+                        "quantity": 1,
+                        "total_price": 155.0,
+                        "price_per_unit": 155.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 29.96,
+                    "split": [
+                        [
+                            "Packing Charges",
+                            17.0
+                        ],
+                        [
+                            "GST",
+                            12.96
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -45.95999999999998,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 289.0,
+                "number_of_items": 2,
+                "datetime": "Tue, 7 May 2019 08:03:20"
+            }
+        ],
+        [
+            "16a888c5b761a64f",
+            {
+                "order_id": "40144224565",
+                "restaurant_name": "South Grand",
+                "items": [
+                    {
+                        "name": "Paneer Kebabs",
+                        "quantity": 1,
+                        "total_price": 130.0,
+                        "price_per_unit": 130.0
+                    },
+                    {
+                        "name": "Jeera Rice",
+                        "quantity": 1,
+                        "total_price": 100.0,
+                        "price_per_unit": 100.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 9.77,
+                    "split": [
+                        [
+                            "GST",
+                            9.77
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -34.77000000000001,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 205.0,
+                "number_of_items": 2,
+                "datetime": "Sun, 5 May 2019 15:11:00"
+            }
+        ],
+        [
+            "16a7e3272bbf187b",
+            {
+                "order_id": "39970594316",
+                "restaurant_name": "South Grand",
+                "items": [
+                    {
+                        "name": "Cream of Tomato Soup",
+                        "quantity": 1,
+                        "total_price": 50.0,
+                        "price_per_unit": 50.0
+                    },
+                    {
+                        "name": "Rava Dosa",
+                        "quantity": 1,
+                        "total_price": 55.0,
+                        "price_per_unit": 55.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 4.46,
+                    "split": [
+                        [
+                            "GST",
+                            4.46
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -15.459999999999994,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 94.0,
+                "number_of_items": 2,
+                "datetime": "Fri, 3 May 2019 14:56:35"
+            }
+        ],
+        [
+            "16a7e30a46a7e042",
+            {
+                "order_id": "39970476436",
+                "restaurant_name": "Maruthi Davanagere Benne Dose",
+                "items": [
+                    {
+                        "name": "Special Benne Kali Dosa",
+                        "quantity": 1,
+                        "total_price": 62.0,
+                        "price_per_unit": 62.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 45.1,
+                    "split": [
+                        [
+                            "Delivery Charges",
+                            35.0
+                        ],
+                        [
+                            "Packing Charges",
+                            7.0
+                        ],
+                        [
+                            "GST",
+                            3.1
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -0.09999999999999432,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 107.0,
+                "number_of_items": 1,
+                "datetime": "Fri, 3 May 2019 14:54:37"
+            }
+        ],
+        [
+            "16a72459ed72c6ec",
+            {
+                "order_id": "39770501518",
+                "restaurant_name": "Andhra Ruchulu",
+                "items": [
+                    {
+                        "name": "Andhra Veg Carrier Meals",
+                        "quantity": 1,
+                        "total_price": 365.0,
+                        "price_per_unit": 365.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 56.58,
+                    "split": [
+                        [
+                            "Packing Charges",
+                            36.5
+                        ],
+                        [
+                            "GST",
+                            20.08
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.4200000000000159,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 422.0,
+                "number_of_items": 1,
+                "datetime": "Wed, 1 May 2019 07:22:06"
+            }
+        ],
+        [
+            "16a6480316919de3",
+            {
+                "order_id": "39539440653",
+                "restaurant_name": "Truffles",
+                "items": [
+                    {
+                        "name": "Tandoori Paneer Burger",
+                        "quantity": 1,
+                        "total_price": 147.62,
+                        "price_per_unit": 147.62
+                    },
+                    {
+                        "name": "Cheesy Mex Fries",
+                        "quantity": 1,
+                        "total_price": 142.86,
+                        "price_per_unit": 142.86
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 43.57,
+                    "split": [
+                        [
+                            "Packing Charges",
+                            29.04
+                        ],
+                        [
+                            "GST",
+                            14.53
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -43.05000000000001,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 291.0,
+                "number_of_items": 2,
+                "datetime": "Sun, 28 Apr 2019 15:11:23"
+            }
+        ],
+        [
+            "16a647a29d27f80a",
+            {
+                "order_id": "39539087214",
+                "restaurant_name": "South Grand",
+                "items": [
+                    {
+                        "name": "Butter Masala Dosa",
+                        "quantity": 1,
+                        "total_price": 55.0,
+                        "price_per_unit": 55.0
+                    },
+                    {
+                        "name": "Cheese Pav Bhaji",
+                        "quantity": 1,
+                        "total_price": 80.0,
+                        "price_per_unit": 80.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 5.74,
+                    "split": [
+                        [
+                            "GST",
+                            5.74
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -20.74000000000001,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 120.0,
+                "number_of_items": 2,
+                "datetime": "Sun, 28 Apr 2019 15:04:48"
+            }
+        ],
+        [
+            "16a5a3260aba8307",
+            {
+                "order_id": "39366522488",
+                "restaurant_name": "South Grand",
+                "items": [
+                    {
+                        "name": "Cream of Tomato Soup",
+                        "quantity": 1,
+                        "total_price": 50.0,
+                        "price_per_unit": 50.0
+                    },
+                    {
+                        "name": "Paneer Gutchi",
+                        "quantity": 1,
+                        "total_price": 140.0,
+                        "price_per_unit": 140.0
+                    },
+                    {
+                        "name": "Garlic Naan",
+                        "quantity": 2,
+                        "total_price": 90.0,
+                        "price_per_unit": 45.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 11.9,
+                    "split": [
+                        [
+                            "GST",
+                            11.9
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -41.89999999999998,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 250.0,
+                "number_of_items": 3,
+                "datetime": "Fri, 26 Apr 2019 15:10:11"
+            }
+        ],
+        [
+            "16a5508851e4c507",
+            {
+                "order_id": "39279942873",
+                "restaurant_name": "XO Belgian Waffle",
+                "items": [
+                    {
+                        "name": "Chocolate Xoverload Waffle",
+                        "quantity": 1,
+                        "total_price": 133.33,
+                        "price_per_unit": 133.33
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 16.0,
+                    "split": [
+                        [
+                            "Packing Charges",
+                            10.0
+                        ],
+                        [
+                            "GST",
+                            6.0
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -20.330000000000013,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 129.0,
+                "number_of_items": 1,
+                "datetime": "Thu, 25 Apr 2019 15:06:22"
+            }
+        ],
+        [
+            "16a362536e7c7397",
+            {
+                "order_id": "38761768020",
+                "restaurant_name": "South Grand",
+                "items": [
+                    {
+                        "name": "Paneer Tikka Masala",
+                        "quantity": 1,
+                        "total_price": 140.0,
+                        "price_per_unit": 140.0
+                    },
+                    {
+                        "name": "Garlic Naan",
+                        "quantity": 2,
+                        "total_price": 90.0,
+                        "price_per_unit": 45.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 9.77,
+                    "split": [
+                        [
+                            "GST",
+                            9.77
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -34.77000000000001,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 205.0,
+                "number_of_items": 2,
+                "datetime": "Fri, 19 Apr 2019 15:09:29"
+            }
+        ],
+        [
+            "16a3619ae2dcba10",
+            {
+                "order_id": "38761011775",
+                "restaurant_name": "Hari Super Sandwich",
+                "items": [
+                    {
+                        "name": "Cheese Chilli Sandwich",
+                        "quantity": 1,
+                        "total_price": 30.0,
+                        "price_per_unit": 30.0
+                    },
+                    {
+                        "name": "Chocolate Sandwich",
+                        "quantity": 1,
+                        "total_price": 45.0,
+                        "price_per_unit": 45.0
+                    },
+                    {
+                        "name": "Gulkand Toast Sandwich",
+                        "quantity": 1,
+                        "total_price": 30.0,
+                        "price_per_unit": 30.0
+                    },
+                    {
+                        "name": "Aloo Tikki",
+                        "quantity": 1,
+                        "total_price": 60.0,
+                        "price_per_unit": 60.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 20.0,
+                    "split": [
+                        [
+                            "Packing Charges",
+                            20.0
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -55.0,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 130.0,
+                "number_of_items": 4,
+                "datetime": "Fri, 19 Apr 2019 14:56:53"
+            }
+        ],
+        [
+            "16a26c34c5b59e6b",
+            {
+                "order_id": "38503692679",
+                "restaurant_name": "South Grand",
+                "items": [
+                    {
+                        "name": "Chana Bhatoora",
+                        "quantity": 1,
+                        "total_price": 65.0,
+                        "price_per_unit": 65.0
+                    },
+                    {
+                        "name": "Cream of Tomato Soup",
+                        "quantity": 1,
+                        "total_price": 50.0,
+                        "price_per_unit": 50.0
+                    },
+                    {
+                        "name": "Paneer Tikka Dry",
+                        "quantity": 1,
+                        "total_price": 115.0,
+                        "price_per_unit": 115.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 50.35,
+                    "split": [
+                        [
+                            "Delivery Charges",
+                            25.0
+                        ],
+                        [
+                            "Convenience Fee",
+                            15.0
+                        ],
+                        [
+                            "GST",
+                            10.35
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -23.350000000000023,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 257.0,
+                "number_of_items": 3,
+                "datetime": "Tue, 16 Apr 2019 15:28:13"
+            }
+        ],
+        [
+            "16a1aaf4212163c3",
+            {
+                "order_id": "38301052830",
+                "restaurant_name": "The Bowl Company",
+                "items": [
+                    {
+                        "name": "Good ol' Rajma Chawal",
+                        "quantity": 1,
+                        "total_price": 145.0,
+                        "price_per_unit": 145.0
+                    },
+                    {
+                        "name": "Mini Kolkata Chilli Paneer with Fried Rice",
+                        "quantity": 1,
+                        "total_price": 119.0,
+                        "price_per_unit": 119.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 24.810000000000002,
+                    "split": [
+                        [
+                            "Packing Charges",
+                            14.25
+                        ],
+                        [
+                            "GST",
+                            10.56
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -52.81,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 236.0,
+                "number_of_items": 2,
+                "datetime": "Sun, 14 Apr 2019 07:10:53"
+            }
+        ],
+        [
+            "16a013d1392370df",
+            {
+                "order_id": "37874139098",
+                "restaurant_name": "South Grand",
+                "items": [
+                    {
+                        "name": "Cream of Tomato Soup",
+                        "quantity": 1,
+                        "total_price": 50.0,
+                        "price_per_unit": 50.0
+                    },
+                    {
+                        "name": "Jeera Rice",
+                        "quantity": 1,
+                        "total_price": 100.0,
+                        "price_per_unit": 100.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 6.38,
+                    "split": [
+                        [
+                            "GST",
+                            6.38
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -62.379999999999995,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 94.0,
+                "number_of_items": 2,
+                "datetime": "Tue, 9 Apr 2019 08:35:40"
+            }
+        ],
+        [
+            "169cf19aac27a056",
+            {
+                "order_id": "37032934193",
+                "restaurant_name": "South Grand",
+                "items": [
+                    {
+                        "name": "Hara Bhara Kebabs",
+                        "quantity": 1,
+                        "total_price": 120.0,
+                        "price_per_unit": 120.0
+                    },
+                    {
+                        "name": "Paneer Tikka Masala",
+                        "quantity": 1,
+                        "total_price": 140.0,
+                        "price_per_unit": 140.0
+                    },
+                    {
+                        "name": "Garlic Naan",
+                        "quantity": 2,
+                        "total_price": 90.0,
+                        "price_per_unit": 45.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 14.88,
+                    "split": [
+                        [
+                            "GST",
+                            14.88
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -112.88,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 252.0,
+                "number_of_items": 3,
+                "datetime": "Sat, 30 Mar 2019 14:55:59"
+            }
+        ],
+        [
+            "169c33fd2023ce26",
+            {
+                "order_id": "36834094958",
+                "restaurant_name": "Smacznego",
+                "items": [
+                    {
+                        "name": "Cheese Surprise Twisty Wrap",
+                        "quantity": 1,
+                        "total_price": 119.0,
+                        "price_per_unit": 119.0
+                    },
+                    {
+                        "name": "Veg Burst Sandwich",
+                        "quantity": 1,
+                        "total_price": 113.0,
+                        "price_per_unit": 113.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 23.98,
+                    "split": [
+                        [
+                            "Packing Charges",
+                            14.0
+                        ],
+                        [
+                            "GST",
+                            9.98
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -45.97999999999999,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 210.0,
+                "number_of_items": 2,
+                "datetime": "Thu, 28 Mar 2019 07:42:13"
+            }
+        ],
+        [
+            "169bfa369481f136",
+            {
+                "order_id": "36773549973",
+                "restaurant_name": "South Grand",
+                "items": [
+                    {
+                        "name": "Paneer Tikka Masala",
+                        "quantity": 1,
+                        "total_price": 135.0,
+                        "price_per_unit": 135.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 6.07,
+                    "split": [
+                        [
+                            "GST",
+                            6.07
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -20.069999999999993,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 121.0,
+                "number_of_items": 1,
+                "datetime": "Wed, 27 Mar 2019 14:52:30"
+            }
+        ],
+        [
+            "169a5aadaeb75536",
+            {
+                "order_id": "36337829273",
+                "restaurant_name": "South Grand",
+                "items": [
+                    {
+                        "name": "Mughlai Biryani",
+                        "quantity": 1,
+                        "total_price": 120.0,
+                        "price_per_unit": 120.0
+                    },
+                    {
+                        "name": "Paneer 65",
+                        "quantity": 1,
+                        "total_price": 115.0,
+                        "price_per_unit": 115.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 11.75,
+                    "split": [
+                        [
+                            "GST",
+                            11.75
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.25,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 247.0,
+                "number_of_items": 2,
+                "datetime": "Fri, 22 Mar 2019 13:50:31"
+            }
+        ],
+        [
+            "169968d98184c5b2",
+            {
+                "order_id": "36084253380",
+                "restaurant_name": "South Grand",
+                "items": [
+                    {
+                        "name": "Malai Kofta",
+                        "quantity": 1,
+                        "total_price": 120.0,
+                        "price_per_unit": 120.0
+                    },
+                    {
+                        "name": "Paneer Kebabs",
+                        "quantity": 1,
+                        "total_price": 130.0,
+                        "price_per_unit": 130.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 10.0,
+                    "split": [
+                        [
+                            "GST",
+                            10.0
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -50.0,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 210.0,
+                "number_of_items": 2,
+                "datetime": "Tue, 19 Mar 2019 15:24:15"
+            }
+        ],
+        [
+            "16989d0de620377f",
+            {
+                "order_id": "35870558697",
+                "restaurant_name": "Bengaluru Coffee House",
+                "items": [
+                    {
+                        "name": "Khara Bath",
+                        "quantity": 1,
+                        "total_price": 28.0,
+                        "price_per_unit": 28.0
+                    },
+                    {
+                        "name": "Tirupathi Pongal",
+                        "quantity": 1,
+                        "total_price": 48.0,
+                        "price_per_unit": 48.0
+                    },
+                    {
+                        "name": "Mangalore Buns",
+                        "quantity": 1,
+                        "total_price": 26.0,
+                        "price_per_unit": 26.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 19.59,
+                    "split": [
+                        [
+                            "Packing Charges",
+                            15.0
+                        ],
+                        [
+                            "GST",
+                            4.59
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -10.590000000000003,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 111.0,
+                "number_of_items": 3,
+                "datetime": "Sun, 17 Mar 2019 04:02:40"
+            }
+        ],
+        [
+            "16986f4e9ed7a74b",
+            {
+                "order_id": "35822589833",
+                "restaurant_name": "South Grand",
+                "items": [
+                    {
+                        "name": "Paneer Tikka Masala",
+                        "quantity": 1,
+                        "total_price": 135.0,
+                        "price_per_unit": 135.0
+                    },
+                    {
+                        "name": "Butter Naan",
+                        "quantity": 3,
+                        "total_price": 120.0,
+                        "price_per_unit": 40.0
+                    },
+                    {
+                        "name": "Paneer Kebabs",
+                        "quantity": 1,
+                        "total_price": 130.0,
+                        "price_per_unit": 130.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 15.4,
+                    "split": [
+                        [
+                            "GST",
+                            15.4
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -77.39999999999998,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 323.0,
+                "number_of_items": 3,
+                "datetime": "Sat, 16 Mar 2019 14:43:10"
+            }
+        ],
+        [
+            "16981b5606cd41b9",
+            {
+                "order_id": "35734539603",
+                "restaurant_name": "Hotel Empire",
+                "items": [
+                    {
+                        "name": "Chicken Shawarma",
+                        "quantity": 1,
+                        "total_price": 75.0,
+                        "price_per_unit": 75.0
+                    },
+                    {
+                        "name": "Grilled Chicken",
+                        "quantity": 1,
+                        "total_price": 205.0,
+                        "price_per_unit": 205.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 0,
+                    "split": []
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.0,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 280.0,
+                "number_of_items": 2,
+                "datetime": "Fri, 15 Mar 2019 14:15:41"
+            }
+        ],
+        [
+            "1697cccbcea68baf",
+            {
+                "order_id": "35652184092",
+                "restaurant_name": "South Grand",
+                "items": [
+                    {
+                        "name": "Paneer Tikka Masala",
+                        "quantity": 1,
+                        "total_price": 135.0,
+                        "price_per_unit": 135.0
+                    },
+                    {
+                        "name": "Butter Kulcha",
+                        "quantity": 2,
+                        "total_price": 76.0,
+                        "price_per_unit": 38.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 8.44,
+                    "split": [
+                        [
+                            "GST",
+                            8.44
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -42.44,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 177.0,
+                "number_of_items": 2,
+                "datetime": "Thu, 14 Mar 2019 15:23:06"
+            }
+        ],
+        [
+            "1696699f1b90c721",
+            {
+                "order_id": "35279756370",
+                "restaurant_name": "Krispy Kreme",
+                "items": [
+                    {
+                        "name": "Double Chocolate Cake Doughnut",
+                        "quantity": 1,
+                        "total_price": 95.0,
+                        "price_per_unit": 95.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 35.0,
+                    "split": [
+                        [
+                            "Delivery Charges",
+                            35.0
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -38.0,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 92.0,
+                "number_of_items": 1,
+                "datetime": "Sun, 10 Mar 2019 07:55:58"
+            }
+        ],
+        [
+            "16966987872995ed",
+            {
+                "order_id": "35279660761",
+                "restaurant_name": "XO Belgian Waffle",
+                "items": [
+                    {
+                        "name": "Chocolate Xoverload Waffle",
+                        "quantity": 1,
+                        "total_price": 133.33,
+                        "price_per_unit": 133.33
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 16.0,
+                    "split": [
+                        [
+                            "Packing Charges",
+                            10.0
+                        ],
+                        [
+                            "GST",
+                            6.0
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -13.330000000000013,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 136.0,
+                "number_of_items": 1,
+                "datetime": "Sun, 10 Mar 2019 07:54:22"
+            }
+        ],
+        [
+            "16966954f718768b",
+            {
+                "order_id": "35279453960",
+                "restaurant_name": "Bengaluru Coffee House",
+                "items": [
+                    {
+                        "name": "Butter Naan",
+                        "quantity": 1,
+                        "total_price": 42.0,
+                        "price_per_unit": 42.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 40.1,
+                    "split": [
+                        [
+                            "Delivery Charges",
+                            35.0
+                        ],
+                        [
+                            "Packing Charges",
+                            3.0
+                        ],
+                        [
+                            "GST",
+                            2.1
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -0.09999999999999432,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 82.0,
+                "number_of_items": 1,
+                "datetime": "Sun, 10 Mar 2019 07:50:54"
+            }
+        ],
+        [
+            "1695c036c401be7a",
+            {
+                "order_id": "35102119468",
+                "restaurant_name": "Smacznego",
+                "items": [
+                    {
+                        "name": "Paneer Twisty Wrap",
+                        "quantity": 1,
+                        "total_price": 123.0,
+                        "price_per_unit": 123.0
+                    },
+                    {
+                        "name": "Veg Burst Sandwich",
+                        "quantity": 1,
+                        "total_price": 113.0,
+                        "price_per_unit": 113.0
+                    },
+                    {
+                        "name": "Indo Mex Meal",
+                        "quantity": 1,
+                        "total_price": 163.0,
+                        "price_per_unit": 163.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 42.16,
+                    "split": [
+                        [
+                            "Packing Charges",
+                            24.0
+                        ],
+                        [
+                            "GST",
+                            18.16
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -60.15999999999997,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 381.0,
+                "number_of_items": 3,
+                "datetime": "Fri, 8 Mar 2019 06:35:21"
+            }
+        ],
+        [
+            "1694e61035e4e142",
+            {
+                "order_id": "34873371151",
+                "restaurant_name": "Smacznego",
+                "items": [
+                    {
+                        "name": "Paneer Twisty Wrap",
+                        "quantity": 1,
+                        "total_price": 123.0,
+                        "price_per_unit": 123.0
+                    },
+                    {
+                        "name": "Veg Burst Sandwich",
+                        "quantity": 1,
+                        "total_price": 113.0,
+                        "price_per_unit": 113.0
+                    },
+                    {
+                        "name": "Choco Melt Waffle",
+                        "quantity": 1,
+                        "total_price": 138.0,
+                        "price_per_unit": 138.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 37.94,
+                    "split": [
+                        [
+                            "Packing Charges",
+                            21.0
+                        ],
+                        [
+                            "GST",
+                            16.94
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -55.94,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 356.0,
+                "number_of_items": 3,
+                "datetime": "Tue, 5 Mar 2019 15:02:53"
+            }
+        ],
+        [
+            "16949024052b9ead",
+            {
+                "order_id": "34783227473",
+                "restaurant_name": "Ayodhya Upachar",
+                "items": [
+                    {
+                        "name": "Paneer Butter Masala",
+                        "quantity": 1,
+                        "total_price": 160.0,
+                        "price_per_unit": 160.0
+                    },
+                    {
+                        "name": "Butter Roti",
+                        "quantity": 1,
+                        "total_price": 38.0,
+                        "price_per_unit": 38.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 10.0,
+                    "split": [
+                        [
+                            "Packing Charges",
+                            10.0
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -20.0,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 188.0,
+                "number_of_items": 2,
+                "datetime": "Mon, 4 Mar 2019 14:01:17"
+            }
+        ],
+        [
+            "168fa375d9faed3f",
+            {
+                "order_id": "33461337793",
+                "restaurant_name": "Smacznego",
+                "items": [
+                    {
+                        "name": "Cheese Surprise Twisty Wrap",
+                        "quantity": 1,
+                        "total_price": 119.0,
+                        "price_per_unit": 119.0
+                    },
+                    {
+                        "name": "Veg Burst Sandwich",
+                        "quantity": 1,
+                        "total_price": 113.0,
+                        "price_per_unit": 113.0
+                    },
+                    {
+                        "name": "Indo Mex Meal",
+                        "quantity": 1,
+                        "total_price": 163.0,
+                        "price_per_unit": 163.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 41.989999999999995,
+                    "split": [
+                        [
+                            "Packing Charges",
+                            24.0
+                        ],
+                        [
+                            "GST",
+                            17.99
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -58.99000000000001,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 378.0,
+                "number_of_items": 3,
+                "datetime": "Sun, 17 Feb 2019 06:49:18"
+            }
+        ],
+        [
+            "168f683b3e3d043a",
+            {
+                "order_id": "33399162758",
+                "restaurant_name": "Hotel Empire",
+                "items": [
+                    {
+                        "name": "Non Veg Biryani Rice",
+                        "quantity": 1,
+                        "total_price": 135.0,
+                        "price_per_unit": 135.0
+                    },
+                    {
+                        "name": "Boneless Empire Special Chilli Kebab",
+                        "quantity": 1,
+                        "total_price": 290.0,
+                        "price_per_unit": 290.0
+                    },
+                    {
+                        "name": "Grilled Chicken",
+                        "quantity": 1,
+                        "total_price": 205.0,
+                        "price_per_unit": 205.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 0,
+                    "split": []
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.0,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 630.0,
+                "number_of_items": 3,
+                "datetime": "Sat, 16 Feb 2019 13:34:12"
+            }
+        ],
+        [
+            "168e72c27e79ac03",
+            {
+                "order_id": "33141854595",
+                "restaurant_name": "Smacznego",
+                "items": [
+                    {
+                        "name": "Cheese Surprise Twisty Wrap",
+                        "quantity": 1,
+                        "total_price": 119.0,
+                        "price_per_unit": 119.0
+                    },
+                    {
+                        "name": "Veg Burst Sandwich",
+                        "quantity": 1,
+                        "total_price": 113.0,
+                        "price_per_unit": 113.0
+                    },
+                    {
+                        "name": "Indo Mex Meal",
+                        "quantity": 1,
+                        "total_price": 163.0,
+                        "price_per_unit": 163.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 41.989999999999995,
+                    "split": [
+                        [
+                            "Packing Charges",
+                            24.0
+                        ],
+                        [
+                            "GST",
+                            17.99
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -58.99000000000001,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 378.0,
+                "number_of_items": 3,
+                "datetime": "Wed, 13 Feb 2019 14:04:16"
+            }
+        ],
+        [
+            "168b74fe1f1506ff",
+            {
+                "order_id": "32338889776",
+                "restaurant_name": "South Grand",
+                "items": [
+                    {
+                        "name": "Paneer Tikka Masala",
+                        "quantity": 1,
+                        "total_price": 135.0,
+                        "price_per_unit": 135.0
+                    },
+                    {
+                        "name": "Butter Roti",
+                        "quantity": 3,
+                        "total_price": 96.0,
+                        "price_per_unit": 32.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 11.55,
+                    "split": [
+                        [
+                            "GST",
+                            11.55
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.44999999999998863,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 243.0,
+                "number_of_items": 2,
+                "datetime": "Mon, 4 Feb 2019 07:01:31"
+            }
+        ],
+        [
+            "168b224f83b87dfd",
+            {
+                "order_id": "32252191926",
+                "restaurant_name": "@Italy",
+                "items": [
+                    {
+                        "name": "Sicillia Pizza",
+                        "quantity": 1,
+                        "total_price": 260.0,
+                        "price_per_unit": 260.0
+                    },
+                    {
+                        "name": "Crazy Mushroom",
+                        "quantity": 1,
+                        "total_price": 180.0,
+                        "price_per_unit": 180.0
+                    },
+                    {
+                        "name": "Crazy Potato",
+                        "quantity": 1,
+                        "total_price": 180.0,
+                        "price_per_unit": 180.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 20.0,
+                    "split": [
+                        [
+                            "Packing Charges",
+                            20.0
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.0,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 640.0,
+                "number_of_items": 3,
+                "datetime": "Sun, 3 Feb 2019 06:56:33"
+            }
+        ],
+        [
+            "168aea994a94833b",
+            {
+                "order_id": "32193773686",
+                "restaurant_name": "Ayodhya Upachar",
+                "items": [
+                    {
+                        "name": "Paneer Kadai",
+                        "quantity": 1,
+                        "total_price": 155.0,
+                        "price_per_unit": 155.0
+                    },
+                    {
+                        "name": "Butter Roti",
+                        "quantity": 3,
+                        "total_price": 114.0,
+                        "price_per_unit": 38.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 10.0,
+                    "split": [
+                        [
+                            "Packing Charges",
+                            10.0
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.0,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 279.0,
+                "number_of_items": 2,
+                "datetime": "Sat, 2 Feb 2019 14:42:55"
+            }
+        ],
+        [
+            "1689d907a14baded",
+            {
+                "order_id": "31906915210",
+                "restaurant_name": "Anna Kuteera",
+                "items": [
+                    {
+                        "name": "Dal Makhani (Medium Sweet)",
+                        "quantity": 1,
+                        "total_price": 162.0,
+                        "price_per_unit": 162.0
+                    },
+                    {
+                        "name": "Butter Roti",
+                        "quantity": 2,
+                        "total_price": 76.0,
+                        "price_per_unit": 38.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 21.9,
+                    "split": [
+                        [
+                            "Packing Charges",
+                            10.0
+                        ],
+                        [
+                            "GST",
+                            11.9
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.10000000000002274,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 260.0,
+                "number_of_items": 2,
+                "datetime": "Wed, 30 Jan 2019 07:01:57"
+            }
+        ],
+        [
+            "1685bcdb80b53065",
+            {
+                "order_id": "30803633767",
+                "restaurant_name": "Hari Super Sandwich",
+                "items": [
+                    {
+                        "name": "Jam Toast",
+                        "quantity": 1,
+                        "total_price": 30.0,
+                        "price_per_unit": 30.0
+                    },
+                    {
+                        "name": "Twister",
+                        "quantity": 1,
+                        "total_price": 70.0,
+                        "price_per_unit": 70.0
+                    },
+                    {
+                        "name": "Veg Burger",
+                        "quantity": 1,
+                        "total_price": 50.0,
+                        "price_per_unit": 50.0
+                    },
+                    {
+                        "name": "Aloo Cheese Chilli Sandwich",
+                        "quantity": 1,
+                        "total_price": 40.0,
+                        "price_per_unit": 40.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 14.0,
+                    "split": [
+                        [
+                            "Packing Charges",
+                            14.0
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.0,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 204.0,
+                "number_of_items": 4,
+                "datetime": "Thu, 17 Jan 2019 12:33:55"
+            }
+        ],
+        [
+            "1684ced443bd587c",
+            {
+                "order_id": "30554042422",
+                "restaurant_name": "Hari Super Sandwich",
+                "items": [
+                    {
+                        "name": "Cheese Chilli Sandwich",
+                        "quantity": 1,
+                        "total_price": 30.0,
+                        "price_per_unit": 30.0
+                    },
+                    {
+                        "name": "Chocolate Sandwich",
+                        "quantity": 1,
+                        "total_price": 45.0,
+                        "price_per_unit": 45.0
+                    },
+                    {
+                        "name": "Cheese Burger",
+                        "quantity": 1,
+                        "total_price": 60.0,
+                        "price_per_unit": 60.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 15.0,
+                    "split": [
+                        [
+                            "Packing Charges",
+                            15.0
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.0,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 150.0,
+                "number_of_items": 3,
+                "datetime": "Mon, 14 Jan 2019 15:14:04"
+            }
+        ],
+        [
+            "1684251fd8fc26f2",
+            {
+                "order_id": "30376065181",
+                "restaurant_name": "Smacznego",
+                "items": [
+                    {
+                        "name": "Veg Burst Sandwich",
+                        "quantity": 1,
+                        "total_price": 113.0,
+                        "price_per_unit": 113.0
+                    },
+                    {
+                        "name": "Indo Mex Meal",
+                        "quantity": 1,
+                        "total_price": 163.0,
+                        "price_per_unit": 163.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 31.65,
+                    "split": [
+                        [
+                            "Packing Charges",
+                            17.0
+                        ],
+                        [
+                            "GST",
+                            14.65
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.35000000000002274,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 308.0,
+                "number_of_items": 2,
+                "datetime": "Sat, 12 Jan 2019 13:48:15"
+            }
+        ],
+        [
+            "16837fe1913cbd37",
+            {
+                "order_id": "30202523748",
+                "restaurant_name": "@Italy",
+                "items": [
+                    {
+                        "name": "Nepoli Pizza",
+                        "quantity": 1,
+                        "total_price": 290.0,
+                        "price_per_unit": 290.0
+                    },
+                    {
+                        "name": "Crazy Mushroom",
+                        "quantity": 1,
+                        "total_price": 180.0,
+                        "price_per_unit": 180.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 35.0,
+                    "split": [
+                        [
+                            "Delivery Charges",
+                            20.0
+                        ],
+                        [
+                            "Packing Charges",
+                            15.0
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.0,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 505.0,
+                "number_of_items": 2,
+                "datetime": "Thu, 10 Jan 2019 13:40:25"
+            }
+        ],
+        [
+            "168221f28b89c54c",
+            {
+                "order_id": "29835878456",
+                "restaurant_name": "Nandhana Palace",
+                "items": [
+                    {
+                        "name": "Amaravati Chicken Fry (Boneless)",
+                        "quantity": 1,
+                        "total_price": 290.0,
+                        "price_per_unit": 290.0
+                    },
+                    {
+                        "name": "Supreme Chicken Boneless Biryani",
+                        "quantity": 1,
+                        "total_price": 240.0,
+                        "price_per_unit": 240.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 51.7,
+                    "split": [
+                        [
+                            "Packing Charges",
+                            24.0
+                        ],
+                        [
+                            "GST",
+                            27.7
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.2999999999999545,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 582.0,
+                "number_of_items": 2,
+                "datetime": "Sun, 6 Jan 2019 07:44:52"
+            }
+        ],
+        [
+            "1680ef06defc6960",
+            {
+                "order_id": "29514061448",
+                "restaurant_name": "Hari Super Sandwich",
+                "items": [
+                    {
+                        "name": "Cheese Chilli Sandwich",
+                        "quantity": 1,
+                        "total_price": 30.0,
+                        "price_per_unit": 30.0
+                    },
+                    {
+                        "name": "Chocolate Sandwich",
+                        "quantity": 1,
+                        "total_price": 45.0,
+                        "price_per_unit": 45.0
+                    },
+                    {
+                        "name": "Aloo Tikki",
+                        "quantity": 1,
+                        "total_price": 60.0,
+                        "price_per_unit": 60.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 35.0,
+                    "split": [
+                        [
+                            "Delivery Charges",
+                            20.0
+                        ],
+                        [
+                            "Packing Charges",
+                            15.0
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.0,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 170.0,
+                "number_of_items": 3,
+                "datetime": "Wed, 2 Jan 2019 14:21:03"
+            }
+        ],
+        [
+            "167fe19e99bccb3e",
+            {
+                "order_id": "29231507183",
+                "restaurant_name": "Hari Super Sandwich",
+                "items": [
+                    {
+                        "name": "Cheese Chilli Sandwich",
+                        "quantity": 1,
+                        "total_price": 30.0,
+                        "price_per_unit": 30.0
+                    },
+                    {
+                        "name": "Chocolate Sandwich",
+                        "quantity": 1,
+                        "total_price": 45.0,
+                        "price_per_unit": 45.0
+                    },
+                    {
+                        "name": "Veg Burger",
+                        "quantity": 1,
+                        "total_price": 50.0,
+                        "price_per_unit": 50.0
+                    },
+                    {
+                        "name": "Jumbo Vada Pav",
+                        "quantity": 1,
+                        "total_price": 45.0,
+                        "price_per_unit": 45.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 20.0,
+                    "split": [
+                        [
+                            "Packing Charges",
+                            20.0
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.0,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 190.0,
+                "number_of_items": 4,
+                "datetime": "Sun, 30 Dec 2018 07:52:49"
+            }
+        ],
+        [
+            "167f90fe6f826229",
+            {
+                "order_id": "29147025815",
+                "restaurant_name": "Brundavan Upachar",
+                "items": [
+                    {
+                        "name": "Veg Malai Kofta",
+                        "quantity": 1,
+                        "total_price": 95.0,
+                        "price_per_unit": 95.0
+                    },
+                    {
+                        "name": "Butter Naan",
+                        "quantity": 3,
+                        "total_price": 90.0,
+                        "price_per_unit": 30.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 25.0,
+                    "split": [
+                        [
+                            "Delivery Charges",
+                            20.0
+                        ],
+                        [
+                            "Packing Charges",
+                            5.0
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.0,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 210.0,
+                "number_of_items": 2,
+                "datetime": "Sat, 29 Dec 2018 08:23:47"
+            }
+        ],
+        [
+            "167eb147cffb9a15",
+            {
+                "order_id": "28912445026",
+                "restaurant_name": "Gama Gama",
+                "items": [
+                    {
+                        "name": "Talipatt (Mix of Five Grains)",
+                        "quantity": 1,
+                        "total_price": 60.0,
+                        "price_per_unit": 60.0
+                    },
+                    {
+                        "name": "Girmit",
+                        "quantity": 1,
+                        "total_price": 50.0,
+                        "price_per_unit": 50.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 55.5,
+                    "split": [
+                        [
+                            "Delivery Charges",
+                            20.0
+                        ],
+                        [
+                            "Packing Charges",
+                            30.0
+                        ],
+                        [
+                            "GST",
+                            5.5
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.5,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 166.0,
+                "number_of_items": 2,
+                "datetime": "Wed, 26 Dec 2018 15:14:07"
+            }
+        ],
+        [
+            "167e09c7709663cc",
+            {
+                "order_id": "28736782944",
+                "restaurant_name": "Hari Super Sandwich",
+                "items": [
+                    {
+                        "name": "Cheese Chilli Sandwich",
+                        "quantity": 1,
+                        "total_price": 30.0,
+                        "price_per_unit": 30.0
+                    },
+                    {
+                        "name": "Chocolate Sandwich",
+                        "quantity": 1,
+                        "total_price": 45.0,
+                        "price_per_unit": 45.0
+                    },
+                    {
+                        "name": "Aloo Tikki",
+                        "quantity": 1,
+                        "total_price": 60.0,
+                        "price_per_unit": 60.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 15.0,
+                    "split": [
+                        [
+                            "Packing Charges",
+                            15.0
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.0,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 150.0,
+                "number_of_items": 3,
+                "datetime": "Mon, 24 Dec 2018 14:26:49"
+            }
+        ],
+        [
+            "167db502220f3232",
+            {
+                "order_id": "28647918486",
+                "restaurant_name": "Brundavan Upachar",
+                "items": [
+                    {
+                        "name": "Paneer Kadai",
+                        "quantity": 1,
+                        "total_price": 110.0,
+                        "price_per_unit": 110.0
+                    },
+                    {
+                        "name": "Butter Naan",
+                        "quantity": 2,
+                        "total_price": 60.0,
+                        "price_per_unit": 30.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 25.0,
+                    "split": [
+                        [
+                            "Delivery Charges",
+                            20.0
+                        ],
+                        [
+                            "Packing Charges",
+                            5.0
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.0,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 195.0,
+                "number_of_items": 2,
+                "datetime": "Sun, 23 Dec 2018 13:45:20"
+            }
+        ],
+        [
+            "167d9fdb57fa7ecf",
+            {
+                "order_id": "28625692259",
+                "restaurant_name": "Smacznego",
+                "items": [
+                    {
+                        "name": "Veg Burst Sandwich",
+                        "quantity": 1,
+                        "total_price": 113.0,
+                        "price_per_unit": 113.0
+                    },
+                    {
+                        "name": "Hot & Cheesy Quesadillas",
+                        "quantity": 1,
+                        "total_price": 148.0,
+                        "price_per_unit": 148.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 47.75,
+                    "split": [
+                        [
+                            "Delivery Charges",
+                            20.0
+                        ],
+                        [
+                            "Packing Charges",
+                            14.0
+                        ],
+                        [
+                            "GST",
+                            13.75
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.25,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 309.0,
+                "number_of_items": 2,
+                "datetime": "Sun, 23 Dec 2018 07:35:41"
+            }
+        ],
+        [
+            "167b60857e68281c",
+            {
+                "order_id": "28022377772",
+                "restaurant_name": "@Italy",
+                "items": [
+                    {
+                        "name": "Nepoli Pizza",
+                        "quantity": 1,
+                        "total_price": 290.0,
+                        "price_per_unit": 290.0
+                    },
+                    {
+                        "name": "Crazy Mushroom",
+                        "quantity": 1,
+                        "total_price": 180.0,
+                        "price_per_unit": 180.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 35.0,
+                    "split": [
+                        [
+                            "Delivery Charges",
+                            20.0
+                        ],
+                        [
+                            "Packing Charges",
+                            15.0
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.0,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 505.0,
+                "number_of_items": 2,
+                "datetime": "Sun, 16 Dec 2018 08:00:58"
+            }
+        ],
+        [
+            "167b601707729cb9",
+            {
+                "order_id": "28021917590",
+                "restaurant_name": "Hari Super Sandwich",
+                "items": [
+                    {
+                        "name": "Cheese Chilli Sandwich",
+                        "quantity": 1,
+                        "total_price": 30.0,
+                        "price_per_unit": 30.0
+                    },
+                    {
+                        "name": "Chocolate Sandwich",
+                        "quantity": 1,
+                        "total_price": 45.0,
+                        "price_per_unit": 45.0
+                    },
+                    {
+                        "name": "Aloo Cheese Chilli Sandwich",
+                        "quantity": 1,
+                        "total_price": 40.0,
+                        "price_per_unit": 40.0
+                    },
+                    {
+                        "name": "Jam Toast Sandwich",
+                        "quantity": 1,
+                        "total_price": 30.0,
+                        "price_per_unit": 30.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 20.0,
+                    "split": [
+                        [
+                            "Packing Charges",
+                            20.0
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.0,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 165.0,
+                "number_of_items": 4,
+                "datetime": "Sun, 16 Dec 2018 07:53:26"
+            }
+        ],
+        [
+            "167a809109dadddb",
+            {
+                "order_id": "27787612796",
+                "restaurant_name": "Behrouz Biryani",
+                "items": [
+                    {
+                        "name": "Zaikedaar Paneer Biryani (Regular)",
+                        "quantity": 1,
+                        "total_price": 285.71,
+                        "price_per_unit": 285.71
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 56.35,
+                    "split": [
+                        [
+                            "Delivery Charges",
+                            20.0
+                        ],
+                        [
+                            "Packing Charges",
+                            23.81
+                        ],
+                        [
+                            "GST",
+                            12.54
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -134.06,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 208.0,
+                "number_of_items": 1,
+                "datetime": "Thu, 13 Dec 2018 14:47:05"
+            }
+        ],
+        [
+            "167921fe64bb5a31",
+            {
+                "order_id": "27420021458",
+                "restaurant_name": "Natural Ice Cream",
+                "items": [
+                    {
+                        "name": "Tender Coconut Ice cream (Double Scoop)",
+                        "quantity": 1,
+                        "total_price": 130.0,
+                        "price_per_unit": 130.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 0,
+                    "split": []
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.0,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 130.0,
+                "number_of_items": 1,
+                "datetime": "Sun, 9 Dec 2018 08:40:22"
+            }
+        ],
+        [
+            "1678e0ac78fcdd14",
+            {
+                "order_id": "27351507364",
+                "restaurant_name": "California Burrito",
+                "items": [
+                    {
+                        "name": "Mexican Spicy Paneer Burrito (Regular)",
+                        "quantity": 1,
+                        "total_price": 229.0,
+                        "price_per_unit": 229.0
+                    },
+                    {
+                        "name": "Peri Peri Potato Rice Bowl (Mini)",
+                        "quantity": 1,
+                        "total_price": 129.0,
+                        "price_per_unit": 129.0
+                    },
+                    {
+                        "name": "Cheesy Tostada",
+                        "quantity": 1,
+                        "total_price": 55.0,
+                        "price_per_unit": 55.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 46.019999999999996,
+                    "split": [
+                        [
+                            "Packing Charges",
+                            28.5
+                        ],
+                        [
+                            "GST",
+                            17.52
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -63.01999999999998,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 396.0,
+                "number_of_items": 3,
+                "datetime": "Sat, 8 Dec 2018 13:38:49"
+            }
+        ],
+        [
+            "1677eaf591809b9a",
+            {
+                "order_id": "27093862354",
+                "restaurant_name": "Ayodhya Upachar",
+                "items": [
+                    {
+                        "name": "Veg Kolhapuri",
+                        "quantity": 1,
+                        "total_price": 150.0,
+                        "price_per_unit": 150.0
+                    },
+                    {
+                        "name": "Butter Naan",
+                        "quantity": 2,
+                        "total_price": 88.0,
+                        "price_per_unit": 44.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 7.0,
+                    "split": [
+                        [
+                            "Packing Charges",
+                            7.0
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.0,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 245.0,
+                "number_of_items": 2,
+                "datetime": "Wed, 5 Dec 2018 14:04:39"
+            }
+        ],
+        [
+            "1677407e7e66e870",
+            {
+                "order_id": "26915094190",
+                "restaurant_name": "Hari super sandwich",
+                "items": [
+                    {
+                        "name": "Chocolate Sandwich",
+                        "quantity": 1,
+                        "total_price": 45.0,
+                        "price_per_unit": 45.0
+                    },
+                    {
+                        "name": "Cheese Gulkand Sandwich",
+                        "quantity": 1,
+                        "total_price": 45.0,
+                        "price_per_unit": 45.0
+                    },
+                    {
+                        "name": "Jain Katha Pav Bhaji",
+                        "quantity": 1,
+                        "total_price": 90.0,
+                        "price_per_unit": 90.0
+                    },
+                    {
+                        "name": "Cheese Masala Pav",
+                        "quantity": 1,
+                        "total_price": 70.0,
+                        "price_per_unit": 70.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 52.5,
+                    "split": [
+                        [
+                            "Delivery Charges",
+                            20.0
+                        ],
+                        [
+                            "Packing Charges",
+                            20.0
+                        ],
+                        [
+                            "GST",
+                            12.5
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.5,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 303.0,
+                "number_of_items": 4,
+                "datetime": "Mon, 3 Dec 2018 12:25:33"
+            }
+        ],
+        [
+            "1676dbbe3d18b63c",
+            {
+                "order_id": "26809486803",
+                "restaurant_name": "Nandhana Palace",
+                "items": [
+                    {
+                        "name": "Supreme Chicken Boneless Biryani",
+                        "quantity": 1,
+                        "total_price": 240.0,
+                        "price_per_unit": 240.0
+                    },
+                    {
+                        "name": "Amaravati Chicken Fry (Boneless)",
+                        "quantity": 1,
+                        "total_price": 290.0,
+                        "price_per_unit": 290.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 70.5,
+                    "split": [
+                        [
+                            "Delivery Charges",
+                            20.0
+                        ],
+                        [
+                            "Packing Charges",
+                            24.0
+                        ],
+                        [
+                            "GST",
+                            26.5
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.5,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 601.0,
+                "number_of_items": 2,
+                "datetime": "Sun, 2 Dec 2018 07:04:48"
+            }
+        ],
+        [
+            "1675fe86b44dbb57",
+            {
+                "order_id": "26577524192",
+                "restaurant_name": "Pallavi Restaurant (Authentic taste from Gulbarga)",
+                "items": [
+                    {
+                        "name": "Paneer Butter Masala",
+                        "quantity": 1,
+                        "total_price": 129.0,
+                        "price_per_unit": 129.0
+                    },
+                    {
+                        "name": "Butter Naan",
+                        "quantity": 2,
+                        "total_price": 60.0,
+                        "price_per_unit": 30.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 36.8,
+                    "split": [
+                        [
+                            "Delivery Charges",
+                            20.0
+                        ],
+                        [
+                            "Packing Charges",
+                            7.0
+                        ],
+                        [
+                            "GST",
+                            9.8
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.19999999999998863,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 226.0,
+                "number_of_items": 2,
+                "datetime": "Thu, 29 Nov 2018 14:38:46"
+            }
+        ],
+        [
+            "1675e706ff005dc6",
+            {
+                "order_id": "26552883665",
+                "restaurant_name": "Truffles",
+                "items": [
+                    {
+                        "name": "Mushroom & Cheese Wrap",
+                        "quantity": 1,
+                        "total_price": 128.57,
+                        "price_per_unit": 128.57
+                    },
+                    {
+                        "name": "Masala Wedges",
+                        "quantity": 1,
+                        "total_price": 138.1,
+                        "price_per_unit": 138.1
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 41.989999999999995,
+                    "split": [
+                        [
+                            "Packing Charges",
+                            28.56
+                        ],
+                        [
+                            "GST",
+                            13.43
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -26.659999999999968,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 282.0,
+                "number_of_items": 2,
+                "datetime": "Thu, 29 Nov 2018 07:48:05"
+            }
+        ],
+        [
+            "1675ac540f289219",
+            {
+                "order_id": "26491333659",
+                "restaurant_name": "FreshMenu",
+                "items": [
+                    {
+                        "name": "Achari Paneer Tikka Pita Pockets",
+                        "quantity": 1,
+                        "total_price": 170.0,
+                        "price_per_unit": 170.0
+                    },
+                    {
+                        "name": "Kolhapuri Paneer Biriyani",
+                        "quantity": 1,
+                        "total_price": 200.0,
+                        "price_per_unit": 200.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 54.8,
+                    "split": [
+                        [
+                            "Delivery Charges",
+                            20.0
+                        ],
+                        [
+                            "Packing Charges",
+                            20.0
+                        ],
+                        [
+                            "GST",
+                            14.8
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -223.8,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 201.0,
+                "number_of_items": 2,
+                "datetime": "Wed, 28 Nov 2018 14:42:15"
+            }
+        ],
+        [
+            "1675402674b2ba06",
+            {
+                "order_id": "26377882064",
+                "restaurant_name": "Hari Super Sandwich",
+                "items": [
+                    {
+                        "name": "Cheese Chilli Sandwich",
+                        "quantity": 1,
+                        "total_price": 30.0,
+                        "price_per_unit": 30.0
+                    },
+                    {
+                        "name": "Chocolate Sandwich",
+                        "quantity": 1,
+                        "total_price": 45.0,
+                        "price_per_unit": 45.0
+                    },
+                    {
+                        "name": "Bread Cutlet",
+                        "quantity": 1,
+                        "total_price": 50.0,
+                        "price_per_unit": 50.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 15.0,
+                    "split": [
+                        [
+                            "Packing Charges",
+                            15.0
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -12.0,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 128.0,
+                "number_of_items": 3,
+                "datetime": "Tue, 27 Nov 2018 07:11:42"
+            }
+        ],
+        [
+            "1674f6d8f0fd2c5a",
+            {
+                "order_id": "26301037024",
+                "restaurant_name": "Natural Ice Cream",
+                "items": [
+                    {
+                        "name": "Jackfruit Ice cream (Single Scoop)",
+                        "quantity": 1,
+                        "total_price": 65.0,
+                        "price_per_unit": 65.0
+                    },
+                    {
+                        "name": "Tender Coconut Ice cream (Single Scoop)",
+                        "quantity": 1,
+                        "total_price": 65.0,
+                        "price_per_unit": 65.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 20.0,
+                    "split": [
+                        [
+                            "Delivery Charges",
+                            20.0
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.0,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 150.0,
+                "number_of_items": 2,
+                "datetime": "Mon, 26 Nov 2018 09:50:39"
+            }
+        ],
+        [
+            "1674f57a89f9b72d",
+            {
+                "order_id": "26299584312",
+                "restaurant_name": "Natural Ice Cream",
+                "items": [
+                    {
+                        "name": "Tender Coconut Ice cream (Single Scoop)",
+                        "quantity": 1,
+                        "total_price": 65.0,
+                        "price_per_unit": 65.0
+                    },
+                    {
+                        "name": "Tender Coconut Ice cream (Single Scoop)",
+                        "quantity": 1,
+                        "total_price": 65.0,
+                        "price_per_unit": 65.0
+                    },
+                    {
+                        "name": "Jackfruit Ice cream (Single Scoop)",
+                        "quantity": 1,
+                        "total_price": 65.0,
+                        "price_per_unit": 65.0
+                    },
+                    {
+                        "name": "Jackfruit Ice cream (Single Scoop)",
+                        "quantity": 1,
+                        "total_price": 65.0,
+                        "price_per_unit": 65.0
+                    },
+                    {
+                        "name": "Mango Ice cream (Single Scoop)",
+                        "quantity": 1,
+                        "total_price": 65.0,
+                        "price_per_unit": 65.0
+                    },
+                    {
+                        "name": "Chickoo Ice cream (Single Scoop)",
+                        "quantity": 1,
+                        "total_price": 65.0,
+                        "price_per_unit": 65.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 20.0,
+                    "split": [
+                        [
+                            "Delivery Charges",
+                            20.0
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -93.0,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 317.0,
+                "number_of_items": 6,
+                "datetime": "Mon, 26 Nov 2018 09:26:43"
+            }
+        ],
+        [
+            "1674b1c4dbd09ad0",
+            {
+                "order_id": "26228538734",
+                "restaurant_name": "Truffles",
+                "items": [
+                    {
+                        "name": "Arrabiata Pasta",
+                        "quantity": 1,
+                        "total_price": 185.71,
+                        "price_per_unit": 185.71
+                    },
+                    {
+                        "name": "Aglio-Olio Pasta",
+                        "quantity": 1,
+                        "total_price": 185.71,
+                        "price_per_unit": 185.71
+                    },
+                    {
+                        "name": "Masala Wedges",
+                        "quantity": 1,
+                        "total_price": 138.1,
+                        "price_per_unit": 138.1
+                    },
+                    {
+                        "name": "Thai Basil Chilly Mushroom",
+                        "quantity": 1,
+                        "total_price": 176.19,
+                        "price_per_unit": 176.19
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 90.85,
+                    "split": [
+                        [
+                            "Packing Charges",
+                            57.13
+                        ],
+                        [
+                            "GST",
+                            33.72
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -68.56000000000006,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 708.0,
+                "number_of_items": 4,
+                "datetime": "Sun, 25 Nov 2018 13:43:24"
+            }
+        ],
+        [
+            "16740f9ec6fb9306",
+            {
+                "order_id": "26058542734",
+                "restaurant_name": "Hari Super Sandwich",
+                "items": [
+                    {
+                        "name": "Chocolate Sandwich",
+                        "quantity": 1,
+                        "total_price": 45.0,
+                        "price_per_unit": 45.0
+                    },
+                    {
+                        "name": "Pav Bhaji",
+                        "quantity": 1,
+                        "total_price": 80.0,
+                        "price_per_unit": 80.0
+                    },
+                    {
+                        "name": "Jumbo Vada Pav",
+                        "quantity": 1,
+                        "total_price": 45.0,
+                        "price_per_unit": 45.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 35.0,
+                    "split": [
+                        [
+                            "Delivery Charges",
+                            20.0
+                        ],
+                        [
+                            "Packing Charges",
+                            15.0
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -42.0,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 163.0,
+                "number_of_items": 3,
+                "datetime": "Fri, 23 Nov 2018 14:29:39"
+            }
+        ],
+        [
+            "166f8f4251a59dd9",
+            {
+                "order_id": "24850239455",
+                "restaurant_name": "Ayodhya Upachar",
+                "items": [
+                    {
+                        "name": "Gobi Pepper Dry",
+                        "quantity": 1,
+                        "total_price": 100.0,
+                        "price_per_unit": 100.0
+                    },
+                    {
+                        "name": "Jeera Rice",
+                        "quantity": 1,
+                        "total_price": 100.0,
+                        "price_per_unit": 100.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 34.0,
+                    "split": [
+                        [
+                            "Delivery Charges",
+                            20.0
+                        ],
+                        [
+                            "Packing Charges",
+                            14.0
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -86.0,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 148.0,
+                "number_of_items": 2,
+                "datetime": "Fri, 9 Nov 2018 14:50:41"
+            }
+        ],
+        [
+            "166ddd77df4050ec",
+            {
+                "order_id": "24395377321",
+                "restaurant_name": "California Burrito",
+                "items": [
+                    {
+                        "name": "Mexican Spicy Paneer Burrito (Regular)",
+                        "quantity": 1,
+                        "total_price": 229.0,
+                        "price_per_unit": 229.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 40.95,
+                    "split": [
+                        [
+                            "Delivery Charges",
+                            20.0
+                        ],
+                        [
+                            "Packing Charges",
+                            9.5
+                        ],
+                        [
+                            "GST",
+                            11.45
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -74.94999999999999,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 195.0,
+                "number_of_items": 1,
+                "datetime": "Sun, 4 Nov 2018 08:29:38"
+            }
+        ],
+        [
+            "166ddace3866ed78",
+            {
+                "order_id": "24392584097",
+                "restaurant_name": "California Burrito",
+                "items": [
+                    {
+                        "name": "Peri Peri Potato Rice Bowl (Mini)",
+                        "quantity": 1,
+                        "total_price": 129.0,
+                        "price_per_unit": 129.0
+                    },
+                    {
+                        "name": "Mexican Spicy Paneer Burrito (Regular)",
+                        "quantity": 1,
+                        "total_price": 229.0,
+                        "price_per_unit": 229.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 56.9,
+                    "split": [
+                        [
+                            "Delivery Charges",
+                            20.0
+                        ],
+                        [
+                            "Packing Charges",
+                            19.0
+                        ],
+                        [
+                            "GST",
+                            17.9
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -99.89999999999998,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 315.0,
+                "number_of_items": 2,
+                "datetime": "Sun, 4 Nov 2018 07:43:06"
+            }
+        ],
+        [
+            "166d4f0cedbc9cc2",
+            {
+                "order_id": "24246039808",
+                "restaurant_name": "Szechuan Dragon",
+                "items": [
+                    {
+                        "name": "Pepper Gobi",
+                        "quantity": 1,
+                        "total_price": 140.0,
+                        "price_per_unit": 140.0
+                    },
+                    {
+                        "name": "Chilli Garlic Egg Fried Rice",
+                        "quantity": 1,
+                        "total_price": 145.0,
+                        "price_per_unit": 145.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 48.25,
+                    "split": [
+                        [
+                            "Delivery Charges",
+                            20.0
+                        ],
+                        [
+                            "Packing Charges",
+                            14.0
+                        ],
+                        [
+                            "GST",
+                            14.25
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -0.25,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 333.0,
+                "number_of_items": 2,
+                "datetime": "Fri, 2 Nov 2018 15:00:42"
+            }
+        ],
+        [
+            "166b5d2cf4f3787a",
+            {
+                "order_id": "23723981518",
+                "restaurant_name": "California Burrito",
+                "items": [
+                    {
+                        "name": "Peri Peri Potato Rice Bowl (Regular)",
+                        "quantity": 1,
+                        "total_price": 199.0,
+                        "price_per_unit": 199.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 39.45,
+                    "split": [
+                        [
+                            "Delivery Charges",
+                            20.0
+                        ],
+                        [
+                            "Packing Charges",
+                            9.5
+                        ],
+                        [
+                            "GST",
+                            9.95
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -0.44999999999998863,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 238.0,
+                "number_of_items": 1,
+                "datetime": "Sat, 27 Oct 2018 13:59:42"
+            }
+        ],
+        [
+            "166af2f951bf3eec",
+            {
+                "order_id": "23612490569",
+                "restaurant_name": "Andhra Ruchulu",
+                "items": [
+                    {
+                        "name": "Andhra Chicken Biryani",
+                        "quantity": 1,
+                        "total_price": 250.0,
+                        "price_per_unit": 250.0
+                    },
+                    {
+                        "name": "Chicken 65",
+                        "quantity": 1,
+                        "total_price": 240.0,
+                        "price_per_unit": 240.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 60.519999999999996,
+                    "split": [
+                        [
+                            "Packing Charges",
+                            34.3
+                        ],
+                        [
+                            "GST",
+                            26.22
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.4800000000000182,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 551.0,
+                "number_of_items": 2,
+                "datetime": "Fri, 26 Oct 2018 07:03:42"
+            }
+        ],
+        [
+            "1669581cc5a68c3b",
+            {
+                "order_id": "23181801773",
+                "restaurant_name": "Chung Wah",
+                "items": [
+                    {
+                        "name": "Drums of Heaven",
+                        "quantity": 1,
+                        "total_price": 285.0,
+                        "price_per_unit": 285.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 46.85,
+                    "split": [
+                        [
+                            "Delivery Charges",
+                            20.0
+                        ],
+                        [
+                            "Packing Charges",
+                            12.0
+                        ],
+                        [
+                            "GST",
+                            14.85
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.14999999999997726,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 332.0,
+                "number_of_items": 1,
+                "datetime": "Sun, 21 Oct 2018 07:23:23"
+            }
+        ],
+        [
+            "16653fd5a45c9506",
+            {
+                "order_id": "22082602608",
+                "restaurant_name": "Smacznego",
+                "items": [
+                    {
+                        "name": "Cheese Surprise Twisty Wrap",
+                        "quantity": 1,
+                        "total_price": 119.0,
+                        "price_per_unit": 119.0
+                    },
+                    {
+                        "name": "Mixed Sauce Pasta",
+                        "quantity": 1,
+                        "total_price": 139.0,
+                        "price_per_unit": 139.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 54.33,
+                    "split": [
+                        [
+                            "Packing Charges",
+                            39.46
+                        ],
+                        [
+                            "GST",
+                            14.87
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -0.3299999999999841,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 312.0,
+                "number_of_items": 2,
+                "datetime": "Mon, 8 Oct 2018 14:03:24"
+            }
+        ],
+        [
+            "1664d4c13adb0ac0",
+            {
+                "order_id": "21970320548",
+                "restaurant_name": "California Burrito",
+                "items": [
+                    {
+                        "name": "Peri Peri Potato Rice Bowl (Mini)",
+                        "quantity": 1,
+                        "total_price": 129.0,
+                        "price_per_unit": 129.0
+                    },
+                    {
+                        "name": "Mexican Spicy Paneer Burrito (Regular)",
+                        "quantity": 1,
+                        "total_price": 229.0,
+                        "price_per_unit": 229.0
+                    },
+                    {
+                        "name": "Cheesy Tostada",
+                        "quantity": 1,
+                        "total_price": 55.0,
+                        "price_per_unit": 55.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 69.15,
+                    "split": [
+                        [
+                            "Delivery Charges",
+                            20.0
+                        ],
+                        [
+                            "Packing Charges",
+                            28.5
+                        ],
+                        [
+                            "GST",
+                            20.65
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -0.14999999999997726,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 482.0,
+                "number_of_items": 3,
+                "datetime": "Sun, 7 Oct 2018 06:52:02"
+            }
+        ],
+        [
+            "165fc56cda3852f8",
+            {
+                "order_id": "20612069334",
+                "restaurant_name": "Smacznego",
+                "items": [
+                    {
+                        "name": "Cheese Surprise Twisty Wrap",
+                        "quantity": 1,
+                        "total_price": 105.0,
+                        "price_per_unit": 105.0
+                    },
+                    {
+                        "name": "Mixed Sauce Pasta",
+                        "quantity": 1,
+                        "total_price": 120.0,
+                        "price_per_unit": 120.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 70.25999999999999,
+                    "split": [
+                        [
+                            "Delivery Charges",
+                            20.0
+                        ],
+                        [
+                            "Packing Charges",
+                            37.15
+                        ],
+                        [
+                            "GST",
+                            13.11
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -0.2599999999999909,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 295.0,
+                "number_of_items": 2,
+                "datetime": "Fri, 21 Sep 2018 13:34:31"
+            }
+        ],
+        [
+            "165e7b68e6e5de4b",
+            {
+                "order_id": "20265941058",
+                "restaurant_name": "Smacznego",
+                "items": [
+                    {
+                        "name": "Cheese Surprise Twisty Wrap",
+                        "quantity": 1,
+                        "total_price": 105.0,
+                        "price_per_unit": 105.0
+                    },
+                    {
+                        "name": "Choco Melt Waffle",
+                        "quantity": 1,
+                        "total_price": 138.0,
+                        "price_per_unit": 138.0
+                    },
+                    {
+                        "name": "Mixed Sauce Pasta",
+                        "quantity": 1,
+                        "total_price": 120.0,
+                        "price_per_unit": 120.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 98.53999999999999,
+                    "split": [
+                        [
+                            "Delivery Charges",
+                            20.0
+                        ],
+                        [
+                            "Packing Charges",
+                            57.51
+                        ],
+                        [
+                            "GST",
+                            21.03
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.4600000000000364,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 462.0,
+                "number_of_items": 3,
+                "datetime": "Mon, 17 Sep 2018 13:27:05"
+            }
+        ],
+        [
+            "16595660fdc04ed7",
+            {
+                "order_id": "18884954119",
+                "restaurant_name": "Nandhana Palace",
+                "items": [
+                    {
+                        "name": "Supreme Chicken Boneless Biryani",
+                        "quantity": 1,
+                        "total_price": 240.0,
+                        "price_per_unit": 240.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 44.6,
+                    "split": [
+                        [
+                            "Delivery Charges",
+                            20.0
+                        ],
+                        [
+                            "Packing Charges",
+                            12.0
+                        ],
+                        [
+                            "GST",
+                            12.6
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.39999999999997726,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 285.0,
+                "number_of_items": 1,
+                "datetime": "Sat, 1 Sep 2018 13:50:17"
+            }
+        ],
+        [
+            "16584a85d68aeab0",
+            {
+                "order_id": "18604148409",
+                "restaurant_name": "California Burrito",
+                "items": [
+                    {
+                        "name": "Peri Peri Potato Rice Bowl (Mini)",
+                        "quantity": 1,
+                        "total_price": 129.0,
+                        "price_per_unit": 129.0
+                    },
+                    {
+                        "name": "Mexican Spicy Paneer Burrito (Regular)",
+                        "quantity": 1,
+                        "total_price": 229.0,
+                        "price_per_unit": 229.0
+                    },
+                    {
+                        "name": "Cheesy Tostada",
+                        "quantity": 1,
+                        "total_price": 55.0,
+                        "price_per_unit": 55.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 69.15,
+                    "split": [
+                        [
+                            "Delivery Charges",
+                            20.0
+                        ],
+                        [
+                            "Packing Charges",
+                            28.5
+                        ],
+                        [
+                            "GST",
+                            20.65
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -0.14999999999997726,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 482.0,
+                "number_of_items": 3,
+                "datetime": "Wed, 29 Aug 2018 07:49:10"
+            }
+        ],
+        [
+            "16560b940bb24e58",
+            {
+                "order_id": "18001275484",
+                "restaurant_name": "California Burrito",
+                "items": [
+                    {
+                        "name": "Mexican Spicy Paneer Burrito (Regular)",
+                        "quantity": 1,
+                        "total_price": 229.0,
+                        "price_per_unit": 229.0
+                    },
+                    {
+                        "name": "Peri Peri Potato Rice Bowl (Mini)",
+                        "quantity": 1,
+                        "total_price": 129.0,
+                        "price_per_unit": 129.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 56.9,
+                    "split": [
+                        [
+                            "Delivery Charges",
+                            20.0
+                        ],
+                        [
+                            "Packing Charges",
+                            19.0
+                        ],
+                        [
+                            "GST",
+                            17.9
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.10000000000002274,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 415.0,
+                "number_of_items": 2,
+                "datetime": "Wed, 22 Aug 2018 08:21:17"
+            }
+        ],
+        [
+            "1654306bcf3e1149",
+            {
+                "order_id": "17503036910",
+                "restaurant_name": "California Burrito",
+                "items": [
+                    {
+                        "name": "Peri Peri Potato Rice Bowl (Mini)",
+                        "quantity": 1,
+                        "total_price": 129.0,
+                        "price_per_unit": 129.0
+                    },
+                    {
+                        "name": "Mexican Spicy Paneer Burrito (Regular)",
+                        "quantity": 1,
+                        "total_price": 229.0,
+                        "price_per_unit": 229.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 56.9,
+                    "split": [
+                        [
+                            "Delivery Charges",
+                            20.0
+                        ],
+                        [
+                            "Packing Charges",
+                            19.0
+                        ],
+                        [
+                            "GST",
+                            17.9
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.10000000000002274,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 415.0,
+                "number_of_items": 2,
+                "datetime": "Thu, 16 Aug 2018 13:57:18"
+            }
+        ],
+        [
+            "16538c2b9a64c4da",
+            {
+                "order_id": "17330807756",
+                "restaurant_name": "Szechuan Dragon",
+                "items": [
+                    {
+                        "name": "Honey Chilli Potato",
+                        "quantity": 1,
+                        "total_price": 135.0,
+                        "price_per_unit": 135.0
+                    },
+                    {
+                        "name": "Veg Ball Manchurian",
+                        "quantity": 1,
+                        "total_price": 140.0,
+                        "price_per_unit": 140.0
+                    },
+                    {
+                        "name": "Veg Danmien Noodles",
+                        "quantity": 1,
+                        "total_price": 130.0,
+                        "price_per_unit": 130.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 35.25,
+                    "split": [
+                        [
+                            "Packing Charges",
+                            15.0
+                        ],
+                        [
+                            "GST",
+                            20.25
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -0.25,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 440.0,
+                "number_of_items": 3,
+                "datetime": "Tue, 14 Aug 2018 14:06:49"
+            }
+        ],
+        [
+            "16533a44a2e81d83",
+            {
+                "order_id": "17244902153",
+                "restaurant_name": "California Burrito",
+                "items": [
+                    {
+                        "name": "Peri Peri Potato Rice Bowl (Mini)",
+                        "quantity": 1,
+                        "total_price": 129.0,
+                        "price_per_unit": 129.0
+                    },
+                    {
+                        "name": "Mexican Spicy Paneer Burrito (Regular)",
+                        "quantity": 1,
+                        "total_price": 229.0,
+                        "price_per_unit": 229.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 56.9,
+                    "split": [
+                        [
+                            "Delivery Charges",
+                            20.0
+                        ],
+                        [
+                            "Packing Charges",
+                            19.0
+                        ],
+                        [
+                            "GST",
+                            17.9
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.10000000000002274,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 415.0,
+                "number_of_items": 2,
+                "datetime": "Mon, 13 Aug 2018 14:15:29"
+            }
+        ],
+        [
+            "165297bd6e2ee47a",
+            {
+                "order_id": "17074473422",
+                "restaurant_name": "California Burrito",
+                "items": [
+                    {
+                        "name": "Snachos",
+                        "quantity": 1,
+                        "total_price": 59.0,
+                        "price_per_unit": 59.0
+                    },
+                    {
+                        "name": "Mexican Spicy Paneer Burrito (Regular)",
+                        "quantity": 1,
+                        "total_price": 229.0,
+                        "price_per_unit": 229.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 53.4,
+                    "split": [
+                        [
+                            "Delivery Charges",
+                            20.0
+                        ],
+                        [
+                            "Packing Charges",
+                            19.0
+                        ],
+                        [
+                            "GST",
+                            14.4
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -0.39999999999997726,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 341.0,
+                "number_of_items": 2,
+                "datetime": "Sat, 11 Aug 2018 14:55:06"
+            }
+        ],
+        [
+            "16519e95f4be11df",
+            {
+                "order_id": "16813246972",
+                "restaurant_name": "Truffles",
+                "items": [
+                    {
+                        "name": "Chicken Popcorn",
+                        "quantity": 1,
+                        "total_price": 161.9,
+                        "price_per_unit": 161.9
+                    },
+                    {
+                        "name": "Tandoori Chicken Burger",
+                        "quantity": 1,
+                        "total_price": 157.14,
+                        "price_per_unit": 157.14
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 43.57,
+                    "split": [
+                        [
+                            "Packing Charges",
+                            28.57
+                        ],
+                        [
+                            "GST",
+                            15.0
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -47.60999999999996,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 315.0,
+                "number_of_items": 2,
+                "datetime": "Wed, 8 Aug 2018 14:20:48"
+            }
+        ],
+        [
+            "1650fa0d29885a22",
+            {
+                "order_id": "16640720496",
+                "restaurant_name": "California Burrito",
+                "items": [
+                    {
+                        "name": "Peri Peri Potato Rice Bowl (Mini)",
+                        "quantity": 1,
+                        "total_price": 129.0,
+                        "price_per_unit": 129.0
+                    },
+                    {
+                        "name": "Peri Peri Dippers",
+                        "quantity": 1,
+                        "total_price": 59.0,
+                        "price_per_unit": 59.0
+                    },
+                    {
+                        "name": "Mexican Spicy Paneer Burrito (Mini)",
+                        "quantity": 1,
+                        "total_price": 155.0,
+                        "price_per_unit": 155.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 65.65,
+                    "split": [
+                        [
+                            "Delivery Charges",
+                            20.0
+                        ],
+                        [
+                            "Packing Charges",
+                            28.5
+                        ],
+                        [
+                            "GST",
+                            17.15
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.35000000000002274,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 409.0,
+                "number_of_items": 3,
+                "datetime": "Mon, 6 Aug 2018 14:25:21"
+            }
+        ],
+        [
+            "164b81cdc1fc2566",
+            {
+                "order_id": "15172412173",
+                "restaurant_name": "Rajathadri Palace",
+                "items": [
+                    {
+                        "name": "Hara Bhara Kebab",
+                        "quantity": 1,
+                        "total_price": 230.0,
+                        "price_per_unit": 230.0
+                    },
+                    {
+                        "name": "Paneer Hyderabadi",
+                        "quantity": 1,
+                        "total_price": 240.0,
+                        "price_per_unit": 240.0
+                    },
+                    {
+                        "name": "Garlic Naan",
+                        "quantity": 1,
+                        "total_price": 75.0,
+                        "price_per_unit": 75.0
+                    },
+                    {
+                        "name": "Butter Naan",
+                        "quantity": 1,
+                        "total_price": 75.0,
+                        "price_per_unit": 75.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 51.0,
+                    "split": [
+                        [
+                            "Delivery Charges",
+                            20.0
+                        ],
+                        [
+                            "GST",
+                            31.0
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.0,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 671.0,
+                "number_of_items": 4,
+                "datetime": "Fri, 20 Jul 2018 14:34:16"
+            }
+        ],
+        [
+            "164a230816c0c1d8",
+            {
+                "order_id": "14804642405",
+                "restaurant_name": "Szechuan Dragon",
+                "items": [
+                    {
+                        "name": "Veg Spring Roll",
+                        "quantity": 1,
+                        "total_price": 135.0,
+                        "price_per_unit": 135.0
+                    },
+                    {
+                        "name": "Veg Lee Fu Fried Rice",
+                        "quantity": 1,
+                        "total_price": 135.0,
+                        "price_per_unit": 135.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 23.5,
+                    "split": [
+                        [
+                            "Packing Charges",
+                            10.0
+                        ],
+                        [
+                            "GST",
+                            13.5
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.5,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 294.0,
+                "number_of_items": 2,
+                "datetime": "Mon, 16 Jul 2018 08:24:04"
+            }
+        ],
+        [
+            "1649e63c692acb75",
+            {
+                "order_id": "14740855410",
+                "restaurant_name": "Nandhana Palace",
+                "items": [
+                    {
+                        "name": "Chicken Guntur Bone (Dry)",
+                        "quantity": 1,
+                        "total_price": 255.0,
+                        "price_per_unit": 255.0
+                    },
+                    {
+                        "name": "Supreme Chicken Boneless Biryani",
+                        "quantity": 1,
+                        "total_price": 240.0,
+                        "price_per_unit": 240.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 48.75,
+                    "split": [
+                        [
+                            "Packing Charges",
+                            24.0
+                        ],
+                        [
+                            "GST",
+                            24.75
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.25,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 544.0,
+                "number_of_items": 2,
+                "datetime": "Sun, 15 Jul 2018 14:41:35"
+            }
+        ],
+        [
+            "1647a3afa4622e50",
+            {
+                "order_id": "14134157755",
+                "restaurant_name": "Anna Kuteera",
+                "items": [
+                    {
+                        "name": "Paneer Peshawari Tikka",
+                        "quantity": 1,
+                        "total_price": 162.0,
+                        "price_per_unit": 162.0
+                    },
+                    {
+                        "name": "Veg Hyderabadi",
+                        "quantity": 1,
+                        "total_price": 152.0,
+                        "price_per_unit": 152.0
+                    },
+                    {
+                        "name": "Butter Naan",
+                        "quantity": 2,
+                        "total_price": 88.0,
+                        "price_per_unit": 44.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 10.0,
+                    "split": [
+                        [
+                            "Packing Charges",
+                            10.0
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.0,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 412.0,
+                "number_of_items": 3,
+                "datetime": "Sun, 8 Jul 2018 14:10:42"
+            }
+        ],
+        [
+            "164562d886b930cf",
+            {
+                "order_id": "13529379313",
+                "restaurant_name": "Nandhana Palace",
+                "items": [
+                    {
+                        "name": "Chicken Sholey Kebab",
+                        "quantity": 1,
+                        "total_price": 270.0,
+                        "price_per_unit": 270.0
+                    },
+                    {
+                        "name": "Supreme Chicken Boneless Biryani",
+                        "quantity": 1,
+                        "total_price": 240.0,
+                        "price_per_unit": 240.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 50.7,
+                    "split": [
+                        [
+                            "Packing Charges",
+                            24.0
+                        ],
+                        [
+                            "GST",
+                            26.7
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.2999999999999545,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 561.0,
+                "number_of_items": 2,
+                "datetime": "Sun, 1 Jul 2018 14:09:41"
+            }
+        ],
+        [
+            "16437b96634ee700",
+            {
+                "order_id": "13018452629",
+                "restaurant_name": "Anna Kuteera",
+                "items": [
+                    {
+                        "name": "Jeera Rice",
+                        "quantity": 1,
+                        "total_price": 119.0,
+                        "price_per_unit": 119.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 5.0,
+                    "split": [
+                        [
+                            "Packing Charges",
+                            5.0
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.0,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 124.0,
+                "number_of_items": 1,
+                "datetime": "Mon, 25 Jun 2018 16:14:14"
+            }
+        ],
+        [
+            "16430bf2a10b5458",
+            {
+                "order_id": "12901390710",
+                "restaurant_name": "Subway",
+                "items": [
+                    {
+                        "name": "Paneer Tikka Sub 6\" (15 cm)",
+                        "quantity": 1,
+                        "total_price": 157.14,
+                        "price_per_unit": 157.14
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 52.86,
+                    "split": [
+                        [
+                            "Delivery Charges",
+                            35.0
+                        ],
+                        [
+                            "Packing Charges",
+                            10.0
+                        ],
+                        [
+                            "GST",
+                            7.86
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.0,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 210.0,
+                "number_of_items": 1,
+                "datetime": "Sun, 24 Jun 2018 07:43:12"
+            }
+        ],
+        [
+            "16422bf675b46fc7",
+            {
+                "order_id": "12666456851",
+                "restaurant_name": "Rajathadri Palace",
+                "items": [
+                    {
+                        "name": "Paneer Tikka Masala",
+                        "quantity": 1,
+                        "total_price": 240.0,
+                        "price_per_unit": 240.0
+                    },
+                    {
+                        "name": "Garlic Naan",
+                        "quantity": 1,
+                        "total_price": 75.0,
+                        "price_per_unit": 75.0
+                    },
+                    {
+                        "name": "Butter Naan",
+                        "quantity": 1,
+                        "total_price": 75.0,
+                        "price_per_unit": 75.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 29.5,
+                    "split": [
+                        [
+                            "Delivery Charges",
+                            10.0
+                        ],
+                        [
+                            "GST",
+                            19.5
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.5,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 420.0,
+                "number_of_items": 3,
+                "datetime": "Thu, 21 Jun 2018 14:28:46"
+            }
+        ],
+        [
+            "163f984833ab8bab",
+            {
+                "order_id": "11974748464",
+                "restaurant_name": "Rajathadri Palace",
+                "items": [
+                    {
+                        "name": "Veg Handi Biryani",
+                        "quantity": 1,
+                        "total_price": 220.0,
+                        "price_per_unit": 220.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 46.0,
+                    "split": [
+                        [
+                            "Delivery Charges",
+                            35.0
+                        ],
+                        [
+                            "GST",
+                            11.0
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.0,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 266.0,
+                "number_of_items": 1,
+                "datetime": "Wed, 13 Jun 2018 14:20:00"
+            }
+        ],
+        [
+            "163f46a0a36836cd",
+            {
+                "order_id": "11889178952",
+                "restaurant_name": "Szechuan Dragon",
+                "items": [
+                    {
+                        "name": "Chicken Lollipop",
+                        "quantity": 1,
+                        "total_price": 160.0,
+                        "price_per_unit": 160.0
+                    },
+                    {
+                        "name": "Thai Egg Fried Rice",
+                        "quantity": 1,
+                        "total_price": 140.0,
+                        "price_per_unit": 140.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 25.0,
+                    "split": [
+                        [
+                            "Packing Charges",
+                            10.0
+                        ],
+                        [
+                            "GST",
+                            15.0
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.0,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 325.0,
+                "number_of_items": 2,
+                "datetime": "Tue, 12 Jun 2018 14:32:59"
+            }
+        ],
+        [
+            "163dfca6ac4c3daa",
+            {
+                "order_id": "11543054211",
+                "restaurant_name": "Rajathadri Palace",
+                "items": [
+                    {
+                        "name": "Paneer Hyderabadi",
+                        "quantity": 1,
+                        "total_price": 240.0,
+                        "price_per_unit": 240.0
+                    },
+                    {
+                        "name": "Garlic Naan",
+                        "quantity": 1,
+                        "total_price": 75.0,
+                        "price_per_unit": 75.0
+                    },
+                    {
+                        "name": "Butter Naan",
+                        "quantity": 1,
+                        "total_price": 75.0,
+                        "price_per_unit": 75.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 29.5,
+                    "split": [
+                        [
+                            "Delivery Charges",
+                            10.0
+                        ],
+                        [
+                            "GST",
+                            19.5
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.5,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 420.0,
+                "number_of_items": 3,
+                "datetime": "Fri, 8 Jun 2018 14:26:14"
+            }
+        ],
+        [
+            "163da788b1099f2c",
+            {
+                "order_id": "11453920489",
+                "restaurant_name": "Szechuan Dragon",
+                "items": [
+                    {
+                        "name": "Veg Spring Roll",
+                        "quantity": 1,
+                        "total_price": 135.0,
+                        "price_per_unit": 135.0
+                    },
+                    {
+                        "name": "Thai Egg Fried Rice",
+                        "quantity": 1,
+                        "total_price": 140.0,
+                        "price_per_unit": 140.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 23.75,
+                    "split": [
+                        [
+                            "Packing Charges",
+                            10.0
+                        ],
+                        [
+                            "GST",
+                            13.75
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.25,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 299.0,
+                "number_of_items": 2,
+                "datetime": "Thu, 7 Jun 2018 13:38:42"
+            }
+        ],
+        [
+            "163ba83119eef71e",
+            {
+                "order_id": "1190585584",
+                "restaurant_name": "Szechuan Dragon",
+                "items": [
+                    {
+                        "name": "Egg Fu Young",
+                        "quantity": 1,
+                        "total_price": 125.0,
+                        "price_per_unit": 125.0
+                    },
+                    {
+                        "name": "Veg Lee Fu Fried Rice",
+                        "quantity": 1,
+                        "total_price": 135.0,
+                        "price_per_unit": 135.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 23.0,
+                    "split": [
+                        [
+                            "Packing Charges",
+                            10.0
+                        ],
+                        [
+                            "GST",
+                            13.0
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.0,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 283.0,
+                "number_of_items": 2,
+                "datetime": "Fri, 1 Jun 2018 08:42:20"
+            }
+        ],
+        [
+            "1639ce17af78eb30",
+            {
+                "order_id": "1187349796",
+                "restaurant_name": "Nandhana Palace",
+                "items": [
+                    {
+                        "name": "Amaravati Chicken Fry (Boneless)",
+                        "quantity": 1,
+                        "total_price": 270.0,
+                        "price_per_unit": 270.0
+                    },
+                    {
+                        "name": "Supreme Chicken Boneless Biryani",
+                        "quantity": 1,
+                        "total_price": 235.0,
+                        "price_per_unit": 235.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 69.25,
+                    "split": [
+                        [
+                            "Delivery Charges",
+                            20.0
+                        ],
+                        [
+                            "Packing Charges",
+                            24.0
+                        ],
+                        [
+                            "GST",
+                            25.25
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -0.25,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 574.0,
+                "number_of_items": 2,
+                "datetime": "Sat, 26 May 2018 14:36:52"
+            }
+        ],
+        [
+            "163979e6ad0212a9",
+            {
+                "order_id": "1186657556",
+                "restaurant_name": "Szechuan Dragon",
+                "items": [
+                    {
+                        "name": "Lee Fu Mushrooms",
+                        "quantity": 1,
+                        "total_price": 140.0,
+                        "price_per_unit": 140.0
+                    },
+                    {
+                        "name": "Singapore Egg Fried Rice",
+                        "quantity": 1,
+                        "total_price": 135.0,
+                        "price_per_unit": 135.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 43.75,
+                    "split": [
+                        [
+                            "Delivery Charges",
+                            20.0
+                        ],
+                        [
+                            "Packing Charges",
+                            10.0
+                        ],
+                        [
+                            "GST",
+                            13.75
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.25,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 319.0,
+                "number_of_items": 2,
+                "datetime": "Fri, 25 May 2018 14:05:30"
+            }
+        ],
+        [
+            "1638823d0757a3b6",
+            {
+                "order_id": "1185109971",
+                "restaurant_name": "Szechuan Dragon",
+                "items": [
+                    {
+                        "name": "Paneer Pepper",
+                        "quantity": 1,
+                        "total_price": 145.0,
+                        "price_per_unit": 145.0
+                    },
+                    {
+                        "name": "Thai Egg Fried Rice",
+                        "quantity": 1,
+                        "total_price": 140.0,
+                        "price_per_unit": 140.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 44.25,
+                    "split": [
+                        [
+                            "Delivery Charges",
+                            20.0
+                        ],
+                        [
+                            "Packing Charges",
+                            10.0
+                        ],
+                        [
+                            "GST",
+                            14.25
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -0.25,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 329.0,
+                "number_of_items": 2,
+                "datetime": "Tue, 22 May 2018 13:57:18"
+            }
+        ],
+        [
+            "163697110cdf1e1e",
+            {
+                "order_id": "1181759626",
+                "restaurant_name": "Rajathadri Palace",
+                "items": [
+                    {
+                        "name": "Paneer Tikka Masala",
+                        "quantity": 1,
+                        "total_price": 240.0,
+                        "price_per_unit": 240.0
+                    },
+                    {
+                        "name": "Butter Naan",
+                        "quantity": 2,
+                        "total_price": 150.0,
+                        "price_per_unit": 75.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 29.5,
+                    "split": [
+                        [
+                            "Delivery Charges",
+                            10.0
+                        ],
+                        [
+                            "GST",
+                            19.5
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.5,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 420.0,
+                "number_of_items": 2,
+                "datetime": "Wed, 16 May 2018 14:53:27"
+            }
+        ],
+        [
+            "163454f4b7449623",
+            {
+                "order_id": "1177904894",
+                "restaurant_name": "Rajathadri Palace",
+                "items": [
+                    {
+                        "name": "Cream of Tomato Soup",
+                        "quantity": 1,
+                        "total_price": 100.0,
+                        "price_per_unit": 100.0
+                    },
+                    {
+                        "name": "Jeera Rice",
+                        "quantity": 1,
+                        "total_price": 190.0,
+                        "price_per_unit": 190.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 24.5,
+                    "split": [
+                        [
+                            "Delivery Charges",
+                            10.0
+                        ],
+                        [
+                            "GST",
+                            14.5
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.5,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 315.0,
+                "number_of_items": 2,
+                "datetime": "Wed, 9 May 2018 14:30:13"
+            }
+        ],
+        [
+            "1632b6dbac040df3",
+            {
+                "order_id": "1175121576",
+                "restaurant_name": "Rajathadri Palace",
+                "items": [
+                    {
+                        "name": "Paneer Tikka Masala",
+                        "quantity": 1,
+                        "total_price": 240.0,
+                        "price_per_unit": 240.0
+                    },
+                    {
+                        "name": "Garlic Naan",
+                        "quantity": 1,
+                        "total_price": 75.0,
+                        "price_per_unit": 75.0
+                    },
+                    {
+                        "name": "Butter Naan",
+                        "quantity": 1,
+                        "total_price": 75.0,
+                        "price_per_unit": 75.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 29.5,
+                    "split": [
+                        [
+                            "Delivery Charges",
+                            10.0
+                        ],
+                        [
+                            "GST",
+                            19.5
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.5,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 420.0,
+                "number_of_items": 3,
+                "datetime": "Fri, 4 May 2018 13:53:21"
+            }
+        ],
+        [
+            "1630cac97a1dad4b",
+            {
+                "order_id": "1172077655",
+                "restaurant_name": "Szechuan Dragon",
+                "items": [
+                    {
+                        "name": "Pepper Lemon Paneer",
+                        "quantity": 1,
+                        "total_price": 150.0,
+                        "price_per_unit": 150.0
+                    },
+                    {
+                        "name": "Veg Lee Fu Fried Rice",
+                        "quantity": 1,
+                        "total_price": 135.0,
+                        "price_per_unit": 135.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 44.25,
+                    "split": [
+                        [
+                            "Delivery Charges",
+                            20.0
+                        ],
+                        [
+                            "Packing Charges",
+                            10.0
+                        ],
+                        [
+                            "GST",
+                            14.25
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": -0.25,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 329.0,
+                "number_of_items": 2,
+                "datetime": "Sat, 28 Apr 2018 14:33:47"
+            }
+        ],
+        [
+            "1630bea9fb08e2d5",
+            {
+                "order_id": "1171956258",
+                "restaurant_name": "Subway",
+                "items": [
+                    {
+                        "name": "Paneer Tikka Sub 6\" (15 cm)",
+                        "quantity": 1,
+                        "total_price": 157.14,
+                        "price_per_unit": 157.14
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 52.86,
+                    "split": [
+                        [
+                            "Delivery Charges",
+                            35.0
+                        ],
+                        [
+                            "Packing Charges",
+                            10.0
+                        ],
+                        [
+                            "GST",
+                            7.86
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.0,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 210.0,
+                "number_of_items": 1,
+                "datetime": "Sat, 28 Apr 2018 11:01:54"
+            }
+        ],
+        [
+            "162fd55a9ed50cb4",
+            {
+                "order_id": "1170570466",
+                "restaurant_name": "Rajathadri Palace",
+                "items": [
+                    {
+                        "name": "Rajatadri Spl Paneer Tikka",
+                        "quantity": 1,
+                        "total_price": 250.0,
+                        "price_per_unit": 250.0
+                    },
+                    {
+                        "name": "Mughlai Biryani",
+                        "quantity": 1,
+                        "total_price": 230.0,
+                        "price_per_unit": 230.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 34.0,
+                    "split": [
+                        [
+                            "Delivery Charges",
+                            10.0
+                        ],
+                        [
+                            "GST",
+                            24.0
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.0,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 514.0,
+                "number_of_items": 2,
+                "datetime": "Wed, 25 Apr 2018 15:04:31"
+            }
+        ],
+        [
+            "162ec2dc01f60727",
+            {
+                "order_id": "1168842958",
+                "restaurant_name": "Szechuan Dragon",
+                "items": [
+                    {
+                        "name": "Veg Thukpa",
+                        "quantity": 1,
+                        "total_price": 135.0,
+                        "price_per_unit": 135.0
+                    },
+                    {
+                        "name": "Kung Pao Potato",
+                        "quantity": 1,
+                        "total_price": 135.0,
+                        "price_per_unit": 135.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 43.5,
+                    "split": [
+                        [
+                            "Delivery Charges",
+                            20.0
+                        ],
+                        [
+                            "Packing Charges",
+                            10.0
+                        ],
+                        [
+                            "GST",
+                            13.5
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.5,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 314.0,
+                "number_of_items": 2,
+                "datetime": "Sun, 22 Apr 2018 07:07:23"
+            }
+        ],
+        [
+            "162e1f458bcc5097",
+            {
+                "order_id": "1167700691",
+                "restaurant_name": "Euki",
+                "items": [
+                    {
+                        "name": "Thukpa with Veg Momos",
+                        "quantity": 1,
+                        "total_price": 160.0,
+                        "price_per_unit": 160.0
+                    },
+                    {
+                        "name": "Spicy Brazilian Burrito",
+                        "quantity": 1,
+                        "total_price": 175.0,
+                        "price_per_unit": 175.0
+                    },
+                    {
+                        "name": "Veggie Peri Peri Burger",
+                        "quantity": 1,
+                        "total_price": 215.0,
+                        "price_per_unit": 215.0
+                    }
+                ],
+                "other_costs": {
+                    "total_cost": 89.0,
+                    "split": [
+                        [
+                            "Delivery Charges",
+                            30.0
+                        ],
+                        [
+                            "Packing Charges",
+                            30.0
+                        ],
+                        [
+                            "GST",
+                            29.0
+                        ]
+                    ]
+                },
+                "promos_and_tips": {
+                    "total_discount": 0.0,
+                    "split": [],
+                    "tip": 0
+                },
+                "total_cost": 639.0,
+                "number_of_items": 3,
+                "datetime": "Fri, 20 Apr 2018 07:28:29"
+            }
+        ]
+    ]
+}

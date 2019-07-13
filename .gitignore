@@ -1,0 +1,7 @@
+token.pickle
+credentials.json
+
+__pycache__/
+.vscode/
+ideas.md
+notes.md
