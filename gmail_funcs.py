@@ -1,5 +1,6 @@
 import base64
 import email
+import os
 
 from parsers import parse_new_zomato, parse_swiggy
 
@@ -107,7 +108,7 @@ def generate_label_json_data(service, user_id, label, start=0, end=-1):
                 datetime_sting = header['value'].split('+')[0].strip()
                 break
 
-        path = 'temp/test.html'
+        path = os.path.join('temp', 'test.html')
         with open(path, 'w', encoding='UTF-8') as fp:
             fp.write(html_string)
 
