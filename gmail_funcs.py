@@ -80,11 +80,12 @@ def get_all_messages(service, labels, user_id='me'):
 def generate_label_json_data(service, user_id, label, start=0, end=-1):
 
     final_data = {}
+    final_data['orders'] = []
     label_name = label['name']
     if label_name == 'Zomato Only':
-        final_data['Zomato'] = []
+        final_data['label'] = 'Zomato'
     if label_name == 'Swiggy Only':
-        final_data['Swiggy'] = []
+        final_data['label'] = 'Swiggy'
 
     iter_ = start
     for message in label['data'][start:end]:
@@ -118,7 +119,11 @@ def generate_label_json_data(service, user_id, label, start=0, end=-1):
 
             order = parse_swiggy(path, message_id)
             order['datetime'] = datetime_sting
-            final_data['Swiggy'].append((message_id, order))
+            order_data = {
+                'message_id': message_id,
+                'order': order
+            }
+            final_data['orders'].append(order_data)
 
         if label_name == 'Zomato Only':
             for header in api_message['payload']['headers']:
@@ -127,13 +132,21 @@ def generate_label_json_data(service, user_id, label, start=0, end=-1):
                     iter_ += 1
                     order = parse_new_zomato(path, message_id)
                     order['datetime'] = datetime_sting
-                    final_data['Zomato'].append((message_id, order))
+                    order_data = {
+                        'message_id': message_id,
+                        'order': order
+                    }
+                    final_data['orders'].append(order_data)
 
                 if header['name'] == 'Subject' and header['value'][:27] == 'Summary for your order with':
                     print(f"Iteration {iter_} -- Parsing (OLD) message_id = {message_id}")
                     iter_ += 1
                     order = parse_new_zomato(path, message_id)
                     order['datetime'] = datetime_sting
-                    final_data['Zomato'].append((message_id, order))
+                    order_data = {
+                        'message_id': message_id,
+                        'order': order
+                    }
+                    final_data['orders'].append(order_data)
 
     return final_data
