@@ -1,521 +1,549 @@
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" style="margin: 0;padding: 0;"></meta>
-	<title style="margin: 0;padding: 0;">Swiggy</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"> <!-- utf-8 works for most cases -->
+  <meta name="viewport" content="width=device-width"> <!-- Forcing initial-scale shouldn't be necessary -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Use the latest (edge) version of IE rendering engine -->
+  <title>Zomato Online Ordering Receipt</title> <!-- the <title> tag shows on email notifications on Android 4.4. -->
+  <style type="text/css">
+
+    /* ensure that clients don't add any padding or spaces around the email design and allow us to style emails for the entire width of the preview pane */
+    body,
+    #bodyTable {
+      height:100% !important;
+      width:100% !important;
+      margin:0;
+      padding:0;
+    }
+    
+    /* Ensures Webkit- and Windows-based clients don't automatically resize the email text. */
+    body,
+    table,
+    td,
+    p,
+    a,
+    li,
+    blockquote {
+      -ms-text-size-adjust:100%;
+      -webkit-text-size-adjust:100%;
+    }
+
+    /* Forces Yahoo! to display emails at full width */
+    .thread-item.expanded .thread-body .body,
+    .msg-body {
+      width: 100% !important;
+      display: block !important;
+    }
+
+    /* Forces Hotmail to display emails at full width */
+    .ReadMsgBody,
+    .ExternalClass {
+      width: 100%;
+      background-color: #f4f4f4;
+    }
+
+    /* Forces Hotmail to display normal line spacing. */
+    .ExternalClass,
+    .ExternalClass p,
+    .ExternalClass span,
+    .ExternalClass font,
+    .ExternalClass td,
+    .ExternalClass div {
+      line-height:100%;
+    }
+
+    /* Resolves webkit padding issue. */
+    table {
+      border-spacing:0;
+    }
+
+    /* Resolves the Outlook 2007, 2010, and Gmail td padding issue, and removes spacing around tables that Outlook adds. */
+    table,
+    td {
+      border-collapse:collapse;
+      mso-table-lspace:0pt;
+      mso-table-rspace:0pt;
+    }
+    
+    /* Corrects the way Internet Explorer renders resized images in emails. */
+    img {
+      -ms-interpolation-mode: bicubic;
+    }
+    
+    /* Ensures images don't have borders or text-decorations applied to them by default. */
+    img,
+    a img {
+      border:0;
+      outline:none;
+      text-decoration:none;     
+    }
+
+    /* Styles Yahoo's auto-sensing link color and border */
+    .yshortcuts a {
+      border-bottom: none !important;
+    }
+    
+    /* Styles the tel URL scheme */
+    a[href^=tel],
+    .mobile_link,
+    .mobile_link a {
+      color:#222222 !important;
+      text-decoration: underline !Important;
+    }
+
+    .receipt-text {
+      font-family: sans-serif;
+      font-size: 14px;
+      line-height: 21px;
+    }
+
+    .message-text {
+      font-family: sans-serif;
+      font-size: 12px;
+      line-height: 17px;
+    }
+
+    .bill-text {
+      font-family: sans-serif;
+      font-size: 14px;
+      line-height: 30px;
+    }
+
+    .heading-text {
+      font-family: sans-serif;
+      font-size: 15px;
+      line-height: 24px;
+      text-transform: uppercase;
+    }
+
+    .smaller-text {
+      font-family: sans-serif;
+      font-size: 12px;
+      line-height: 17px;
+    }
+
+    .footer-text {
+      font-family: sans-serif;
+      font-size: 12px;
+      line-height: 18px;
+    }
+
+    .zdark {
+      color: #2d2d2a;
+    }
+
+    .zdhl5 {
+      color: #7d7d76;
+    }
+
+    .border-bottom {
+      border-bottom: 1pt solid #cbcbc8;
+    }
+
+    .pbot20 {
+      padding-bottom: 20px;
+    }
+
+    .pbot15 {
+      padding-bottom: 15px;
+    }
+
+    .pbot10 {
+      padding-bottom: 10px;
+    }
+
+    .ptop20 {
+      padding-top: 20px;
+    }
+
+    .ptop5 {
+      padding-top: 5px;
+    }
+
+    .pleft10 {
+      padding-left: 10px;
+    }
+
+    .ptop10 {
+      padding-top: 10px;
+    }
+
+    .ptop15 {
+      padding-top: 15px; 
+    }
+
+    .pright10 {
+      padding-right: 10px;
+    }
+
+    .pbot10 {
+      padding-bottom: 10px;
+    }
+
+    .pl40 {
+      padding-left: 40px;
+    }    
+
+    .pright40 {
+      padding-right: 40px;
+    }
+
+    .ta-left {
+      text-align: left;
+    }
+
+    .ta-right {
+      text-align: right; 
+    }
+
+    .ta-center {
+      text-align: center;
+    }
+
+    .mtop25 {
+      margin-top: 25px;
+    }
+
+    .bold {
+      font-weight: bold;
+    }
+  
+  
+    /* Apple Mail doesn't support max-width, so we use media queries to constrain the email container width. */
+    @media only screen and (min-width: 601px) {
+      .email-container {
+        width: 600px !important;
+      }
+    }
+          
+  </style>
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" bgcolor="#f4f4f4" style="margin: 0;padding: 0;-webkit-text-size-adjust: none;-ms-text-size-adjust: none;height: 100% !important;width: 100% !important;">
+<table cellpadding="0" cellspacing="0" border="0" height="100%" width="100%" background="" id="bodyTable" style="border-collapse: collapse;table-layout: fixed;margin: 0 auto;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;padding: 0;height: 100% !important;width: 100% !important;"><tr><td style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt; background: #f6f6f6; padding-top: 15px;padding-bottom: 15px;">
+
+  <!-- Hidden Preheader Text : BEGIN -->
+  <div style="display:none; visibility:hidden; opacity:0; color:transparent; height:0; width:0;line-height:0; overflow:hidden;mso-hide: all;">
+    Your Zomato Online Ordering receipt
+  </div>
+  <!-- Hidden Preheader Text : END -->
+
+  <!-- Outlook and Lotus Notes don't support max-width but are always on desktop, so we can enforce a wide, fixed width view. -->
+  <!-- Beginning of Outlook-specific wrapper : BEGIN -->
+  <!--[if (gte mso 9)|(IE)]>
+  <table width="600" align="center" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+      <td>
+  <![endif]-->
+  <!-- Beginning of Outlook-specific wrapper : END -->
+
+  <!-- Email wrapper : BEGIN -->
+  <table border="0" width="100%" cellpadding="0" cellspacing="0" align="center" style="max-width: 600px;margin: auto;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-spacing: 0;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt; background: white" class="email-container">
+
+    <tr>
+      <td style="text-align: center;vertical-align: top;font-size: 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+
+        <!-- Empty space at the top : BEGIN -->
+        <!-- <table border="0" width="100%" cellpadding="0" cellspacing="0" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-spacing: 0;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+          <tr>
+            <td height="15" style="font-size: 0;line-height: 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">&nbsp;</td>
+          </tr>
+        </table> -->
+        <!-- Empty space at the top : END -->
+
+        <table border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#f6f6f6" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-spacing: 0;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+
+          <!-- Logo Centered + Background Image : BEGIN -->
+          <tr style="background-size: cover;" >
+            <td valign="middle" align="center" style="padding: 15px 0;text-align: center;background-color: white;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;background: #fff;">
+              <img src="http://b.zmtcdn.com/images/logo/zlogo_new_white_3.png" alt="alt text" width="110" align="center" border="0" style="margin: auto;text-align: center;-ms-interpolation-mode: bicubic;border: 0;outline: none;text-decoration: none;height: 110px;">
+            </td>
+          </tr>
+          <!-- Logo Centered + Background Image : END -->
+
+        </table>
+
+        </td>
+    </tr>
+
+    <tr>
+      <td style="text-align: center;vertical-align: top;font-size: 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;padding-left: 15px;padding-right: 15px;">
+
+        <!-- Empty space at the top : BEGIN -->
+        <!-- <table border="0" width="100%" cellpadding="0" cellspacing="0" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-spacing: 0;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+          <tr>
+            <td height="15" style="font-size: 0;line-height: 0;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">&nbsp;</td>
+          </tr>
+        </table> -->
+        <!-- Empty space at the top : END -->
+
+        <table border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#f6f6f6" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-spacing: 0;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+
+          <!-- Logo Centered + Background Image : BEGIN -->
+          <!-- <tr style="background-size: cover;" >
+            <td valign="middle" align="center" style="padding: 15px 0;text-align: center;background-color: white;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;background: #CB202D;">
+              <img src="http://b.zmtcdn.com/images/logo/zlogo_new_white_3.png" alt="alt text" width="200" align="center" border="0" style="margin: auto;text-align: center;-ms-interpolation-mode: bicubic;border: 0;outline: none;text-decoration: none;">
+            </td>
+          </tr> -->
+          <!-- Logo Centered + Background Image : END -->
+          <tr>
+            <td valign="middle" align="center" style="padding-top:25px; padding-bottom: 15px; text-align: center;background-color: white; border-top: 1px solid #e6e6e6; ">
+              <span style="font-size:24px; color:#2d2d2d;">Thanks for ordering with Zomato!</span>
+            </td>
+          </tr> 
+                    <tr>
+            <td class="receipt-text ta-center zdark" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-family: sans-serif;font-size: 14px;line-height: 21px;color: #2d2d2a;text-align: center; padding-top : 24px; padding-bottom:7px;">
+              Hope you enjoyed your meal. Please rate your experience: 
+            </td>
+          </tr>
+          <tr><td>&nbsp;</td></tr>
+          <tr>
+            <td class="receipt-text ta-center zdark" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-family: sans-serif;font-size: 14px;line-height: 21px;color: #2d2d2a;text-align: center; padding-bottom:20px;">
+                                <a href="http://trackemail2.zomato.com/wf/click?upn=L17p0RXEYxenAesHGuPCLs6IrGNeBgN-2BqhKYLlJhHenbnXeMDxWOQ2FEAOGv0f-2FsPT8Uixqfi4Sv6s8FIXKodJmCVQWlSofNoYVmiX1aeM1P9OaPTOonEUn243d6S4cuW4EW-2BwJpqoib569-2FQppuNA-3D-3D_Tpc9X9-2F0VxcKPjsOKUyEx4OhjXvMTfM-2FjgcFuQI5XhkAEua7TFROLFGzEwpI1uE33fwgZNZHq3ZRmc-2BbO1jyOsBVDXUPfNyCUJGzAWrIKgjBkr76PTv-2FybKmCrJlpg66xrFC05-2FVmYmN-2BrwD5s7PG2-2FDo0PHo7CZEAtPHW4UEZyxRvfhBJ1RDeiL6cAJHNsk43N6nqMpkqm1SnD-2FJJWTSYkKErGyD21fqOiahNnw3QL4GVOmES6DI3KIuQPS9s7A4E0-2BroqO-2FkgzLDvkF05ArA-3D-3D" target="__blank"><img style="width:30px;height:30px;" class="rating_images" src="http://b.zmtcdn.com/images/o2_rating_star_empty.png"/><a>
+                                  <a href="http://trackemail2.zomato.com/wf/click?upn=L17p0RXEYxenAesHGuPCLs6IrGNeBgN-2BqhKYLlJhHenbnXeMDxWOQ2FEAOGv0f-2FsPT8Uixqfi4Sv6s8FIXKodJmCVQWlSofNoYVmiX1aeM1P9OaPTOonEUn243d6S4cu5pgsob-2Bql8qjHbVogtofSQ-3D-3D_Tpc9X9-2F0VxcKPjsOKUyEx4OhjXvMTfM-2FjgcFuQI5XhkAEua7TFROLFGzEwpI1uE33fwgZNZHq3ZRmc-2BbO1jyOu6vmGwV4p4luMtRHFLA9QJHzpXMEX-2BIaKDFiW0O1yl62-2BzHzUkf8vyuUcILwnvDo55UT-2FrcsJZI93PP-2BEC157vmeIwRnP042H-2FkShE5wrc65B3fdoKwGL5B5nSkIgB-2BGaYgpp4KbueG8dTb9GwPG8nq-2B5qFi4GoD3v20-2BF9hQOl26gJJwMpccju5lyWI84GiA-3D-3D" target="__blank"><img style="width:30px;height:30px;" class="rating_images" src="http://b.zmtcdn.com/images/o2_rating_star_empty.png"/><a>
+                                  <a href="http://trackemail2.zomato.com/wf/click?upn=L17p0RXEYxenAesHGuPCLs6IrGNeBgN-2BqhKYLlJhHenbnXeMDxWOQ2FEAOGv0f-2FsPT8Uixqfi4Sv6s8FIXKodJmCVQWlSofNoYVmiX1aeM1P9OaPTOonEUn243d6S4cu4weTSLJGtyo08-2BpMG3LVrg-3D-3D_Tpc9X9-2F0VxcKPjsOKUyEx4OhjXvMTfM-2FjgcFuQI5XhkAEua7TFROLFGzEwpI1uE33fwgZNZHq3ZRmc-2BbO1jyOleCIgc-2FcET-2FnDy3F-2F37UuB90H6RwYO3rbZNaHLVuc3cA1irADBQB3TE-2FY55tzjwiI6UETshdhDxgKYAMqD94L69HEuJZlwKBcvFWp6oBdiNG4rpq4wBbkw9p1h7XpdYKfe95Zs5czhm-2F3sqIrPmg1SYwCuSVDYr8DQRtiNFHYKboQM5UbGS594bjihHBO7ryQ-3D-3D" target="__blank"><img style="width:30px;height:30px;" class="rating_images" src="http://b.zmtcdn.com/images/o2_rating_star_empty.png"/><a>
+                                  <a href="http://trackemail2.zomato.com/wf/click?upn=L17p0RXEYxenAesHGuPCLs6IrGNeBgN-2BqhKYLlJhHenbnXeMDxWOQ2FEAOGv0f-2FsPT8Uixqfi4Sv6s8FIXKodJmCVQWlSofNoYVmiX1aeM1P9OaPTOonEUn243d6S4cunV1ncDvGPDtkT32Afgd55g-3D-3D_Tpc9X9-2F0VxcKPjsOKUyEx4OhjXvMTfM-2FjgcFuQI5XhkAEua7TFROLFGzEwpI1uE33fwgZNZHq3ZRmc-2BbO1jyOm3cuDKVlniCqG-2B4m5tSIyPI11tm-2BOAxE7-2FVDZlimibNtxLojKFegzqR5wPz99cPeYXiYzzeSoPSiRzuQIS9tdZ2TkxTw1K65h4JnGIdyqWKGzbNlkThiY28Or8Jc8KO1DEgbRMS6g-2BBkIBXa1USRmsjgK-2B2H9QFcUQTCr3Ejo-2BiHVeNSSxHs-2BHEIaOUni1lmg-3D-3D" target="__blank"><img style="width:30px;height:30px;" class="rating_images" src="http://b.zmtcdn.com/images/o2_rating_star_empty.png"/><a>
+                                  <a href="http://trackemail2.zomato.com/wf/click?upn=L17p0RXEYxenAesHGuPCLs6IrGNeBgN-2BqhKYLlJhHenbnXeMDxWOQ2FEAOGv0f-2FsPT8Uixqfi4Sv6s8FIXKodJmCVQWlSofNoYVmiX1aeM1P9OaPTOonEUn243d6S4cuvsr0A6Z6-2FZEE-2BKBdISJ-2BEQ-3D-3D_Tpc9X9-2F0VxcKPjsOKUyEx4OhjXvMTfM-2FjgcFuQI5XhkAEua7TFROLFGzEwpI1uE33fwgZNZHq3ZRmc-2BbO1jyOkimQwMggibVcyyd5A-2BMM4NSnEkxHsBXZiV6MCn9y5n-2B5aFAxcuL-2B4yRaffp8iPscKQDoDtsH9zjvTYltMFJ-2F-2BGaDOVGITafsG7e2ZDDcKCjnaDkUqD0GmL5pmr6dk5UMh3Z22s9X-2F8gONfZq-2FZTXJGA-2Bcs81MXBGNydZlXrhUQbTKtlGDF-2BWpsx1xI3kYpTgA-3D-3D" target="__blank"><img style="width:30px;height:30px;" class="rating_images" src="http://b.zmtcdn.com/images/o2_rating_star_empty.png"/><a>
+                          </td>
+          </tr>
+                    <tr>
+            <td valign="middle" align="center" style="padding: 10px 15px 20px 15px;text-align: center;background-color: white;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt; ">
+              <div style="font-size: 15px; color:#6d6d6d; font-weight:normal">
+                            Here's your order summary. If you have any feedback regarding your order, please reply to this email.
+                            </div>
+              <div style="padding-top: 10px;padding-left: 15px;padding-right: 15px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-family: sans-serif;font-size: 12px;color: #7d7d76;text-align: center;">
+                This is an automated summary and is sent independent of the status of your order. If there is a discrepancy in the bill, please reply to this email and we will address it at the earliest.
+              </div>
+            </td>
+            
+          </tr>
+
+          
+
+
+
+          <tr>
+            <td style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+
+              <table border="0" width="92%" cellpadding="0" cellspacing="0" bgcolor="#f6f6f6" style="margin-top: 20px;margin-left: 4%;margin-right: 4%;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-spacing: 0;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+                <tr>
+                  <td class="heading-text ta-left zdark" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-family: sans-serif;font-size: 15px;line-height: 24px;text-transform: uppercase;color: #2d2d2a;text-align: center;">
+                    Payment Summary
+                  </td>
+                </tr>
+              </table>
+              <table class="border-bottom" border="0" width="92%" cellpadding="0" cellspacing="0" bgcolor="#f6f6f6" style="margin-top: 5px;margin-left: 4%;margin-right: 4%;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-spacing: 0;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+                  <tr>
+                    <td class="ta-left smaller-text zdhl5" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-family: sans-serif;font-size: 16px;line-height: 17px;color: #7d7d76;text-align: left;width:40%;">
+                      Order ID: 35503103
+                    </td>
+                    <td class="ta-left zdhl5 pbot15" style="font-family: sans-serif;font-size: 12px;line-height: 20px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #7d7d76;text-align: right;">
+                      Date: 03 Sep, 2017 <br>
+                      #50, 2nd main road, 4th cross, Sarvabhoumanagar
+                    </td>
+                  </tr>
+              </table>
+
+              <table border="0" width="92%" cellpadding="0" cellspacing="0" bgcolor="#f6f6f6" style="margin-left: 4%;margin-right: 4%;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-spacing: 0;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+
+                <tr>
+                  <td style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+                    <!-- Bill items : BEGIN -->
+                    <table border="0" width="100%" cellpadding="0" cellspacing="0" align="center" style="margin-top: 5px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-spacing: 0;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+
+                      
+                      <tr >
+                        <td class="bill-text zdark ta-left" valign="middle" width="70%" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-family: sans-serif;font-size: 14px;line-height: 30px;color: #2d2d2a;text-align: left;">
+                          Dal Makhni Rice Box <span style="font-size: 12px;">(1 x ₹148)</span>
+                        </td>
+                        <td class="bill-text zdark ta-right" valign="middle" width="30%" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-family: sans-serif;font-size: 14px;line-height: 30px;color: #2d2d2a;text-align: right;
+                        ">
+                        ₹148
+                        </td>
+                      </tr>
+                      
+                      
+                      <tr class="border-bottom" style="border-bottom: 1pt solid #cbcbc8;">
+                        <td class="pbot10 bill-text zdark ta-left" valign="middle" width="70%" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-family: sans-serif;font-size: 14px;line-height: 30px;color: #2d2d2a;padding-bottom: 5px;text-align: left;">
+                          Kathi Style Paneer Wrap <span style="font-size: 12px;">(1 x ₹178)</span>
+                        </td>
+                        <td class="pbot10 bill-text zdark ta-right" valign="middle" width="30%" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-family: sans-serif;font-size: 14px;line-height: 30px;color: #2d2d2a;padding-bottom: 5px;text-align: right;
+                        ">
+                        ₹178
+                        </td>
+                      </tr>
+                      
+                      
+                    </table>
+
+                    <table border="0" width="100%" cellpadding="0" cellspacing="0" align="center" style="margin-top: 5px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-spacing: 0;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+                      
+                      <tr >
+                        <td class="bill-text zdark ta-left" valign="middle" width="70%" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-family: sans-serif;font-size: 14px;line-height: 30px;color: #2d2d2a;text-align: left;">
+                          Delivery Charge
+                        </td>
+                        <td class="bill-text zdark ta-right" valign="middle" width="30%" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-family: sans-serif;font-size: 14px;line-height: 30px;color: #2d2d2a;text-align: right;">
+                          ₹29
+                        </td>
+                      </tr>
+
+                      
+                      <tr class="border-bottom" style="border-bottom: 1pt solid #cbcbc8;">
+                        <td class="pbot10 bill-text zdark ta-left" valign="middle" width="70%" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-family: sans-serif;font-size: 14px;line-height: 30px;color: #2d2d2a;padding-bottom: 5px;text-align: left;">
+                          Taxes
+                        </td>
+                        <td class="pbot10 bill-text zdark ta-right" valign="middle" width="30%" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-family: sans-serif;font-size: 14px;line-height: 30px;color: #2d2d2a;padding-bottom: 5px;text-align: right;">
+                          ₹39.12
+                        </td>
+                      </tr>
+
+                      
+                    </table>
+
+                    <table border="0" width="100%" cellpadding="0" cellspacing="0" align="center" style="margin-top: 5px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-spacing: 0;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+                      
+                    </table>
+                    <!-- Bill items : END -->
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="message-text ta-left zdhl5 ptop15" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-family: sans-serif;font-size: 12px;line-height: 17px;color: #7d7d76;padding-top: 10px;text-align: left;">
+                    
+                  </td>
+                </tr>
+
+                <tr>
+                  <td style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+
+                    <table border="0" width="100%" cellpadding="0" cellspacing="0" align="center" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-spacing: 0;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+                      <tr>
+                        <td class="receipt-text zdark ta-left pbot15" valign="middle" width="70%" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-family: sans-serif;font-size: 14px;line-height: 21px;color: #2d2d2a;padding-bottom: 15px;text-align: left;">
+                            
+                        </td>
+                        <td class="receipt-text zdark ta-right pbot15" valign="middle" width="30%" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-family: sans-serif;font-size: 14px;line-height: 21px;color: #2d2d2a;padding-bottom: 15px;text-align: right;">
+                          ₹394.12
+                        </td>
+                      </tr>
+                    </table>
+
+                  </td>
+                </tr>
+
+              </table>
+
+            </td>
+          </tr>
+        
+        </table>
+
+        </td>
+    </tr>
+    <tr>
+          <td style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;padding-left: 15px;padding-right: 15px;">
+
+            <table border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#ffffff" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-spacing: 0;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+              <tr>
+                <td valign="middle" class="ptop20" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;padding-top: 20px;">
+
+                    <table border="0" width="84%" cellpadding="0" cellspacing="0" style="margin-left: 8%;margin-right: 8%;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-spacing: 0;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+
+                      <tr>
+                        <td style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+
+                          <table border="0" width="100%" cellpadding="0" cellspacing="0" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-spacing: 0;border-collapse: collapse;border-bottom:1pt solid #cbcbc8;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+                            <tr><td>&nbsp;</td></tr>
+                            <tr>
+                              <td class="smaller-text ta-center zdhl5" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-family: sans-serif;font-size: 12px;line-height: 17px;color: #7d7d76;text-align: center;">
+                                Issued on behalf of
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="receipt-text ta-center zdark" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-family: sans-serif;font-size: 14px;line-height: 21px;color: #2d2d2a;text-align: center;">
+                                Box8
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="border-bottom smaller-text ta-center zdhl5 pbot15" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-family: sans-serif;font-size: 12px;line-height: 17px;color: #7d7d76;padding-bottom: 15px;text-align: center;">
+                                100 Feet Ring Road, Kathriguppe 4 Phase,  Banashankari 2nd Phase, Bangalore, Banashankari, Bangalore
+                              </td>
+                            </tr>
+                          </table>
+
+                          <!-- ///////////////////// -->
+                          <!-- Adding the emoji at the end of the receipt  -->
+
+                          <table border="0" width="100%" cellpadding="0" cellspacing="0" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-spacing: 0;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+
+                            <tr>
+                              <td class="smaller-text ta-center zdhl5" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-family: sans-serif;font-size: 14px;line-height: 17px;color: #7d7d76;text-align: center;padding-top:10px;">
+                                Please find the bill summary <a href="http://trackemail2.zomato.com/wf/click?upn=L17p0RXEYxenAesHGuPCLipo78KCASsPMi-2BP6yVumocLljZzFEWiSKRLEA-2FXaM-2FpEwXNw4JPneI7ocSu8pa8ehvaj2Hpon9TLJ3NjvCKalSPX7iZSC5kb0HZaJIe-2B3pG4xfxaRq-2BeTorDM2ue-2FUScIREHqZOSZz28EBldzE7BSg-3D_Tpc9X9-2F0VxcKPjsOKUyEx4OhjXvMTfM-2FjgcFuQI5XhkAEua7TFROLFGzEwpI1uE33fwgZNZHq3ZRmc-2BbO1jyOt5CXxbeTAkNIx4t9FkLZ-2FD7lnpdizYT-2B1lmbeW3RhuWF3z0yCC-2BV4Myx4O3zv0I9EACbWNbDdpaeaHUpfWzD9j7zzcyKWlLrV6OE0yQuoMjqug5eFl6KJnO5ccMNra0SLuoRhaOysyv4x3zbwLNi2G5krNnchrKbw00wPBNvIuPOfv5GiMO1U5gWP7vnsFTug-3D-3D" target="__blank">here</a>
+                              </td>
+                            </tr>
+
+                            <tr>
+                              <td class="smaller-text ta-center zdhl5" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-family: sans-serif;font-size: 12px;line-height: 17px;color: #7d7d76;text-align: center;padding-top: 15px;">
+                                <img width="60" height ="60" src="http://b.zmtcdn.com/images/o2receipt_end_mailer_image.png" alt="Share the word" align="center" border="0" style="margin: auto;text-align:center;margin-right: 10px;padding-bottom: 5px;-ms-interpolation-mode: bicubic;border: 0;outline: none;text-decoration: none;" />
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="receipt-text ta-center zdark" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-family: sans-serif;font-size: 14px;line-height: 21px;color: #2d2d2a;text-align: center;">
+                                <p style="color: #4D4D4A;margin-top: 5px;font-size: 20px;margin-bottom: 8px;font-weight: 500;">
+                                                                  Most restaurants on Zomato now have a minimum order amount of Rs.99 only
+                                                                </p>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="smaller-text ta-center zdhl5 pbot15" style="-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-family: sans-serif;font-size: 14px;line-height: 17px;color: #7d7d76;padding-bottom: 15px;text-align: center;">
+                                If you like Zomato Order, please help us grow by telling your friends and family about us. We'll really appreciate the gesture.
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                </td>
+              </tr>
+
+            </table>
+
+          </td>
+        </tr>
+        
+        <tr style="background-size: cover;">
+          <td valign="middle" align="center" style="padding: 6px 16px;color: #fff;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+            <table cellpadding="0" cellspacing="0" border="0" height="100%" width="100%" background="" id="bodyTable" style="border-collapse: collapse;table-layout: fixed;margin: 0 auto;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;padding: 0;height: 100% !important;width: 100% !important;" >
+          	                                                  </table>
+          </td>
+        </tr>
+      </table>
+</td>
+    </tr>
+
+  
+    <!-- Footer : BEGIN -->
+    <tr>
+      <td class="ta-center footer-text zdhl5" style="padding-top: 40px;padding-left: 15px;padding-right: 15px;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;font-family: sans-serif;font-size: 12px;line-height: 18px;color: #7d7d76;text-align: center;">
+        Registered Office : Zomato Media Pvt. Ltd. &bull; #166, Ground and First Floor, 19th Main, HSR Layout, Sector – 4, Bangalore – 560102 <br><br>
+      </td>
+    </tr>
+    <!-- Footer : END -->
+        
+  </table>
+  <!-- Email wrapper : END -->
+
+  <!-- End of Outlook-specific wrapper : BEGIN -->
+  <!--[if (gte mso 9)|(IE)]>
+      </td>
+    </tr>
+  </table>
+  <![endif]-->
+  <!-- End of Outlook-specific wrapper : END -->
+
+
+
+<img src="http://trackemail2.zomato.com/wf/open?upn=Tpc9X9-2F0VxcKPjsOKUyEx4OhjXvMTfM-2FjgcFuQI5XhkAEua7TFROLFGzEwpI1uE33fwgZNZHq3ZRmc-2BbO1jyOszFOE4IEKsqL-2BjcUzTd-2BuIvNtE15tAL4L147jhwp6DjXAByRDEcjvGYyBSSIZ8WJC0lm8ty-2FNEGifYQdftV2C5KkVuNmzWKpH29TLP0wItOQGXKC-2FWw9l3HJici3t-2BF5NT5g69am5BfIDRkSihpD-2FCE4RJvlXi8oPXG2-2BzvyNO7bl1BCt2zNmKeuyQYTSez7A-3D-3D" alt="" width="1" height="1" border="0" style="height:1px !important;width:1px !important;border-width:0 !important;margin-top:0 !important;margin-bottom:0 !important;margin-right:0 !important;margin-left:0 !important;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !important;"/>
+</body>
+</html>
+<img src='https://www.zomato.com/jumbo_call_handler.php?payload=eyJrZXkiOiJqZXZlbnQiLCJ2YWx1ZSI6eyJlbmFtZSI6ImVtYWlsIiwidmFyMSI6Im9yZGVyQHpvbWF0by5jb20iLCJ2YXIyIjoic2FnYXJraXNob3JlLmNrbEBnbWFpbC5jb20iLCJ2YXIzIjoiU3VtbWFyeStmb3IreW91citvcmRlcit3aXRoK0JveDgiLCJ2YXI0Ijoib3BlbiJ9LCJ1cmwiOiJ3d3cuem9tYXRvLmNvbSJ9&img=1&u=1504456562'/>
 
-	<style type="text/css" style="margin: 0;padding: 0;">
-		/* -------------------------------------
-			GLOBAL
-	------------------------------------- */
-	* {
-		margin:0;
-		padding:0;
-	}
-	* { font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
 
-	img {
-		max-width: 100%;
-	}
-
-	.collapse {
-		margin:0;
-		padding:0;
-	}
-	body {
-		-webkit-font-smoothing:antialiased;
-		-webkit-text-size-adjust:none;
-		width: 100%!important;
-		height: 100%;
-	}
-
-
-	/* -------------------------------------
-			ELEMENTS
-	------------------------------------- */
-	a { color: #2BA6CB;}
-
-	/* -------------------------------------
-			HEADER
-	------------------------------------- */
-	table.head-wrap { width: 100%;}
-
-	.header.container { border-bottom: 1px solid #e9e9e9; padding: 15px 0; background: #fff;}
-	.header.container table td.logo { padding: 15px; }
-	.header.container table td.label { padding: 15px; padding-left:0px;}
-
-
-	/* -------------------------------------
-			BODY
-	------------------------------------- */
-	table.body-wrap { width: 100%;}
-
-
-	/* -------------------------------------
-			FOOTER
-	------------------------------------- */
-	table.footer-wrap { width: 100%;	clear:both!important;
-	}
-	.footer-wrap .container td.content  p { border-top: 1px solid rgb(215,215,215); padding-top:15px;}
-	.footer-wrap .container td.content p {
-		font-size:10px;
-		font-weight: bold;
-
-	}
-
-
-	/* -------------------------------------
-			TYPOGRAPHY
-	------------------------------------- */
-	h1,h2,h3,h4,h5,h6 {
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; line-height: 1.1; margin-bottom:5px; color:#1a1a1a;
-	}
-	h1 small, h2 small, h3 small, h4 small, h5 small, h6 small { font-size: 60%; color: #6f6f6f; line-height: 0; text-transform: none; }
-
-	h1 { font-weight:200; font-size: 44px;}
-	h2 { font-weight:200; font-size: 37px;}
-	h3 { font-weight:500; font-size: 27px;}
-	h4 { font-weight:500; font-size: 23px;}
-	h5 { font-weight:900; font-size: 18px;}
-	h6 { font-weight:900; font-size: 14px; text-transform: initial;}
-
-	.collapse { margin:0!important;}
-
-	p, ul {
-		margin-bottom: 0px;
-		color: #585858;
-		font-weight: normal;
-		font-size:12px;
-		line-height:1.6;
-	}
-	p.lead { font-size:17px; }
-	p.last { margin-bottom:0px;}
-
-	ul li {
-		margin-left:5px;
-		list-style-position: inside;
-	}
-
-
-	/* ---------------------------------------------------
-			RESPONSIVENESS
-			Nuke it from orbit. It's the only way to be sure.
-	------------------------------------------------------ */
-
-	/* Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something */
-	.container {
-		display:block!important;
-		max-width:800px!important;
-		margin:0 auto!important; /* makes it centered */
-		clear:both!important;
-		background: #f6f6f6;
-	}
-
-	/* This should also be a block element, so that it will fill 100% of the .container */
-	.content {
-		max-width:600px;
-		border-radius: 3px;
-		margin: 0 auto 15px;
-		display:block;
-		background: #fff;
-	}
-
-	.container .content:last-child{
-		background: transparent;
-		margin: 15px auto;
-	}
-
-	/* Let's make sure tables in the content area are 100% wide */
-	.content > table { width: 100%; }
-
-
-	/* Odds and ends */
-	.address .column { width: 233.3px; float:left; }
-
-	.address .column tr td { padding: 15px; }
-
-	.column-wrap { padding:0!important; margin:0 auto; max-width:600px!important; }
-
-	.delivery-address { padding-top: 15px; }
-
-	.delivery-address table.column { text-align: left!important; width: 190px; max-width: 100%; padding-bottom: 10px; }
-
-	.social .column:first-child { padding: 15px 0; max-width: 112px; }
-
-	.social .column:last-child { padding: 15px 0; max-width: 142px; }
-
-	.social-links tr > td:first-child { text-align: left; }
-
-	.social-links tr > td.icon { padding-right: 5px; }
-
-	.social-links tr > td.icon a { display: block; }
-
-	.app-links tr > td.icon { padding-right: 5px; }
-
-	.app-links tr > td.icon a { display: block; }
-
-	.icon img{ max-height: 15px!important; }
-
-	.social-wrap .content{ padding: 0; }
-
-	.social-wrap .column{ padding: 15px 0; }
-
-	.order-id td{ margin-bottom:15px; font-weight: bold; font-size: 12px; min-width: 100px; max-width: 100%; display: inline-block; }
-
-	.order-id p{ margin-bottom: 5px; }
-
-	.order-content thead{ text-align: left; background: #e9e9e9; border-collapse:collapse; border-spacing:0; border-color:#ccc; }
-
-	.order-content thead th{ padding: 15px; font-size: 12px; }
-
-	.order-content td{ font-weight: bold; border-bottom: 1px solid #e9e9e9; padding: 15px; font-size: 12px; }
-
-	.order-content tfoot td, .order-content tfoot th{ text-align: right; font-weight: bold; border:0; padding: 10px 0; font-size: 12px; }
-
-	.order-content tfoot td{ padding-right: 15px; }
-
-	.mailer-header, .mailer-content, .order-id, .order-content, .delivery-address { padding: 0 15px; }
-
-	.mailer-content p{ color:#585858; font-size: 13px; font-weight: 400; margin-bottom: 5px; }
-
-	.grand-total{ color: #79b33b; background: #f9f9f9; }
-
-	.grand-total > th{ padding: 5px 0; }
-
-	.order-content thead td:last-child{ text-align: right; }
-
-	.track-your-order{ cursor:pointer; background: #F5861F; display: inherit;  padding: 5px 10px; text-decoration: none; text-align: center; line-height: 30px; width: 190px; height: 30px; border-radius: 3px; color: #fff; font-weight: 600; font-size: 12px; outline: 0; border: 0; }
-
-	.track-your-order img{ margin-right: 10px; max-width: 20px; }
-
-	.secondary-footer{ padding: 0 15px; background: #fbfbfb; }
-
-	.unsubscribe{ margin-bottom: 10px; }
-
-	.unsubscribe p { color: #585858; }
-
-	.unsubscribe a { color: #585858; text-decoration: underline; }
-
-
-	/* Be sure to place a .clear element after each set of columns, just to be safe */
-	.clear { display: block; clear: both; }
-
-	</style>
-	</head>
-
-	<body bgcolor="#f6f6f6" style="margin: 0;padding: 0;-webkit-font-smoothing: antialiased;-webkit-text-size-adjust: none;height: 100%;width: 100%!important;">
-
-	<!-- BODY -->
-	<table class="body-wrap" width="100%" cellspacing="0" cellpadding="0" style="margin: 0;padding: 0;width: 100%; font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;">
-		<tr style="margin: 0;padding: 0;">
-			<td style="margin: 0;padding: 0;"></td>
-			<td class="container" bgcolor="#F6F6F6" style="margin: 0 auto!important;padding: 0;background: #f6f6f6;display: block!important;max-width: 800px!important;clear: both!important;">
-				<br style="margin: 0;padding: 0;"/>
-				<div class="content" style="margin: 0 auto 15px;padding: 0;max-width: 600px;border-radius: 3px;display: block;background: #fff;">
-					<div class="mailer-header" style="margin: 0;padding: 0 15px;">
-						<!-- HEADER -->
-						<table class="head-wrap" cellspacing="0" cellpadding="0" style="margin: 0;padding: 0;width: 100%;">
-							<tr style="margin: 0;padding: 0;">
-								<td style="margin: 0;padding: 0;"></td>
-								<td class="header container" bgcolor="#fff" style="margin: 0 auto!important;padding: 15px 0;background: #fff;border-bottom: 1px solid #e9e9e9;display: block!important;max-width: 800px!important;clear: both!important;">
-
-									<table width="100%" cellspacing="0" cellpadding="0" style="margin: 0;padding: 0;">
-										<tr style="margin: 0;padding: 0;">
-											 <td valign="top" align="center" width="100" style="margin: 0;padding: 0;">
-												<img alt="Swiggy" style="width: 120px;margin: 10px 0;padding: 0;max-width: 100%;" src="http://res.cloudinary.com/swiggy/image/upload/v1447855171/Swiggy-logo_yc2umc.png"></img>
-											</td>
-										</tr>
-									</table>
-
-								</td>
-								<td style="margin: 0;padding: 0;"></td>
-							</tr>
-						</table><!-- /HEADER -->
-					</div>
-
-				<div class="mailer-content" style="margin: 0;padding: 0 15px;">
-					<table width="100%" cellspacing="0" cellpadding="0" style="margin: 0;padding: 0;">
-						<tr style="margin: 0;padding: 0;">
-	                      <div>
-							<td style="margin: 0;padding: 0;">
-								<br style="margin: 0;padding: 0;"/><p style="margin: 0;padding: 0;margin-bottom: 5px;color: #585858;font-weight: 400;font-size: 13px;line-height: 1.6;">Hi <span>Sagar Kishore</span>,</p><br style="margin: 0;padding: 0;"/>
-								<p style="margin: 0;padding: 0;margin-bottom: 5px;color: #585858;font-weight: 400;font-size: 13px;line-height: 1.6;">Thanks for using Swiggy! Your order has been confirmed and will be delivered shortly. </p>
-								
-								<p style="margin: 0;padding: 0;margin-bottom: 5px;color: #585858;font-weight: 400;font-size: 13px;line-height: 1.6;">Look forward to serving you.</p><!-- /hero -->
-								<!-- /hero -->
-                            </div>
-							  
-					  </td>
-						</tr>
-					</table>
-				</div>
-				<br style="margin: 0;padding: 0;"/>
-				<div class="order-id" style="margin: 0;padding: 0 15px;">
-
-					<table width="100%" cellspacing="0" cellpadding="0" style="margin: 0;padding: 0;">
-						<tr style="margin: 0;padding: 0;">
-							<td width="20%" style="margin: 0;padding: 0;margin-bottom: 15px;font-weight: bold;font-size: 12px;min-width: 100px;max-width: 100%;display: inline-block;">
-								<p style="margin: 0;padding: 0;margin-bottom: 5px;color: #585858;font-weight: normal;font-size: 12px;line-height: 1.6;">Order No:</p>
-								<h5 style="margin: 0;padding: 0;line-height: 1.1;margin-bottom: 5px;color: #1a1a1a;font-weight: 900;font-size: 14px;">1167700691</h5>
-							</td>
-							<td width="30%" style="margin: 0;padding: 0;margin-bottom: 15px;font-weight: bold;font-size: 12px;min-width: 100px;max-width: 100%;display: inline-block;">
-								<p style="margin: 0;padding: 0;margin-bottom: 5px;color: #585858;font-weight: normal;font-size: 12px;line-height: 1.6;">Restaurant:</p>
-								<h5 style="margin: 0;padding: 0;line-height: 1.1;margin-bottom: 5px;color: #1a1a1a;font-weight: 900;font-size: 14px;">Euki</h5>
-							</td>
-							<td width="50%" align="right" style="margin: 0;padding: 0;margin-bottom: 15px;font-weight: bold;font-size: 12px;min-width: 100px;max-width: 100%;display: inline-block;">
-								<a href="https://www.swiggy.com/track-order/N1YUPM?track_source=orderemail" alt="" class="track-your-order" style="margin: 0;padding: 5px 10px;color: #fff;cursor: pointer;background: #F5861F;display: inherit;text-decoration: none;text-align: center;line-height: 30px;width: 190px;height: 30px;border-radius: 3px;font-weight: 600;font-size: 12px;outline: 0;border: 0;">
-									<img alt="Swiggy" src="http://res.cloudinary.com/swiggy/image/upload/v1450343072/icon_cabqik.png" style="margin: 0;padding: 0;max-width: 20px;margin-right: 10px;"></img>
-								Track your Order</a>
-							</td>
-						</tr>
-					</table>
-				</div>
-				<br style="margin: 0;padding: 0;"/>
-				<div class="order-content" style="margin: 0;padding: 0 15px;">
-
-					<table width="100%" cellspacing="0" cellpadding="0" style="margin: 0;padding: 0;">
-						<thead style="margin: 0;padding: 0;text-align: left;background: #e9e9e9;border-collapse: collapse;border-spacing: 0;border-color: #ccc;">
-							<tr style="margin: 0;padding: 0;">
-								<th style="margin: 0;padding: 15px;font-size: 12px;">Item Name</th>
-								<th style="margin: 0;padding: 15px;font-size: 12px;">Quantity</th>
-								<th align="right" style="margin: 0;padding: 15px;font-size: 12px;">Price</th>
-							</tr>
-						</thead>
-						<tbody style="margin: 0;padding: 0;">
-							<span>
-							<tr style="margin: 0;padding: 0;">
-								<td class="small" style="vertical-align: top;margin: 0;padding: 15px;font-weight: bold;border-bottom: 1px solid #e9e9e9;font-size: 12px;">Thukpa with Veg Momos</td>
-								<td style="margin: 0;padding: 15px;font-weight: bold;border-bottom: 1px solid #e9e9e9;font-size: 12px;">1</td>
-							    
-								<td align="right" style="margin: 0;padding: 15px;font-weight: bold;border-bottom: 1px solid #e9e9e9;font-size: 12px;">160</td>
-							</tr>
-																																																																																																																																																																																												  
-																																																																																																															   <tr width="100%">
-	<td> <div style="height:1px;width: 100%; background:#e9e9e9;clear: both;"></div> </td>
-																					   <td> <div style="height:1px;width: 100%; background:#e9e9e9;clear: both;"></div> </td>
-																																										  <td> <div style="height:1px;width: 100%; background:#e9e9e9;clear: both;"></div> </td>
-																																																															 </tr>
-							</span><span>
-							<tr style="margin: 0;padding: 0;">
-								<td class="small" style="vertical-align: top;margin: 0;padding: 15px;font-weight: bold;border-bottom: 1px solid #e9e9e9;font-size: 12px;">Spicy Brazilian Burrito</td>
-								<td style="margin: 0;padding: 15px;font-weight: bold;border-bottom: 1px solid #e9e9e9;font-size: 12px;">1</td>
-							    
-								<td align="right" style="margin: 0;padding: 15px;font-weight: bold;border-bottom: 1px solid #e9e9e9;font-size: 12px;">175</td>
-							</tr>
-																																																																																																																																																																																												  
-																																																																																																															   <tr width="100%">
-	<td> <div style="height:1px;width: 100%; background:#e9e9e9;clear: both;"></div> </td>
-																					   <td> <div style="height:1px;width: 100%; background:#e9e9e9;clear: both;"></div> </td>
-																																										  <td> <div style="height:1px;width: 100%; background:#e9e9e9;clear: both;"></div> </td>
-																																																															 </tr>
-							</span><span>
-							<tr style="margin: 0;padding: 0;">
-								<td class="small" style="vertical-align: top;margin: 0;padding: 15px;font-weight: bold;border-bottom: 1px solid #e9e9e9;font-size: 12px;">Veggie Peri Peri Burger</td>
-								<td style="margin: 0;padding: 15px;font-weight: bold;border-bottom: 1px solid #e9e9e9;font-size: 12px;">1</td>
-							    
-								<td align="right" style="margin: 0;padding: 15px;font-weight: bold;border-bottom: 1px solid #e9e9e9;font-size: 12px;">215</td>
-							</tr>
-																																																																																																																																																																																												  
-																																																																																																															   <tr width="100%">
-	<td> <div style="height:1px;width: 100%; background:#e9e9e9;clear: both;"></div> </td>
-																					   <td> <div style="height:1px;width: 100%; background:#e9e9e9;clear: both;"></div> </td>
-																																										  <td> <div style="height:1px;width: 100%; background:#e9e9e9;clear: both;"></div> </td>
-																																																															 </tr>
-							</span>
-
-
-
-						</tbody>
-						<tfoot style="margin: 0;padding: 0;">
-							<tr style="margin: 0;padding: 0;">
-								<th width="40%" scope="row" colspan="2" style="margin: 0;padding: 5px 0;text-align: right;font-weight: bold;border: 0;font-size: 12px;">Cart Subtotal</th>
-								<td width="20%" style="margin: 0;padding: 5px 0;font-weight: bold;border-bottom: 1px solid #e9e9e9;font-size: 12px;text-align: right;border: 0;padding-right: 15px;"><span>Rs. 550</span></td>
-								</tr>
-							
-							
-							
-							<tr style="margin: 0;padding: 0;">
-								<th width="40%" scope="row" colspan="2" style="margin: 0;padding: 5px 0;text-align: right;font-weight: bold;border: 0;font-size: 12px;">Delivery Charges</th>
-								<td width="20%" style="margin: 0;padding: 5px 0;font-weight: bold;border-bottom: 1px solid #e9e9e9;font-size: 12px;text-align: right;border: 0;padding-right: 15px;" >Rs. 30</td>
-							</tr>
-							<tr style="margin: 0;padding: 0;">
-								<th width="40%" scope="row" colspan="2" style="margin: 0;padding: 5px 0;text-align: right;font-weight: bold;border: 0;font-size: 12px;">Packing Charges</th>
-								<td width="20%" style="margin: 0;padding: 5px 0;font-weight: bold;border-bottom: 1px solid #e9e9e9;font-size: 12px;text-align: right;border: 0;padding-right: 15px;" >Rs. 30</td>
-							</tr>
-							
-							
-							<tr style="margin: 0;padding: 0;">
-								<th width="40%" scope="row" colspan="2" style="margin: 0;padding: 5px 0;text-align: right;font-weight: bold;border: 0;font-size: 12px;">GST</th>
-								<td width="20%" style="margin: 0;padding: 5px 0;font-weight: bold;border-bottom: 1px solid #e9e9e9;font-size: 12px;text-align: right;border: 0;padding-right: 15px;" >Rs. 29</td>
-							</tr>
-							
-
-
-							<tr class="grand-total" style="margin: 0;padding: 0;color: #79b33b;background: #f9f9f9;">
-								<th width="40%" scope="row" colspan="2" style="margin: 0;padding: 5px 0;text-align: right;font-weight: bold;border: 0;font-size: 12px;">Grand Total:</th>
-								<td width="20%" style="margin: 0;padding: 5px 0;font-weight: bold;border-bottom: 1px solid #e9e9e9;font-size: 12px;text-align: right;border: 0;padding-right: 15px;">639</td>
-							</tr>
-						</tfoot>
-					</table>
-
-				</div>
-				<br style="margin: 0;padding: 0;"/>
-				<div class="delivery-address" style="margin: 0;padding: 0 15px;padding-top: 15px;">
-
-					<!-- Addresses & Landmark -->
-					<table width="100%" cellspacing="0" cellpadding="0" style="margin: 0;padding: 0;">
-						<tr style="margin: 0;padding: 0;">
-							<td style="margin: 0;padding: 0;">
-
-								<!--- column 1 -->
-								<!-- /column 1 -->
-
-								<!--- column 2 -->
-								<table align="left" class="column" cellspacing="0" cellpadding="0" style="margin: 0;padding: 0;width: 190px;max-width: 100%;padding-bottom: 10px;text-align: left!important;">
-									<tr style="margin: 0;padding: 0;">
-										<td style="margin: 0;padding: 0;">
-
-											<h6 class="" style="margin: 0;padding: 0;line-height: 1.1;margin-bottom: 5px;color: #1a1a1a;font-weight: 900;font-size: 14px;text-transform: initial;">Delivery Address:</h6>
-											<p class="" style="margin: 0;padding: 0;margin-bottom: 0px;color: #585858;font-weight: normal;font-size: 12px;line-height: 1.6;"><span>Ashraya, 50</span><span>,</span><br style="margin: 0;padding: 0;"/>
-											<span>Ashraya, 50, Anu paradise, 1rst Main Rd, Sarvabouma Nagar, Chikkalasandra, Bengaluru, Karnataka 560061, India</span><br style="margin: 0;padding: 0;"/>
-											</p>
-
-
-										</td>
-									</tr>
-								</table><!-- /column 2 -->
-
-								<!--- column 3 -->
-								<table align="left" class="column" cellspacing="0" cellpadding="0" style="margin: 0;padding: 0;width: 190px;max-width: 100%;padding-bottom: 10px;text-align: left!important;">
-									<tr style="margin: 0;padding: 0;">
-										<td style="margin: 0;padding: 0;">
-
-											<h6 class="" style="margin: 0;padding: 0;line-height: 1.1;margin-bottom: 5px;color: #1a1a1a;font-weight: 900;font-size: 14px;text-transform: initial;">Landmark:</h6>
-											<p style="margin: 0;padding: 0;margin-bottom: 0px;color: #585858;font-weight: normal;font-size: 12px;line-height: 1.6;">Hot Chips</p>
-
-										</td>
-									</tr>
-								</table><!-- /column 3 -->
-
-								<span class="clear" style="margin: 0;padding: 0;display: block;clear: both;"></span>
-
-							</td>
-						</tr>
-					</table><!-- /Addresses & Landmark  -->
-
-				</div>
-
-				<br style="margin: 0;padding: 0;"/>
-					<!-- Footer -->
-					<div class="primary-footer" style="margin: 0;padding: 0;">
-
-						<!-- Addresses & Landmark -->
-						<table class="social" width="100%" cellspacing="0" cellpadding="0" style="padding: 0 15px;border-top: 1px solid #e9e9e9;border-bottom: 1px solid #e9e9e9;margin: 0;">
-							<tr style="margin: 0;padding: 0;">
-								<td style="margin: 0;padding: 0;">
-
-									<!--- column 1 -->
-									<table align="left" class="column" cellspacing="0" cellpadding="0" style="margin: 0;padding: 15px 0;max-width: 112px;">
-										<tr style="margin: 0;padding: 0;">
-											<td style="margin: 0;padding: 0;">
-												<table class="app-links" border="0" cellspacing="0" cellpadding="0" style="font-family: Arial,Helvetica,sans-serif;font-size: 11px;margin: 0;padding: 0;">
-													<tbody style="margin: 0;padding: 0;">
-														<tr style="margin: 0;padding: 0;">
-															<td style="margin: 0;padding: 0;">Get the App:&nbsp;&nbsp;</td>
-															<td class="icon" style="margin: 0;padding: 0;padding-right: 5px;">
-																<a href="http://swiggy.com/app?utm_source=swiggy&amp;utm_medium=partner-mails" target="_blank" style="margin: 0;padding: 0;color: #2BA6CB;display: block;">
-																	<img style="height: 15px;width: auto;margin: 0;padding: 0;max-width: 100%;max-height: 15px!important;" src="http://res.cloudinary.com/swiggy/image/upload/v1447855172/Android_qt1acy.png"></img>
-																</a>
-															</td>
-															<td class="icon" style="margin: 0;padding: 0;padding-right: 5px;">
-																<a href="http://swiggy.com/app?utm_source=swiggy&amp;utm_medium=partner-mails" target="_blank" style="margin: 0;padding: 0;color: #2BA6CB;display: block;">
-																	<img style="height: 15px;width: auto;margin: 0;padding: 0;max-width: 100%;max-height: 15px!important;" src="http://res.cloudinary.com/swiggy/image/upload/v1447855170/Apple_e7lnfc.png"></img></a>
-															</td>
-														</tr>
-													</tbody>
-												</table>
-
-
-											</td>
-										</tr>
-									</table><!-- /column 1 -->
-
-									<!-- /column 2 -->
-									<table align="right" class="column" cellspacing="0" cellpadding="0" style="margin: 0;padding: 15px 0;max-width: 142px;">
-										<tr style="margin: 0;padding: 0;">
-											<td style="margin: 0;padding: 0;">
-
-												<table class="social-links" border="0" cellspacing="0" cellpadding="0" style="font-family: Arial,Helvetica,sans-serif;font-size: 11px;margin: 0;padding: 0;">
-													<tbody style="margin: 0;padding: 0;">
-														<tr style="margin: 0;padding: 0;">
-															<td style="margin: 0;padding: 0;text-align: left;">Follow us:&nbsp;&nbsp;</td>
-
-															<td class="icon" style="margin: 0;padding: 0;padding-right: 5px;">
-																<a target="_blank" href="https://www.facebook.com/swiggy.in" style="margin: 0;padding: 0;color: #2BA6CB;display: block;">
-												<img style="height: 15px;width: auto;margin: 0;padding: 0;max-width: 100%;max-height: 15px!important;" src="http://res.cloudinary.com/swiggy/image/upload/v1448875320/Facebook_dznper.png" alt="Swiggy Facebook" border="0"></img></a>
-															</td>
-															<td class="icon" style="margin: 0;padding: 0;padding-right: 5px;">
-																<a target="_blank" href=" https://twitter.com/swiggy_in" style="margin: 0;padding: 0;color: #2BA6CB;display: block;">
-												<img style="height: 15px;width: auto;margin: 0;padding: 0;max-width: 100%;max-height: 15px!important;" src="http://res.cloudinary.com/swiggy/image/upload/v1448871246/Twitter_stmvbr_q1eh0w.png" alt="Swiggy Twitter" border="0"></img></a>
-															</td>
-															<td class="icon" style="margin: 0;padding: 0;padding-right: 5px;">
-																<a et="_blank" href="https://www.pinterest.com/swiggyindia/" target="_blank" style="margin: 0;padding: 0;color: #2BA6CB;display: block;">
-												<img style="height: 15px;width: auto;margin: 0;padding: 0;max-width: 100%;max-height: 15px!important;" src="http://res.cloudinary.com/swiggy/image/upload/v1447855171/Pinterest_dd2nv9.png" alt="Swiggy pinterest" border="0"></img></a>
-															</td>
-															<td class="icon" style="margin: 0;padding: 0;padding-right: 5px;">
-																<a et="_blank" href="https://instagram.com/swiggyindia/" target="_blank" style="margin: 0;padding: 0;color: #2BA6CB;display: block;">
-												<img style="height: 15px;width: auto;margin: 0;padding: 0;max-width: 100%;max-height: 15px!important;" src="http://res.cloudinary.com/swiggy/image/upload/v1447855170/Instagram_okx3pg.png" alt="Swiggy instagram" border="0"></img></a>
-															</td>
-														</tr>
-													</tbody>
-												</table>
-
-											</td>
-										</tr>
-									</table><!-- /column 2 -->
-								</td>
-							</tr>
-						</table>
-					</div>
-
-					<!-- content -->
-					<div class="secondary-footer" style="margin: 0;padding: 0 15px;background: #fbfbfb;">
-						<br style="margin: 0;padding: 0;"/>
-						<table width="100%" class="column" cellspacing="0" cellpadding="0" style="margin: 0;padding: 0;">
-							<tr style="margin: 0;padding: 0;">
-								<td style="margin: 0;padding: 0;">
-									<table width="100%" border="0" cellspacing="0" cellpadding="0" style="font-family: Arial,Helvetica,sans-serif;font-size: 11px;color: #9b9b9b;margin: 0;padding: 0;">
-										<tbody style="margin: 0;padding: 0;">
-											<tr style="margin: 0;padding: 0;">
-												<td align="center" style="margin: 0;padding: 0;">
-													&copy; 2017&#45;Swiggy. All rights reserved.
-												</td>
-											</tr>
-										</tbody>
-									</table>
-
-								</td>
-							</tr>
-						</table>
-						<table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="font-family: Arial,Helvetica,sans-serif;font-size: 10px;padding: 10px 0;color: #9b9b9b;margin: 0;">
-							<tbody style="margin: 0;padding: 0;">
-								<tr style="margin: 0;padding: 0;">
-									<td align="center" width="33.3333%" style="margin: 0;padding: 0;">
-										Swiggy,Tower D, 9th Floor, IBC Knowledge Park, Bannerghatta Road, Bangalore &#45; 560029
-									</td>
-								</tr>
-							</tbody>
-						</table>
-						<br style="margin: 0;padding: 0;"/>
-					</div>
-
-
-				</div><!-- /content -->
-
-
-				<!-- FOOTER -->
-
-			</td>
-			<td style="margin: 0;padding: 0;"></td>
-		</tr>
-	</table><!-- /FOOTER -->
-
-	</body>
-	</html>
