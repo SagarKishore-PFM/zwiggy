@@ -1,6 +1,6 @@
 # zwiggy
 
-Assignment project for dreamsgate interview.
+Assignment project for interview.
 
 ## Usage:
 
